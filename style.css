@@ -54,3 +54,17 @@ footer {
     background-color: #f1f1f1;
     text-align: center;
 }
+
+/* style for the hero section */
+
+.hero {
+    background-image: url('assets/images/herobg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
