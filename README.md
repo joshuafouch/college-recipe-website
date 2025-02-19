@@ -38,6 +38,7 @@ An HTML, CSS, and Javascript project of a college recipe blogsite!
 2. Make the Pull Request
 3. Then, check if your branch is compatible with main
 4. Merge your branch to main
+
 ⚠️ THERE WILL PROBABLY BE MERGE CONFLICTS THAT NEED TO BE FIXED
     - You can fix merge conflicts in the GitHub Web UI.
 
