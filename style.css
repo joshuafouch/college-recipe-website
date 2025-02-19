@@ -38,6 +38,10 @@ header {
     padding: 20px 10px;
     font-family: "LibreBaskerville-Regular";
     font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
@@ -76,12 +80,20 @@ header a.active {
 /* footer */
 
 footer {
-    position: fixed;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: var(--background);
     text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 /* style for the hero section */
@@ -134,4 +146,15 @@ h2 {
     --activeLink: #1e90ff;
     --visitedLink: #e1a8f1;
 
+}
+
+/* style for featured recipe section */
+
+.featured {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
