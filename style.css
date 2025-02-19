@@ -12,10 +12,13 @@ header {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
-    float: left;
     color: black;
     text-align: center;
     padding: 12px;
@@ -47,12 +50,20 @@ header a.active {
 /* footer */
 
 footer {
-    position: fixed;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #f1f1f1;
     text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 /* style for the hero section */
@@ -66,5 +77,16 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    text-align: center;
+}
+
+/* style for featured recipe section */
+
+.featured {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
