@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family:  'WorkSans', serif;
 }
 
 /* font for body text */
@@ -33,7 +34,7 @@ body {
 /* header */
 header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: var(--background);
     padding: 20px 10px;
     font-family: "LibreBaskerville-Regular";
     font-size: 40px;
@@ -41,7 +42,7 @@ header {
 
 header a {
     float: left;
-    color: black;
+    color: var(--header);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -59,10 +60,12 @@ header a.logo {
 header a:hover {
     transition: 0.50s;
     background-color: #ddd;
+    color: var(--hoverLink);
 }
 
 header a.active {
     text-decoration: underline;
+    color: var(--activeLink);
 }
 
 .headerlinks {
@@ -96,6 +99,39 @@ footer {
 }
 
 h1 {
+    font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
 
+h2 {
+    font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* color scheme */
+:root {
+
+    /* basic color scheme */
+    --background: #1a1c20;
+    --header: #1e90ff;
+    --footer: #1e90ff;
+
+    /* text */
+    --h1: #f6f1e7;
+    --h2: #f6f1e7;
+    --body: #f6f1e7;
+    
+    /* block color schemes */
+    --ingredients: #f4efe5;
+    --method: #bf4403;
+
+    /* widget color scheme */
+    --greenWidget: #989d35;
+    --purpleWidget: #e1a8f1;
+
+    /* link color scheme */
+    --hoverLink: #bf4403;
+    --activeLink: #1e90ff;
+    --visitedLink: #e1a8f1;
 
 }
