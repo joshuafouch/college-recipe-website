@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'WorkSans', sans-serif;
+}
+
+/* color scheme */
+:root {
+
+    /* basic color scheme */
+    --background: #1a1c20;
+    --header: #1e90ff;
+    --footer: #1e90ff;
+
+    /* text */
+    --h1: #f6f1e7;
+    --h2: #f6f1e7;
+    --body: #f6f1e7;
+    
+    /* block color schemes */
+    --ingredients: #f4efe5;
+    --method: #bf4403;
+
+    /* widget color scheme */
+    --greenWidget: #989d35;
+    --purpleWidget: #e1a8f1;
+
+    /* link color scheme */
+    --hoverLink: #bf4403;
+    --activeLink: #1e90ff;
+    --visitedLink: #e1a8f1;
+
+}
+
+/* font for body text */
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fonts/WorkSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font for body text, italicised */
+@font-face {
+    font-family: 'WorkSansItalic';
+    src: url('fonts/WorkSansItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font for headings text */
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'WorkSans', sans-serif;
+}
+
+/* header */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: var(--background);
+    color: var(--header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav .logo {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--header);
+}
+
+.menu {
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    font-size: 19px;
+    transition: 0.3s ease;
+}
+
+.menu li a:hover {
+    color: var(--hoverLink);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.search form {
+    display: flex;
+    margin: 0;
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid var(--h1);
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 19px;
+    font-size: 16px;
+}
+
+.search input:hover {
+    border: 1px solid var(--hoverLink);
+}
+
+.search button {
+    padding: 10px;
+    background-color: var(--body);
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: var(--hoverLink);
+    color: var(--body);
+}
+
+
+/* hero section */
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/images/herobg.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+/* featured recipe section */
+/* recipe genre section */
+/* footer */
+
+
+h1 {
+    font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* style for featured recipe section */
+
