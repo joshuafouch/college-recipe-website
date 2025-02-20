@@ -1,12 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family:  'WorkSans', serif;
-}
-
 /* font for body text */
 @font-face {
     font-family: 'WorkSans';
@@ -31,6 +22,12 @@ body {
     font-style: normal;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'WorkSans', sans-serif;
+}
+
 /* header */
 header {
     overflow: hidden;
@@ -42,6 +39,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
 }
 
 header a {
@@ -101,7 +100,6 @@ footer p {
 .hero {
     background-image: url('assets/images/herobg.png');
     background-size: cover;
-    background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
