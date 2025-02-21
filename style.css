@@ -36,7 +36,7 @@
 /* font for body text */
 @font-face {
     font-family: 'WorkSans';
-    src: url('/fonts/WorkSans.ttf') format('truetype');
+    src: url('fonts/WorkSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +44,7 @@
 /* font for body text, italicised */
 @font-face {
     font-family: 'WorkSansItalic';
-    src: url('/fonts/WorkSansItalic.ttf') format('truetype');
+    src: url('fonts/WorkSans-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -52,7 +52,7 @@
 /* font for headings text */
 @font-face {
     font-family: 'LibreBaskerville';
-    src: url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    src: url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
