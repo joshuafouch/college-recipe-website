@@ -4,40 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CollegeLife Recipes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     
     <!--Header and Navigation Bar-->
-    <header>
-        <a href="index.html" class="logo">CollegeLife Recipes</a>
-        <div class="headerlinks">
-            <a href="recipe.html">Recipes</a>
-            <a href="favorites.html">Favorites</a>
-            <a href="submissions.html">Submit Your Recipe!</a>
-            <a href="aboutme.html">About CollegeLife</a>
+    <nav>
+        <div class="logo"><a href="index.html"><h1>CollegeLife Recipes</h1></a></div>
+        <ul class="menu">
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Submit</a></li>
+        </ul>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go!</button>
+            </form>
         </div>
-    </header>
+    </nav>
 
     <!--Main Content-->
     <!--Hero section-->
-    <div class="hero">
-        <p>a college student's guide to cooking in those smelly dorms.</p>
-        <h1>Big Mama's College Cookbook</h1>
-        <p>Healthy, affordable, and tasty meals that will</p>
-        <p>cure your craving for mom's cooking.</p>
-        <p> julia is testing </p>
-        <p>testing to merge branch</p>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Welcome to CollegeLife Recipes</h1>
+            <p>Delicious foods for your stinky dorms.</p>
+        </div>
     </div>
 
     <!--featured recipe section-->
     <div class="featured">
         <h1>what are you hungry for?</h1>
         <div class="recipe-widgets">
-            <!--add 3 small square images that display food-->
-            <img src="assets/images/avocado.jpg" alt="recipe1">
-            <img src="assets/images/avocado.jpg" alt="recipe2">
-            <img src="assets/images/avocado.jpg" alt="recipe3">
+            
+            <div class="recipe-widget">
+                <img src="assets/images/avocado.jpg" alt="food1">
+                <div class="overlay">
+                    <div class="caption">fre shavacado</div>
+                </div>
+            </div>
+
+            <div class="recipe-widget">
+                <img src="assets/images/avocado.jpg" alt="food1">
+                 <div class="overlay">
+                    <div class="caption">fre shavacado</div>
+                </div>
+            </div>
+
+            <div class="recipe-widget">
+                <img src="assets/images/avocado.jpg" alt="food1">
+                  <div class="overlay">
+                    <div class="caption">fre shavacado</div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
