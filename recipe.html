@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="recipe-bg">
  
     <!--Header and Navigation Bar-->
     <header>
-        <a href="index.html" class="logo">CollegeLife Recipes</a>
-        <div class="headerlinks">
-            <a href="recipe.html" class="active">Recipes</a>
-            <a href="favorites.html">Favorites</a>
-            <a href="submissions.html">Submit Your Recipe!</a>
-            <a href="aboutme.html">About CollegeLife</a>
-        </div>
+        <nav>
+            <div class="logo"><a href="index.html"><h1>CollegeLife Recipes</h1></a></div>
+            <ul class="menu">
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Submit</a></li>
+            </ul>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Go!</button>
+                </form>
+            </div>
+        </nav>
     </header>
  
 
     <!--Main Content-->
-    <p>Recipe 1</p>
+    <div>
+        <h1 class="recipe-title">
+            Linguini Martini
+            <h2 class=" recipe-title author">
+                by John Pasta
+            </h2>
+        </h1>
+    </div>
     
 
     <!--Footer-->
