@@ -6,10 +6,7 @@
     <title>Recipe 1</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<script>
-    const recTitle = "Linguini Martini";
-    const author = "John Pasta";
-</script>
+
 <body class="recipe-bg">
  
     <!--Header and Navigation Bar-->
@@ -34,12 +31,18 @@
 
     <!--Main Content-->
     <div>
-        <h1 class="recipe-title">
-            Linguini Martini
-            <h2 class=" recipe-title author">
-                by John Pasta
+        <h1 class="recipe-title" id="rtitle">
+            <h2 class=" recipe-title author" id="auth">
             </h2>
         </h1>
+    </div>
+    <div class="recipe-ingredients">
+        Ingredients:
+        Step 1:
+    </div>
+    <div class="method">
+        <h1> Method </h1>
+
     </div>
     
 
@@ -48,6 +51,11 @@
         <p>&copy; 2025 CollegeLife Recipes</p>
         <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
     </footer>
- 
+    <script>
+        const recTitle = "Linguini Martini";
+        const author = "by John Pasta";
+        document.getElementById('rtitle').innerHTML = recTitle;
+        document.getElementById('auth').innerHTML = author;
+    </script>
 </body>
 </html>
