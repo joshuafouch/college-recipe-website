@@ -5,45 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe 1</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="recStyles.css">
 </head>
-
-<body class="recipe-bg">
+<style>
+    /*
+        Hey Julia, here i have leads on all customizable things in recipe
+        1. Background Image for title: in style.css
+        2. Title: in script below
+        3. Author: in script below
+        4. Ingredients: in script below
+        5. Images: in script below
+        6. Widgets: TBD
+        7. Method: in script below
+    */
+</style>
+<body>
  
-    <!--Header and Navigation Bar-->
-    <header>
-        <nav>
-            <div class="logo"><a href="index.html"><h1>CollegeLife Recipes</h1></a></div>
-            <ul class="menu">
-                <li><a href="recipe.html">Recipes</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Submit</a></li>
-            </ul>
-            <div class="search">
-                <form>
-                    <input type="text" placeholder="Search...">
-                    <button type="submit">Go!</button>
-                </form>
-            </div>
-        </nav>
-    </header>
+    <nav>
+        <div class="logo"><a href="index.html"><h1>CollegeLife Recipes</h1></a></div>
+        <ul class="menu">
+            <li><a href="recipe.html">Recipes</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Submit</a></li>
+        </ul>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go!</button>
+            </form>
+        </div>
+    </nav>
  
 
     <!--Main Content-->
-    <div>
+    <div class="recipe-bg">
         <h1 class="recipe-title" id="rtitle">
-            <h2 class=" recipe-title author" id="auth">
+            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;">
             </h2>
         </h1>
     </div>
-    <div class="recipe-ingredients">
-        Ingredients:
-        Step 1:
+    <div class="recipe-container1">
+        <section class="recipe-ingredients">
+            <h1 class="bold-italic">Ingredients</h1>
+            <div class = "recIngList" id="outIngr"></div>
+        </section>
+        <section class="recipe-pictures">
+            <img id="imageREC">
+            <img id="imageREC2">
+        </section>
     </div>
-    <div class="method">
-        <h1> Method </h1>
-
+    <div class="recipe-container1">    
+        <div class="recipe-widgets">
+            <img id="imageREC">
+            <img id="imageREC2">
+        </div>
+        <div class="method recipe-ingredients ">
+            <h1 class="bold-italic">
+                Method
+            </h1>
+            <section id="outM" class="recIngList">
+            </section>
+        </div>
     </div>
+    
     
 
     <!--Footer-->
@@ -52,10 +77,50 @@
         <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
     </footer>
     <script>
-        const recTitle = "Linguini Martini";
-        const author = "by John Pasta";
+        const recTitle = "Linguini Martiini";/*2. Title Here!*/
+        const author = "by John Pasta";/*3. Author Here!*/
+        const specIngr = ["1 box Linguini", "3 cups sigma sauce", "2 tbsp cinnamon", "2 tsp cumin", "3 cups mozzarella", "2 tbsp red pepper", "1 cup sauce"]/*4. Ingredients here!*/
         document.getElementById('rtitle').innerHTML = recTitle;
         document.getElementById('auth').innerHTML = author;
+
+        const outIngr = document.getElementById("outIngr");
+        specIngr.forEach((item, index) => {
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `&#9679 ${item}`;
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;
+            outIngr.appendChild(dummyVar); 
+        });
+        outIngr.style.marginTop = "15px";
+
+        const img1 = document.getElementById("imageREC");/*5. Images here!*/
+        const img2 = document.getElementById("imageREC2");
+
+        
+        img1.src = "recig1.jpg"; 
+        img1.alt = "Recipe Image";
+        img1.onerror = function() {
+            this.src = "error2.png"; 
+        };
+
+        img2.src = "recig2.jpg";
+        img2.alt = "Recipe Image";
+        img2.onerror = function() {
+            this.src = "error2.png"; 
+        };
+        
+        outMethod=["stir the sauce", "eat the pasta","be nonchalant", "cook the food", "wait dont eat the pasta", "cook the pasta", "bruh did you seriously eat the pasta", "a cook always reads the whole recipe before starting"]/*7. Method here!*/
+        const outM = document.getElementById("outM");
+        outMethod.forEach((item, index) => {
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `Step ${index+1}: ${item}`;
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;
+            outM.appendChild(dummyVar);
+        });
+
+
+
     </script>
 </body>
 </html>
