@@ -68,6 +68,24 @@ html {
   background-color: var(--background);
 }
 
+a {
+  text-decoration: none; 
+  color: inherit; 
+  font-weight: normal; 
+  background: none; 
+  border: none; 
+  padding: 0; 
+  margin: 0; 
+  outline: none; 
+}
+
+section{
+  all:unset;
+}
+
+img{
+  all:unset;
+}
 /* header */
 nav {
   background: var(--background);
@@ -240,11 +258,10 @@ h2 {
 .recipe-container1 {
   display: flex;
   flex-direction: row; 
-  gap: 5%;
   align-items: stretch; 
   width:100%;
   padding-top: 5px;
-  gap: calc(5%);
+
 }
 
 .recipe-ingredients{
@@ -258,6 +275,7 @@ h2 {
   padding-bottom: 20px;
   margin-top: 50px;
   margin-left: 5%;
+  margin-right: 5%;
   background-color: var(--ingredients);
   background-size: 10vh;
 
@@ -267,7 +285,7 @@ h2 {
   display:flex;
   flex-direction: column;
   justify-content: flex-end;
-  width:35%;
+  width:30%;
   height:auto;
   gap:50px;
   margin-right: 5%;
@@ -310,24 +328,28 @@ h2 {
   padding-right: 5%;
   padding-top: 30px;
   padding-bottom: 20px;
-  margin-top: 5%;
+  margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-left:5%;
 }
 
 .recipe-widgets {
-  display: flex;
+  display:flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  color: var(--greenWidget);
-  margin: 0 auto;
+  width:30%;
+  gap:50px;
+  height:auto;
+  margin-top: 50px;
+  margin-left:5%;
 }
-.recipe-widgets img {
-  width: 30%;
-  border-radius: 5%;
-  margin: 0 50px auto;
-  border: 2px var(--background);
-  object-fit: cover;
+
+
+.recipe-footer{
+  width:100%;
+  margin:5%;
+  background-color: var(--purpleWidget);
+  padding:5%;
 }
+
+
