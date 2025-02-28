@@ -6,6 +6,8 @@
     <title>Recipe 1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="recStyles.css">
+    
+
 </head>
 <style>
     /*
@@ -76,6 +78,18 @@
         </section>
     </div>
 
+    <!--- Julia: added this below recipeStory because each recipe comes with a "story".
+                    usually they're kinda annoying because you have to scroll throught them to get to the recipe
+                    or you have to  hit the "jump to recipe" button. I actually think it would be really cool
+                    if we added the recipe story at the bottom of the page. And we can say that was a design choice because students
+                    are busy and we want to help them save time, not waste it stressfully scrolling through our site to get to what they actually want. -->
+    <div class="recipe-story-container">
+        <section class="recipe-story">
+            <h1 class="bold-italic"> About this Dish</h1>
+            <p id="recipeStory"></p>
+        </section>
+    </div>
+
 
     <div class="recipe-container1 ">
         <footer class="recipe-footer">
@@ -86,9 +100,19 @@
     
    
     <script>
-        const recTitle = "Linguini Martiini";/*2. Title Here!*/
-        const author = "by John Pasta";/*3. Author Here!*/
-        const specIngr = ["1 box Linguini", "3 cups sigma sauce", "2 tbsp cinnamon", "2 tsp cumin", "3 cups mozzarella", "2 tbsp red pepper", "1 cup sauce"]/*4. Ingredients here!*/
+        const recTitle = "Creamy Linguini";/*2. Title Here!*/
+        const author = "by Reagan S.";/*3. Author Here!*/
+       
+        const specIngr = ["1 box Linguini (the type of pasta that looks like thin ribbons)", 
+        "2 tablespoons olive oil", 
+        "4-5 cloves of garlic, finely chopped", 
+        "8 ounces of cream cheese, softened and cut into smaller cubes", 
+        "1/2 cup Parmesan cheese", 
+        "2-3 tablespoons of heavy cream", 
+        "1 cup pasta water", 
+        "Flaky salt", 
+        "Ground pepper to taste",
+    "Optional: Add whatever protein and vegetables you'd like! I'd recommend chicken breasts or thighs with some fried rosa tomatoes, but you could also toss some shrimp into this dish too. This pasta is a great basic dish that can be vamped up whenever you want."]/*4. Ingredients here!*/
         document.getElementById('rtitle').innerHTML = recTitle;//makes an html element out of js var
         document.getElementById('auth').innerHTML = author;
 
@@ -106,13 +130,13 @@
         const img2 = document.getElementById("imageREC2");
 
         
-        img1.src = "recig1.jpg"; //put img location here
+        img1.src = "cookedPasta.jpg"; //put img location here
         img1.alt = "Recipe Image";
         img1.onerror = function() {
             this.src = "error2.png"; //default img
         };
 
-        img2.src = "recig2.jpg";
+        img2.src = "uncookedPasta.jpg";
         img2.alt = "Recipe Image";
         img2.onerror = function() {
             this.src = "error2.png"; 
@@ -122,20 +146,29 @@
         const img4 = document.getElementById("imageREC4");
 
         
-        img3.src = "recig1.jpg"; 
+        img3.src = "cookingPasta.avif"; 
         img3.alt = "Recipe Image";
         img3.onerror = function() {
             this.src = "error2.png"; 
         };
 
-        img4.src = "recig2.jpg";
+        img4.src = "friends.jpg";
         img4.alt = "Recipe Image";
         img4.onerror = function() {
             this.src = "error2.png"; 
         };
         
-        outMethod=["stir the sauce", "eat the pasta","be nonchalant", "cook the food", "wait dont eat the pasta", "cook the pasta", "bruh did you seriously eat the pasta", "a cook always reads the whole recipe before starting"]/*7. Method here!*/
+        outMethod=["Cook the pasta according to the box's recommendations. Remember to season the water with salt (my Mom says it should be salty as the Mediterranean)", 
+        "Before you drain the pasta, keep one cup of the pasta water to the side and drain the rest. Set the pasta aside",
+        "Add the olive oil and garlic to a pan/skillet over LOW heat (when garlic burns, it tastes bitter). Best practice is to let the olive oil heat up first and then add the garlic.", 
+        "Cook the garlic for about 3-4 minutes, whereafter it becomes a little brown and has that fragrant smell.", 
+        "Add the cream cheese to the pan and gently stir while the cheese begins to melt.", 
+        "Once melted, then add in your Parmesan cheese, heavy cream, and that cup of pasta water from earlier. Mix it all together.", 
+        "Then add your drained pasta to this pan, or otherwise pour the sauce directly over the pasta in a big, heatproof bowl. ", 
+        "I love to add a little fresh herbs like Basil (which I even grew in my dorm room among other plants) and then I top it off with some grated Parmesan",
+        "My last tip for you: dish tomorrow's serving first. If you're meal prepping, it's best practice to dish the next few days' servings first before adding to your actual dinner plate."]/*7. Method here!*/
         const outM = document.getElementById("outM");
+
         outMethod.forEach((item, index) => {//super similar to ingredients, just diff inner html
             const dummyVar = document.createElement("div");
             dummyVar.innerHTML = `Step ${index+1}: ${item}`;
@@ -147,6 +180,20 @@
         function handleClick(url) {//url func for widgets
             window.location.href = url;
         }
+
+        const recipeStory = ["Pasta was one of the first dishes I learnt to create.",
+        "It's a great dish to make for yourself, or for a group of friends. And its reliable: keeps you full for a long time, maintains your energy, and is great to eat the next day for lunch",
+        "<br><br> As I mentioned above, I also love to add my own fresh herbs into the mix. I noticed that each week or so, I was spending about $5 on herbs which, sometimes, I would forget in the back of my fridge. ",
+        "One day, I decided to just buy a mint plant (also because it was in the Summer and all the mint was sold out because of the Kentucky Derby. Mint Julep, anyone?). ",
+        "I'm so grateful I did that, because now I have a little herb garden in my dorm room. I also have a basil plant, and a rosemary plant. I love to add these herbs to my pasta dishes, and it makes me feel like I'm eating at a fancy restaurant.",
+        "<br><br> I'd recommend giving the herb garden a try. It's a great way to save money, and it's also a lot of fun to grow your own food. ",
+        "Plus, it's super easy. I learnt a lot from YouTube about how to care for my plants, and now I'm a budding herbolologist (no pun intended).",
+        "<br><br> Do me a favor, would you? If you made this recipe, take a photo on Instagram and tag me. Better yet, share this recipe link with your friends.",
+        "<br><br> Cheers!<br><br> Reagan"]
+        document.getElementById('recipeStory').innerHTML = recipeStory.join('');
+
+
+
 
 
     </script>

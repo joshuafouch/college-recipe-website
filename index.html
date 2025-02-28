@@ -5,6 +5,9 @@
     <title>CollegeLife Recipes</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Julia: added google's magnifying glass icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
     
@@ -24,10 +27,17 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Submit</a></li>
             </div>
-            <form class="search-icon">
-                <input type="search" placeholder="Search..">
-                <button type="submit">Go</button>
+            <div class="searchBox">
+            <form action="/search?">
+                <input class="searchInput" type="search" name="q" placeholder="Search">
+                <button class="searchButton" type="submit">
+                    <i class="material-icons">
+                        search
+                    </i>
+
+                </button>
             </form>
+        </div>
        </ul>
     </nav>
 
