@@ -293,7 +293,6 @@ h2 {
   flex-direction: row; 
   align-items: stretch; 
   width:100%;
-  min-height: 500px;
   padding-top: 5px;
 
 }
@@ -319,7 +318,7 @@ h2 {
   display:flex;
   flex-direction: column;
   justify-content: flex-end;
-  width:35%;
+  width:30%;
   height:auto;
   gap:50px;
   margin-right: 5%;
@@ -362,7 +361,7 @@ h2 {
   padding-right: 5%;
   padding-top: 30px;
   padding-bottom: 20px;
-  margin-top: 5%;
+  margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
   margin-left:5%;
@@ -381,6 +380,7 @@ h2 {
 
 .recipe-footer{
   width:100%;
+  margin:5%;
   background-color: var(--purpleWidget);
   padding:5%;
 }

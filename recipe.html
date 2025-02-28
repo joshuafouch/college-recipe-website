@@ -15,7 +15,7 @@
         3. Author: in script below
         4. Ingredients: in script below
         5. Images: in script below
-        6. Widgets: TBD
+        6. Widgets: in script for image, in div for links
         7. Method: in script below
     */
 </style>
@@ -70,38 +70,39 @@
     </div>
 
 
-
-    <footer>
-        <p>&copy; 2025 CollegeLife Recipes</p>
-        <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
-    </footer>  
-
+    <div class="recipe-container1 ">
+        <footer class="recipe-footer">
+            <p>&copy; 2025 CollegeLife Recipes</p>
+            <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
+        </footer>  
+    </div>
+    
    
     <script>
         const recTitle = "Linguini Martiini";/*2. Title Here!*/
         const author = "by John Pasta";/*3. Author Here!*/
         const specIngr = ["1 box Linguini", "3 cups sigma sauce", "2 tbsp cinnamon", "2 tsp cumin", "3 cups mozzarella", "2 tbsp red pepper", "1 cup sauce"]/*4. Ingredients here!*/
-        document.getElementById('rtitle').innerHTML = recTitle;
+        document.getElementById('rtitle').innerHTML = recTitle;//makes an html element out of js var
         document.getElementById('auth').innerHTML = author;
 
-        const outIngr = document.getElementById("outIngr");
-        specIngr.forEach((item, index) => {
+        const outIngr = document.getElementById("outIngr");//def ingredients var
+        specIngr.forEach((item, index) => {//loop that throws each ingredient into one string/html element
             const dummyVar = document.createElement("div");
-            dummyVar.innerHTML = `&#9679 ${item}`;
+            dummyVar.innerHTML = `&#9679 ${item}`; // a dot and the ingredient
             dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
-            dummyVar.id = `item${index}`;
-            outIngr.appendChild(dummyVar); 
+            dummyVar.id = `item${index}`;//giving it an id
+            outIngr.appendChild(dummyVar); //appending
         });
-        outIngr.style.marginTop = "15px";
+        outIngr.style.marginTop = "15px";//a css modification for ingredients
 
         const img1 = document.getElementById("imageREC");/*5. Images here!*/
         const img2 = document.getElementById("imageREC2");
 
         
-        img1.src = "recig1.jpg"; 
+        img1.src = "recig1.jpg"; //put img location here
         img1.alt = "Recipe Image";
         img1.onerror = function() {
-            this.src = "error2.png"; 
+            this.src = "error2.png"; //default img
         };
 
         img2.src = "recig2.jpg";
@@ -128,7 +129,7 @@
         
         outMethod=["stir the sauce", "eat the pasta","be nonchalant", "cook the food", "wait dont eat the pasta", "cook the pasta", "bruh did you seriously eat the pasta", "a cook always reads the whole recipe before starting"]/*7. Method here!*/
         const outM = document.getElementById("outM");
-        outMethod.forEach((item, index) => {
+        outMethod.forEach((item, index) => {//super similar to ingredients, just diff inner html
             const dummyVar = document.createElement("div");
             dummyVar.innerHTML = `Step ${index+1}: ${item}`;
             dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
@@ -136,7 +137,7 @@
             outM.appendChild(dummyVar);
         });
 
-        function handleClick(url) {
+        function handleClick(url) {//url func for widgets
             window.location.href = url;
         }
 
