@@ -21,22 +21,29 @@
 </style>
 <body>
  
+    <!--Header and Navigation Bar-->
     <nav>
-        <div class="logo"><a href="index.html"><h1>CollegeLife Recipes</h1></a></div>
-        <ul class="menu">
-            <li><a href="recipe.html">Recipes</a></li>
-            <li><a href="#">Favorites</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Submit</a></li>
-        </ul>
-        <div class="search">
-            <form>
-                <input type="text" placeholder="Search...">
-                <button type="submit">Go!</button>
+        <ul>
+            <li class="logo"><a href="index.html">CollegeLife Recipes</a></li>
+            <!--for smaller screens-->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="items">
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Submit</a></li>
+            </div>
+            <form class="search-icon">
+                <input type="search" placeholder="Search..">
+                <button type="submit">Go</button>
             </form>
-        </div>
+       </ul>
     </nav>
- 
+
 
     <!--Main Content-->
     <div class="recipe-bg">
