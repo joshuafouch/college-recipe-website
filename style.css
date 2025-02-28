@@ -147,7 +147,27 @@ nav ul div.items a:hover {
   transition: 0.25s;
 }
 
-/* style for search bar */
+/* style for search bar -- Julia still working. Following tutorial from codeconvey for a sleek "google" type of search bar */
+/*.searchBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, 50%);
+    background: var(--body);
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.searchBox:hover > .searchInput {
+    width: 250px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+    background: var(--hoverLink);
+    color: var(--body);
+}*/
 
 /* media queries for smaller screens */
 @media screen and (max-width: 1052px) {
@@ -350,6 +370,38 @@ h2 {
   margin-left:5%;
 }
 
+/* Julia: added this to create recipe-story at bottom of every recipe
+
+Used the code from Ingredients container and adjusted the width from 50% to 90% */
+.recipe-story-container {
+   display:flex;
+  flex-direction: column;
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+  width:90%;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: var(--body);
+  background-size: 10vh;
+  }
+
+  .recipe h1{
+    color: var(--body);
+    font-family: 'LibreBaskerville';
+  }
+
+.recipe-story {
+    margin-left: 40px;
+    margin-right: 50px;
+    font-family: 'LibreBaskerville', 'Times New Roman', Times, serif !important;
+    margin-bottom: 20px;
+    line-height: 2;
+    text-align: justify
+}
 
 .recipe-footer{
   width:100%;
