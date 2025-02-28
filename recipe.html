@@ -5,30 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe 1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recStyles.css">
 </head>
+<style>
+    /*
+        Hey Julia, here i have leads on all customizable things in recipe
+        1. Background Image for title: in style.css
+        2. Title: in script below
+        3. Author: in script below
+        4. Ingredients: in script below
+        5. Images: in script below
+        6. Widgets: in script for image, in div for links
+        7. Method: in script below
+    */
+</style>
 <body>
  
     <!--Header and Navigation Bar-->
-    <header>
-        <a href="index.html" class="logo">CollegeLife Recipes</a>
-        <div class="headerlinks">
-            <a href="recipe.html" class="active">Recipes</a>
-            <a href="favorites.html">Favorites</a>
-            <a href="submissions.html">Submit Your Recipe!</a>
-            <a href="aboutme.html">About CollegeLife</a>
-        </div>
-    </header>
- 
+    <nav>
+        <ul>
+            <li class="logo"><a href="index.html">CollegeLife Recipes</a></li>
+            <!--for smaller screens-->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="items">
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Submit</a></li>
+            </div>
+            <form class="search-icon">
+                <input type="search" placeholder="Search..">
+                <button type="submit">Go</button>
+            </form>
+       </ul>
+    </nav>
+
 
     <!--Main Content-->
-    <p>Recipe 1</p>
-    
+    <div class="recipe-bg">
+        <h1 class="recipe-title" id="rtitle">
+            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;">
+            </h2>
+        </h1>
+    </div>
+    <div class="recipe-container1">
+        <section class="recipe-ingredients">
+            <h1 class="bold-italic">Ingredients</h1>
+            <div class = "recIngList" id="outIngr"></div>
+        </section>
+        <section class="recipe-pictures">
+            <img id="imageREC">
+            <img id="imageREC2">
+        </section>
+    </div>
+    <div class="recipe-container1">    
+        <section class="recipe-widgets">
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC3"><!--insert recipe genre eg pasta-->
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC4"><!--insert recipe main ingr eg avocado-->
+        </section>
+        <section class="method recipe-ingredients ">
+            <h1 class="bold-italic">
+                Method
+            </h1>
+            <section id="outM" class="recIngList">
+            </section>
+        </section>
+    </div>
 
-    <!--Footer-->
-    <footer>
-        <p>&copy; 2025 CollegeLife Recipes</p>
-        <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
-    </footer>
- 
+
+    <div class="recipe-container1 ">
+        <footer class="recipe-footer">
+            <p>&copy; 2025 CollegeLife Recipes</p>
+            <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
+        </footer>  
+    </div>
+    
+   
+    <script>
+        const recTitle = "Linguini Martiini";/*2. Title Here!*/
+        const author = "by John Pasta";/*3. Author Here!*/
+        const specIngr = ["1 box Linguini", "3 cups sigma sauce", "2 tbsp cinnamon", "2 tsp cumin", "3 cups mozzarella", "2 tbsp red pepper", "1 cup sauce"]/*4. Ingredients here!*/
+        document.getElementById('rtitle').innerHTML = recTitle;//makes an html element out of js var
+        document.getElementById('auth').innerHTML = author;
+
+        const outIngr = document.getElementById("outIngr");//def ingredients var
+        specIngr.forEach((item, index) => {//loop that throws each ingredient into one string/html element
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `&#9679 ${item}`; // a dot and the ingredient
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;//giving it an id
+            outIngr.appendChild(dummyVar); //appending
+        });
+        outIngr.style.marginTop = "15px";//a css modification for ingredients
+
+        const img1 = document.getElementById("imageREC");/*5. Images here!*/
+        const img2 = document.getElementById("imageREC2");
+
+        
+        img1.src = "recig1.jpg"; //put img location here
+        img1.alt = "Recipe Image";
+        img1.onerror = function() {
+            this.src = "error2.png"; //default img
+        };
+
+        img2.src = "recig2.jpg";
+        img2.alt = "Recipe Image";
+        img2.onerror = function() {
+            this.src = "error2.png"; 
+        };
+
+        const img3 = document.getElementById("imageREC3");/*5. Widgets here!*/
+        const img4 = document.getElementById("imageREC4");
+
+        
+        img3.src = "recig1.jpg"; 
+        img3.alt = "Recipe Image";
+        img3.onerror = function() {
+            this.src = "error2.png"; 
+        };
+
+        img4.src = "recig2.jpg";
+        img4.alt = "Recipe Image";
+        img4.onerror = function() {
+            this.src = "error2.png"; 
+        };
+        
+        outMethod=["stir the sauce", "eat the pasta","be nonchalant", "cook the food", "wait dont eat the pasta", "cook the pasta", "bruh did you seriously eat the pasta", "a cook always reads the whole recipe before starting"]/*7. Method here!*/
+        const outM = document.getElementById("outM");
+        outMethod.forEach((item, index) => {//super similar to ingredients, just diff inner html
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `Step ${index+1}: ${item}`;
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;
+            outM.appendChild(dummyVar);
+        });
+
+        function handleClick(url) {//url func for widgets
+            window.location.href = url;
+        }
+
+
+    </script>
 </body>
 </html>
