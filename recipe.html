@@ -56,26 +56,27 @@
         </section>
     </div>
     <div class="recipe-container1">    
-        <div class="recipe-widgets">
-            <img id="imageREC">
-            <img id="imageREC2">
-        </div>
-        <div class="method recipe-ingredients ">
+        <section class="recipe-widgets">
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC3"><!--insert recipe genre eg pasta-->
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC4"><!--insert recipe main ingr eg avocado-->
+        </section>
+        <section class="method recipe-ingredients ">
             <h1 class="bold-italic">
                 Method
             </h1>
             <section id="outM" class="recIngList">
             </section>
-        </div>
+        </section>
     </div>
-    
-    
 
-    <!--Footer-->
+
+
     <footer>
         <p>&copy; 2025 CollegeLife Recipes</p>
         <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
-    </footer>
+    </footer>  
+
+   
     <script>
         const recTitle = "Linguini Martiini";/*2. Title Here!*/
         const author = "by John Pasta";/*3. Author Here!*/
@@ -108,6 +109,22 @@
         img2.onerror = function() {
             this.src = "error2.png"; 
         };
+
+        const img3 = document.getElementById("imageREC3");/*5. Widgets here!*/
+        const img4 = document.getElementById("imageREC4");
+
+        
+        img3.src = "recig1.jpg"; 
+        img3.alt = "Recipe Image";
+        img3.onerror = function() {
+            this.src = "error2.png"; 
+        };
+
+        img4.src = "recig2.jpg";
+        img4.alt = "Recipe Image";
+        img4.onerror = function() {
+            this.src = "error2.png"; 
+        };
         
         outMethod=["stir the sauce", "eat the pasta","be nonchalant", "cook the food", "wait dont eat the pasta", "cook the pasta", "bruh did you seriously eat the pasta", "a cook always reads the whole recipe before starting"]/*7. Method here!*/
         const outM = document.getElementById("outM");
@@ -119,6 +136,9 @@
             outM.appendChild(dummyVar);
         });
 
+        function handleClick(url) {
+            window.location.href = url;
+        }
 
 
     </script>
