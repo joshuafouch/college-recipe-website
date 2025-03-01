@@ -121,12 +121,18 @@ nav ul li.logo {
   font-size: 40px;
   font-weight: 700;
 }
-nav ul li.logo a {
+nav ul li.logo-small {
+  display: none;
+  flex: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
+nav ul li.logo a, nav ul li.logo-small a{
   text-decoration: none;
   color: var(--header);
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
 }
-nav ul li.logo a:hover {
+nav ul li.logo a:hover, nav ul li.logo-small a:hover {
   color: var(--hoverLink);
   transition: 0.25s;
 }
@@ -197,8 +203,14 @@ nav ul div.items a:hover {
   nav {
     padding: 10px 20px 10px 0px;
   }
+  body {
+    overflow: hidden;
+  }
   nav ul li.logo {
     display: none;
+  }
+  nav ul li.logo-small {
+    display: block;
   }
   nav ul div.items {
     flex: 4;
@@ -241,15 +253,6 @@ nav ul div.items a:hover {
   text-align: left;
   width: 100%;
   padding-left: 30px;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 30px;
-  color: var(--header);
-  cursor: pointer;
 }
 
 
