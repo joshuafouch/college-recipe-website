@@ -175,7 +175,7 @@ nav ul div.items a:hover {
   border-radius: 50px;
   background: var(--body);
   width: 200px; 
-  transition: background 0.25s; 
+  transition: 0.25s; 
 }
 
 /* whenever user gives focus to search input (i.e., places cursor in search bar), change the search bar color*/
@@ -204,9 +204,6 @@ nav ul div.items a:hover {
   nav {
     padding: 10px 20px 10px 0px;
   }
-  body {
-    overflow: hidden;
-  }
   nav ul li.logo {
     display: none;
   }
@@ -226,7 +223,7 @@ nav ul div.items a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-bottom: 1px var(--hero);
+  border-bottom: 1px solid white;
 }
 
 .hero-text {
@@ -239,35 +236,78 @@ nav ul div.items a:hover {
 }
 
 /* featured recipe section */
-.featured {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0;
-  flex-direction: column;
+.featured-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 15px 9%;
 }
 
-.featured h1 {
-  color: var(--h1);
+.featured-container .featured-header {
+  color: white;
   font-size: 40px;
   margin-bottom: 50px;
-  text-align: left;
+  margin-top: 30px;
+  text-align: center;
   width: 100%;
   padding-left: 30px;
+  text-shadow: 0 0 2px var(--hoverLinkLight);
 }
 
-/* recipe widget */
+.featured-container .widget-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  place-items: center;
+}
 
+.featured-container .widget-container .recipe-widget {
+  aspect-ratio: 1/1;
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--header);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
 
-.recipe-widget {
+.featured-container .widget-container .recipe-widget .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-wrap: wrap;
-  border: 50%;
-  flex-direction: column; 
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width:100%;
-  padding-top: 5px;
+  opacity: 0;
+  transition: 0.5s ease;
+  color: white;
+}
 
+.featured-container .widget-container .recipe-widget:hover .overlay {
+  opacity: 1;
+}
+
+.featured-container .widget-container .recipe-widget .overlay h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.featured-container .widget-container .recipe-widget .overlay p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.featured-container .widget-container .recipe-widget img {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* recipe genre section */
@@ -312,7 +352,7 @@ h2 {
 }
 .recipe-bg{
   padding-top: 100px;
-  background-image:  url('recipebg2.jpg');/*1.Here!*/
+  background-image:  url('assets/images/recipebg2.jpg');/*1.Here!*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,10 +468,10 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   background-size: 10vh;
   }
 
-  .recipe h1{
-    color: var(--body);
-    font-family: 'LibreBaskerville';
-  }
+.recipe h1{
+  color: var(--body);
+  font-family: 'LibreBaskerville';
+}
 
 .recipe-story {
     margin-left: 40px;
@@ -442,7 +482,7 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
     text-align: justify
 }
 
-.recipe-footer{
+.main-footer {
   width:100%;
   margin:5%;
   background-color: var(--purpleWidget);
