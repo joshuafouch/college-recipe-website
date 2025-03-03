@@ -338,6 +338,11 @@ nav ul div.items a:hover {
   background-color: var(--body);
   background-size: 10vh;
   padding: 15px 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .featured-container .featured-header {
@@ -345,18 +350,20 @@ nav ul div.items a:hover {
   font-size: 45px;
   margin-bottom: 50px;
   margin-top: 30px;
-  display: flex;
-  justify-content: center;
   width: 100%;
-  padding-left: 30px;
 }
 
 .featured-container .widget-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 100px;
   place-items: center;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .featured-container .widget-container .recipe-widget {
