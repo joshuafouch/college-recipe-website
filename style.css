@@ -141,6 +141,7 @@ nav ul li.logo a:hover, nav ul li.logo-small a:hover {
 nav ul div.items {
   padding: 0.25px;
   display: inline-flex;
+  padding-right: 30px;
 }
 nav ul div.items a {
   border-radius: 10px;
@@ -153,6 +154,20 @@ nav ul div.items a:hover {
   background: white;
   color: var(--hoverLink);
   transition: 0.25s;
+}
+
+.hamburger {
+  display: none;
+}
+
+.line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
 /* style for search bar */
@@ -200,18 +215,38 @@ nav ul div.items a:hover {
 
 
 /* media queries for smaller screens */
-@media screen and (max-width: 1052px) {
-  nav {
-    padding: 10px 20px 10px 0px;
-  }
+@media screen and (max-width: 1290px) {
   nav ul li.logo {
     display: none;
   }
   nav ul li.logo-small {
     display: block;
   }
+}
+
+@media screen and (max-width: 1080px) {
+  nav {
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+  }
+  nav ul li.logo {
+    display: none;
+  }
+  nav ul li.logo-small {
+    display: none;
+  }
   nav ul div.items {
     flex: 4;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  nav ul li {
+    display: none;
+  }
+  nav ul .hamburger {
+    display: block;
+    cursor: pointer;
   }
 }
 
@@ -235,22 +270,37 @@ nav ul div.items a:hover {
   color: var(--body);
 }
 
+.hero-text p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* featured recipe section */
 .featured-container {
   padding-top: 20px;
   padding-bottom: 20px;
+  width:90%;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: var(--body);
+  background-size: 10vh;
   padding: 15px 9%;
 }
 
 .featured-container .featured-header {
-  color: white;
-  font-size: 40px;
+  color: black;
+  font-size: 45px;
   margin-bottom: 50px;
   margin-top: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 100%;
   padding-left: 30px;
-  text-shadow: 0 0 2px var(--hoverLinkLight);
 }
 
 .featured-container .widget-container {
@@ -258,13 +308,15 @@ nav ul div.items a:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   place-items: center;
+  margin-bottom: 50px;
 }
 
 .featured-container .widget-container .recipe-widget {
   aspect-ratio: 1/1;
   width: 300px;
   height: 300px;
-  border: 1px solid var(--header);
+  border: 1px solid var(--background);
+  border-radius: 3px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -282,7 +334,7 @@ nav ul div.items a:hover {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 0.25s ease;
   color: white;
 }
 
@@ -453,7 +505,7 @@ h2 {
 
 Used the code from Ingredients container and adjusted the width from 50% to 90% */
 .recipe-story-container {
-   display:flex;
+  display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
   width:90%;
