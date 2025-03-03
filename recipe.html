@@ -26,35 +26,38 @@
 <body>
  
     <!--Header and Navigation Bar-->
-     <!--Header and Navigation Bar-->
-     <nav>
+    <nav>
         <ul>
             <li class="logo"><a href="index.html">CollegeLife Recipes</a></li>
             <li class="logo-small"><a href="index.html">C.L.R.</a></li>
             <!--for smaller screens-->
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            <div class="items">
+            <!--menu toggle button used with js script-->
+            <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </a>
+            <div class="items" id="navItems">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="recipe.html">Recipes</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Submit</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="submissions.html">Submit</a></li>
             </div>
-        </div>
-        <form action="/search?"></form>
-        <div class="searchBox">
-            <span class="material-symbols-outlined">
-                search
-                </span>
+            <form action="/search?"></form>
+                <div class="searchBox">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
 
-                <input class="searchInput" type="search" placeholder="Feeling hungry?">
-        </div>
-    </form>
-            
+                    <input class="searchInput" type="search" placeholder="Feeling hungry?">
+                </div>
+            </form>
        </ul>
     </nav>
+
 
 
     <!--Main Content-->
@@ -207,5 +210,6 @@
 
 
     </script>
+<script src="js/hamburger.js"></script>
 </body>
 </html>
