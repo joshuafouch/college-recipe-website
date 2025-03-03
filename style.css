@@ -132,16 +132,17 @@ nav ul li.logo a, nav ul li.logo-small a{
   text-decoration: none;
   color: var(--header);
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+  transition: all 0.3s ease-in-out;
 }
 nav ul li.logo a:hover, nav ul li.logo-small a:hover {
   color: var(--hoverLink);
-  transition: 0.25s;
 }
 
 nav ul div.items {
   padding: 0.25px;
   display: inline-flex;
   padding-right: 30px;
+  transition: all 0.3s ease-in-out;
 }
 nav ul div.items a {
   border-radius: 10px;
@@ -149,20 +150,32 @@ nav ul div.items a {
   color: var(--header);
   font-size: 20px;
   padding: 0 12px;
+  transition: all 0.3s ease-in-out;
 } 
+
 nav ul div.items a:hover {
-  background: white;
   color: var(--hoverLink);
-  transition: 0.25s;
+  background-color: white;
 }
 
+/*nav hamburger menu styling*/
 .hamburger {
   display: none;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
+.hamburger:hover {
+  padding: 6px;
+  background-color: white;
+}
+.hamburger:hover .line {
+  background-color: var(--hoverLink);
+}
 .line {
   display: block;
-  width: 25px;
+  width: 28px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -241,12 +254,47 @@ nav ul div.items a:hover {
 }
 
 @media screen and (max-width: 770px) {
-  nav ul li {
+  nav ul div.items {
     display: none;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  .items.responsive {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--background);
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--header);
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  .items.responsive li {
+    width: 100%;
+    padding: 10px 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
   }
   nav ul .hamburger {
     display: block;
     cursor: pointer;
+  }
+  nav ul {
+    justify-content: space-between;
+  }
+}
+
+/*keyframe code for fadeIn*/
+/*this gives an pop up smooth animation for the hamburger menu*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -435,8 +483,6 @@ h2 {
   margin-right: 5%;
   background-color: var(--ingredients);
   background-size: 10vh;
-
-  
 }
 .recipe-pictures{
   display:flex;
@@ -447,8 +493,6 @@ h2 {
   gap:50px;
   margin-right: 5%;
   margin-top: 50px;
- 
-
 }
 
 
