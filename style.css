@@ -219,13 +219,22 @@ nav ul div.items a:hover {
   outline: none;
   border: none; 
   background: transparent; 
-  width: 250px; /* this makes the search bar wider */
+  width: 100%; /* this makes the search bar wider */
 }
 
 .seachInput::placeholder, .searchIcon {
   color: var(--activeLink);
 }
 
+.searchButton {
+  padding: 10px;
+  background-color: var(--edgy);
+  color: var(--activeLink);
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
 
 /* media queries for smaller screens */
 @media screen and (max-width: 1290px) {
