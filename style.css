@@ -244,6 +244,9 @@ nav ul div.items a:hover {
 }
 
 @media screen and (max-width: 1080px) {
+  nav ul div.items li:first-child {
+    display: block;
+  }
   nav {
     padding: 10px 20px 10px 10px;
     text-align: center;
@@ -259,7 +262,7 @@ nav ul div.items a:hover {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 840px) {
   nav ul div.items li:first-child {
     display: block;
   }
