@@ -86,13 +86,6 @@ a {
   outline: none; 
 }
 
-section{
-  all:unset;
-}
-
-img{
-  all:unset;
-}
 /* header */
 nav {
   background: var(--background);
@@ -292,6 +285,51 @@ nav ul div.items a:hover {
   nav ul {
     justify-content: space-between;
   }
+
+  .recipe-ingredients {
+    width: 90% !important;
+    margin-right: 5%;
+    margin-left:5%;
+    box-sizing: border-box;
+  }
+  .recipe-container1 {
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    width: 100%;
+    overflow: hidden;
+  }
+  .recipe-pictures {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5% !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+
+  .recipe-pictures img {
+    max-width: 42.5%;
+    height: auto;
+    object-fit: contain;
+  }
+  .recipe-widgets {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5% !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+
+  .recipe-widgets img {
+    max-width: 42.5%;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+
+ 
 }
 
 /*keyframe code for fadeIn*/
@@ -453,12 +491,18 @@ h2 {
   font-size:60px;
   padding-left: 60px;
   padding-top: 0px;
-  width:100%;
+  width:70%;
   flex-wrap: wrap;
   align-items: flex-start;
   
   color: var(--recipetitle);
 
+}
+.details{
+  display:flex;
+  justify-content: right;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
 }
 .author{
   margin-top: 0;
@@ -478,6 +522,7 @@ h2 {
 
 .recipe-container1 {
   display: flex;
+
   flex-direction: row; 
   align-items: stretch; 
   width:100%;
@@ -489,7 +534,7 @@ h2 {
   display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
-  width:50%;
+  width:60%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
@@ -595,7 +640,7 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
 }
 
 .main-footer {
-  width:100%;
+  width:90%;
   margin:5%;
   background-color: var(--purpleWidget);
   padding:5%;
