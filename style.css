@@ -130,7 +130,12 @@ nav ul li.logo a, nav ul li.logo-small a{
 nav ul li.logo a:hover, nav ul li.logo-small a:hover {
   color: var(--hoverLink);
 }
-
+nav ul div.items li:first-child {
+  display: none;
+}
+nav ul div.items li a.active {
+  color: var(--visitedLink);
+}
 nav ul div.items {
   padding: 0.25px;
   display: inline-flex;
@@ -145,10 +150,9 @@ nav ul div.items a {
   padding: 0 12px;
   transition: all 0.3s ease-in-out;
 } 
-
 nav ul div.items a:hover {
   color: var(--hoverLink);
-  background-color: white;
+  background-color: var(--header);
 }
 
 /*nav hamburger menu styling*/
@@ -256,6 +260,9 @@ nav ul div.items a:hover {
 }
 
 @media screen and (max-width: 770px) {
+  nav ul div.items li:first-child {
+    display: block;
+  }
   nav ul div.items {
     display: none;
     width: 100%;
