@@ -656,4 +656,9 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   padding:5%;
 }
 
+.main-footer a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 
