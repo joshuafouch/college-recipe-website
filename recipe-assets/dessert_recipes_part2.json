@@ -1,0 +1,173 @@
+[
+    {
+        "id": 46,
+        "name": "Strawberry Shortcake",
+        "category": "Desserts",
+        "ingredients": [
+            "strawberries",
+            "sugar",
+            "whipping cream",
+            "vanilla extract",
+            "biscuits"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Summer",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "strawberry_shortcake_1.jpg",
+            "strawberry_shortcake_2.jpg",
+            "strawberry_shortcake_3.jpg",
+            "strawberry_shortcake_4.jpg",
+            "strawberry_shortcake_5.jpg"
+        ],
+        "steps": [
+            "Slice strawberries and mix with sugar. Let sit for 15 minutes to macerate.",
+            "In a bowl, whip cream with a splash of vanilla extract and a bit of sugar until soft peaks form.",
+            "Slice biscuits in half and layer with strawberries and whipped cream.",
+            "Top with more whipped cream and strawberries, then serve."
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Panna Cotta with Berry Sauce",
+        "category": "Desserts",
+        "ingredients": [
+            "heavy cream",
+            "gelatin",
+            "sugar",
+            "vanilla",
+            "berries",
+            "lemon juice"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "4 hrs (including chilling)",
+        "difficulty": "Moderate",
+        "images": [
+            "panna_cotta_1.jpg",
+            "panna_cotta_2.jpg",
+            "panna_cotta_3.jpg",
+            "panna_cotta_4.jpg",
+            "panna_cotta_5.jpg"
+        ],
+        "steps": [
+            "In a small saucepan, sprinkle gelatin over cold water and let sit for 5 minutes.",
+            "Heat the gelatin mixture gently until dissolved, then set aside.",
+            "In another saucepan, combine cream, sugar, and vanilla. Heat until just simmering, then remove from heat.",
+            "Stir the gelatin mixture into the cream and pour into ramekins.",
+            "Chill in the refrigerator for at least 4 hours, or until set.",
+            "Prepare berry sauce by simmering berries, sugar, and lemon juice until thickened.",
+            "Serve the panna cotta topped with the berry sauce."
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Molten Chocolate Lava Cake",
+        "category": "Desserts",
+        "ingredients": [
+            "dark chocolate",
+            "butter",
+            "eggs",
+            "sugar",
+            "flour",
+            "vanilla"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "French",
+        "prep_time": "25 min",
+        "difficulty": "Moderate",
+        "images": [
+            "lava_cake_1.jpg",
+            "lava_cake_2.jpg",
+            "lava_cake_3.jpg",
+            "lava_cake_4.jpg",
+            "lava_cake_5.jpg"
+        ],
+        "steps": [
+            "Preheat the oven to 425\u00b0F (220\u00b0C) and grease ramekins generously with butter.",
+            "Melt dark chocolate and butter together in a double boiler, stirring until smooth.",
+            "In a bowl, whisk eggs and sugar until pale and thick, then fold in the chocolate mixture.",
+            "Gently fold in flour and vanilla extract until just combined.",
+            "Divide the batter among the prepared ramekins and bake for 12-14 minutes, or until the edges are set but the center is soft.",
+            "Let cool for 1 minute, then invert onto plates and serve immediately."
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Classic Creme Brulee",
+        "category": "Desserts",
+        "ingredients": [
+            "heavy cream",
+            "egg yolks",
+            "sugar",
+            "vanilla extract"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "French",
+        "prep_time": "1 hr (including chilling)",
+        "difficulty": "Moderate",
+        "images": [
+            "creme_brulee_1.jpg",
+            "creme_brulee_2.jpg",
+            "creme_brulee_3.jpg",
+            "creme_brulee_4.jpg",
+            "creme_brulee_5.jpg"
+        ],
+        "steps": [
+            "Preheat the oven to 325\u00b0F (165\u00b0C).",
+            "In a saucepan, heat cream and vanilla over medium heat until just simmering.",
+            "In a bowl, whisk egg yolks and sugar until pale, then slowly whisk in the warm cream.",
+            "Strain the mixture into ramekins and place them in a baking dish.",
+            "Pour hot water into the dish to come halfway up the sides of the ramekins.",
+            "Bake for 40-45 minutes, or until set but slightly jiggly in the center.",
+            "Chill for at least 2 hours, then sprinkle sugar on top and caramelize with a kitchen torch before serving."
+        ]
+    },
+    {
+        "id": 50,
+        "name": "No-Bake Peanut Butter Bars",
+        "category": "Desserts",
+        "ingredients": [
+            "peanut butter",
+            "butter",
+            "graham crackers",
+            "powdered sugar",
+            "chocolate chips"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "1 hr (including chilling)",
+        "difficulty": "Easy",
+        "images": [
+            "peanut_butter_bars_1.jpg",
+            "peanut_butter_bars_2.jpg",
+            "peanut_butter_bars_3.jpg",
+            "peanut_butter_bars_4.jpg",
+            "peanut_butter_bars_5.jpg"
+        ],
+        "steps": [
+            "In a bowl, mix peanut butter, melted butter, graham cracker crumbs, and powdered sugar until combined.",
+            "Press the mixture into the bottom of a greased baking dish.",
+            "Melt chocolate chips and spread evenly over the peanut butter layer.",
+            "Refrigerate for 1 hour, or until firm, then cut into bars and serve."
+        ]
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "id": 56,
+        "name": "Grilled Vegetable Skewers",
+        "category": "Summer",
+        "ingredients": [
+            "zucchini",
+            "bell peppers",
+            "red onion",
+            "mushrooms",
+            "olive oil",
+            "herbs"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "Mediterranean",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "grilled_vegetable_skewers_1.webp",
+            "grilled_vegetable_skewers_2.webp",
+            "grilled_vegetable_skewers_3.webp",
+            "grilled_vegetable_skewers_4.webp"
+        ],
+        "steps": [
+            "Preheat the grill to medium-high heat.",
+            "Cut zucchini, bell peppers, and red onion into bite-sized pieces. Leave mushrooms whole if small or halve if large.",
+            "Thread the vegetables onto skewers, alternating types for color and variety.",
+            "Brush the skewers with olive oil and season with herbs, salt, and pepper.",
+            "Grill the skewers for 10-12 minutes, turning occasionally, until the vegetables are tender and lightly charred.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Caprese Salad",
+        "category": "Summer",
+        "ingredients": [
+            "tomatoes",
+            "mozzarella",
+            "basil",
+            "olive oil",
+            "balsamic glaze"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "Italian",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "caprese_salad_1.webp",
+            "caprese_salad_2.webp",
+            "caprese_salad_3.webp",
+            "caprese_salad_4.webp"
+        ],
+        "steps": [
+            "Slice tomatoes and fresh mozzarella into even rounds.",
+            "Layer the tomato and mozzarella slices on a plate, alternating with fresh basil leaves.",
+            "Drizzle with olive oil and balsamic glaze.",
+            "Sprinkle with salt and pepper, then serve immediately."
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Watermelon Feta Salad",
+        "category": "Summer",
+        "ingredients": [
+            "watermelon",
+            "feta cheese",
+            "mint",
+            "lime",
+            "olive oil"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "Mediterranean",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "watermelon_feta_salad_1.webp",
+            "watermelon_feta_salad_2.webp",
+            "watermelon_feta_salad_3.webp",
+            "watermelon_feta_salad_4.webp"
+        ],
+        "steps": [
+            "Cut the watermelon into bite-sized cubes and place in a large bowl.",
+            "Crumble feta cheese over the watermelon.",
+            "Add chopped fresh mint and drizzle with olive oil and a squeeze of lime juice.",
+            "Toss gently and serve chilled."
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Grilled Shrimp Tacos",
+        "category": "Summer",
+        "ingredients": [
+            "shrimp",
+            "taco shells",
+            "lime",
+            "cabbage",
+            "avocado",
+            "cilantro"
+        ],
+        "dietary": [
+            "High-Protein",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "Mexican",
+        "prep_time": "20 min",
+        "difficulty": "Moderate",
+        "images": [
+            "grilled_shrimp_tacos_1.webp",
+            "grilled_shrimp_tacos_2.webp",
+            "grilled_shrimp_tacos_3.webp",
+            "grilled_shrimp_tacos_4.webp"
+        ],
+        "steps": [
+            "Preheat the grill to medium-high heat and skewer the shrimp.",
+            "Brush the shrimp with olive oil and season with salt, pepper, and a squeeze of lime juice.",
+            "Grill the shrimp for 2-3 minutes per side, until cooked through.",
+            "Warm the taco shells and fill with grilled shrimp, shredded cabbage, diced avocado, and fresh cilantro.",
+            "Serve with lime wedges."
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Peach Iced Tea",
+        "category": "Summer",
+        "ingredients": [
+            "peaches",
+            "black tea",
+            "sugar",
+            "water",
+            "ice"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "peach_iced_tea_1.webp",
+            "peach_iced_tea_2.webp",
+            "peach_iced_tea_3.webp",
+            "peach_iced_tea_4.webp"
+        ],
+        "steps": [
+            "Peel and slice peaches, then puree them in a blender until smooth.",
+            "Brew black tea and let it cool to room temperature.",
+            "In a large pitcher, combine the tea, peach puree, and sugar to taste. Stir well.",
+            "Serve over ice and garnish with peach slices."
+        ]
+    }
+]

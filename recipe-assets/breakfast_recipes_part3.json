@@ -1,0 +1,161 @@
+[
+    {
+        "id": 11,
+        "name": "Peanut Butter and Banana Toast",
+        "category": "Breakfast",
+        "ingredients": [
+            "bread",
+            "peanut butter",
+            "banana",
+            "honey"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "5 min",
+        "difficulty": "Easy",
+        "images": [
+            "pb_banana_toast_1.jpg",
+            "pb_banana_toast_2.jpg",
+            "pb_banana_toast_3.jpg"
+        ],
+        "steps": [
+            "Toast the bread slices in a toaster or under the broiler until golden brown.",
+            "Spread a generous layer of peanut butter on each slice of toast.",
+            "Slice the banana into thin rounds and place them evenly on top of the peanut butter.",
+            "Drizzle with honey for extra sweetness.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Scrambled Eggs with Smoked Salmon",
+        "category": "Breakfast",
+        "ingredients": [
+            "eggs",
+            "milk",
+            "butter",
+            "smoked salmon",
+            "chives"
+        ],
+        "dietary": [
+            "High-Protein"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "scrambled_eggs_salmon_1.jpg",
+            "scrambled_eggs_salmon_2.jpg",
+            "scrambled_eggs_salmon_3.jpg"
+        ],
+        "steps": [
+            "In a bowl, whisk together eggs, milk, salt, and pepper.",
+            "Heat butter in a non-stick skillet over medium heat.",
+            "Pour the egg mixture into the skillet and cook, stirring gently, until soft curds form.",
+            "Remove the skillet from heat just before the eggs are fully cooked to avoid overcooking.",
+            "Gently fold in pieces of smoked salmon.",
+            "Garnish with chopped chives and serve immediately."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sweet Potato Hash with Eggs",
+        "category": "Breakfast",
+        "ingredients": [
+            "sweet potato",
+            "onions",
+            "bell peppers",
+            "eggs",
+            "olive oil"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "sweet_potato_hash_1.jpg",
+            "sweet_potato_hash_2.jpg",
+            "sweet_potato_hash_3.jpg"
+        ],
+        "steps": [
+            "Peel and dice the sweet potato into small cubes.",
+            "Heat olive oil in a large skillet over medium heat and add the sweet potato.",
+            "Cook for 10 minutes, stirring occasionally, until the sweet potato starts to soften.",
+            "Add diced onions and bell peppers to the skillet and cook for another 5 minutes.",
+            "Make small wells in the hash and crack an egg into each well.",
+            "Cover the skillet and cook until the eggs are set to your liking, about 5 minutes.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Overnight Chia Pudding",
+        "category": "Breakfast",
+        "ingredients": [
+            "chia seeds",
+            "milk",
+            "vanilla",
+            "honey",
+            "berries"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "10 min + overnight",
+        "difficulty": "Easy",
+        "images": [
+            "chia_pudding_1.jpg",
+            "chia_pudding_2.jpg",
+            "chia_pudding_3.jpg"
+        ],
+        "steps": [
+            "In a jar or bowl, combine chia seeds, milk, vanilla extract, and honey.",
+            "Stir well to ensure the chia seeds are evenly distributed.",
+            "Cover and refrigerate overnight or for at least 6 hours.",
+            "In the morning, stir the pudding and add more milk if needed for desired consistency.",
+            "Top with fresh berries and serve."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Apple Cinnamon Oatmeal",
+        "category": "Breakfast",
+        "ingredients": [
+            "oats",
+            "milk",
+            "apple",
+            "cinnamon",
+            "brown sugar"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "apple_cinnamon_oatmeal_1.jpg",
+            "apple_cinnamon_oatmeal_2.jpg",
+            "apple_cinnamon_oatmeal_3.jpg"
+        ],
+        "steps": [
+            "In a saucepan, combine oats, milk, and a pinch of salt.",
+            "Bring to a simmer over medium heat, stirring occasionally.",
+            "Grate or dice the apple and add it to the oatmeal, along with cinnamon and brown sugar.",
+            "Cook for another 5 minutes, stirring frequently, until the oatmeal is thick and creamy.",
+            "Serve warm, topped with additional apple slices and a sprinkle of cinnamon if desired."
+        ]
+    }
+]

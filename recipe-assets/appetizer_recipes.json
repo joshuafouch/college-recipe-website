@@ -1,0 +1,166 @@
+[
+    {
+        "id": 76,
+        "name": "Bruschetta with Tomato and Basil",
+        "category": "Appetizers",
+        "ingredients": [
+            "baguette",
+            "tomatoes",
+            "basil",
+            "garlic",
+            "olive oil",
+            "balsamic glaze"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "bruschetta_1.webp",
+            "bruschetta_2.webp",
+            "bruschetta_3.webp",
+            "bruschetta_4.webp"
+        ],
+        "steps": [
+            "Slice the baguette into thin rounds and toast until golden brown.",
+            "Dice the tomatoes and mix with chopped basil, minced garlic, olive oil, and a pinch of salt.",
+            "Spoon the tomato mixture onto the toasted baguette slices.",
+            "Drizzle with balsamic glaze and serve immediately."
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Stuffed Mushrooms",
+        "category": "Appetizers",
+        "ingredients": [
+            "mushrooms",
+            "cream cheese",
+            "parmesan cheese",
+            "garlic",
+            "breadcrumbs",
+            "parsley"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "stuffed_mushrooms_1.webp",
+            "stuffed_mushrooms_2.webp",
+            "stuffed_mushrooms_3.webp",
+            "stuffed_mushrooms_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Remove the stems from the mushrooms and chop them finely.",
+            "In a skillet, saut\u00e9 the chopped stems with minced garlic until softened.",
+            "Mix the saut\u00e9ed stems with cream cheese, parmesan cheese, breadcrumbs, and parsley.",
+            "Fill the mushroom caps with the mixture and place them on a baking sheet.",
+            "Bake for 20 minutes, or until the tops are golden brown."
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Caprese Skewers",
+        "category": "Appetizers",
+        "ingredients": [
+            "cherry tomatoes",
+            "mozzarella balls",
+            "basil",
+            "olive oil",
+            "balsamic glaze"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "caprese_skewers_1.webp",
+            "caprese_skewers_2.webp",
+            "caprese_skewers_3.webp",
+            "caprese_skewers_4.webp"
+        ],
+        "steps": [
+            "On small skewers, thread a cherry tomato, a basil leaf, and a mozzarella ball.",
+            "Repeat until all ingredients are used.",
+            "Drizzle the skewers with olive oil and balsamic glaze.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Deviled Eggs with Bacon",
+        "category": "Appetizers",
+        "ingredients": [
+            "eggs",
+            "mayonnaise",
+            "mustard",
+            "paprika",
+            "bacon"
+        ],
+        "dietary": [
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "deviled_eggs_bacon_1.webp",
+            "deviled_eggs_bacon_2.webp",
+            "deviled_eggs_bacon_3.webp",
+            "deviled_eggs_bacon_4.webp"
+        ],
+        "steps": [
+            "Hard boil the eggs, then peel and cut them in half lengthwise.",
+            "Scoop out the yolks and mash them in a bowl with mayonnaise and mustard.",
+            "Spoon or pipe the yolk mixture back into the egg whites.",
+            "Top each egg with crumbled cooked bacon and a sprinkle of paprika.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Spinach and Artichoke Dip",
+        "category": "Appetizers",
+        "ingredients": [
+            "spinach",
+            "artichokes",
+            "cream cheese",
+            "parmesan cheese",
+            "garlic",
+            "sour cream"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "spinach_artichoke_dip_1.webp",
+            "spinach_artichoke_dip_2.webp",
+            "spinach_artichoke_dip_3.webp",
+            "spinach_artichoke_dip_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "In a bowl, mix chopped spinach, artichokes, cream cheese, sour cream, grated parmesan cheese, and minced garlic.",
+            "Transfer the mixture to a baking dish and spread evenly.",
+            "Bake for 20 minutes, or until bubbly and golden on top.",
+            "Serve hot with tortilla chips or bread."
+        ]
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Pancakes",
+        "category": "Breakfast",
+        "ingredients": [
+            "flour",
+            "milk",
+            "eggs",
+            "sugar",
+            "baking powder"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "classic_pancakes_1.jpg",
+            "classic_pancakes_2.jpg"
+        ],
+        "steps": [
+            "In a large mixing bowl, combine flour, sugar, and baking powder.",
+            "Create a well in the center and pour in milk and eggs.",
+            "Whisk the mixture together until it forms a smooth batter.",
+            "Heat a non-stick skillet over medium heat and lightly grease with butter.",
+            "Pour 1/4 cup of batter onto the skillet for each pancake.",
+            "Cook until bubbles form on the surface and the edges look set, about 2-3 minutes.",
+            "Flip the pancake and cook the other side until golden brown, about 1-2 minutes.",
+            "Serve warm with maple syrup, fresh fruit, or your favorite toppings."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Spinach and Feta Omelette",
+        "category": "Breakfast",
+        "ingredients": [
+            "eggs",
+            "spinach",
+            "feta cheese",
+            "salt",
+            "pepper"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "spinach_omelette_1.jpg"
+        ],
+        "steps": [
+            "In a small bowl, whisk eggs with a pinch of salt and pepper.",
+            "Heat a non-stick skillet over medium heat and add a small amount of olive oil.",
+            "Add spinach to the skillet and saut\u00e9 until wilted, about 2 minutes.",
+            "Pour the whisked eggs over the spinach, tilting the skillet to spread evenly.",
+            "Crumble feta cheese over one side of the omelette.",
+            "Cook until the eggs are mostly set, about 3-4 minutes.",
+            "Fold the omelette in half and cook for an additional minute.",
+            "Slide onto a plate and serve hot."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Banana Oatmeal Smoothie",
+        "category": "Breakfast",
+        "ingredients": [
+            "banana",
+            "oats",
+            "milk",
+            "honey",
+            "vanilla"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "5 min",
+        "difficulty": "Easy",
+        "images": [
+            "banana_smoothie_1.jpg",
+            "banana_smoothie_2.jpg"
+        ],
+        "steps": [
+            "Peel the banana and add it to a blender.",
+            "Add oats, milk, honey, and vanilla extract to the blender.",
+            "Blend on high speed until the mixture is smooth and creamy.",
+            "Taste and adjust sweetness by adding more honey if needed.",
+            "Pour the smoothie into a glass and serve immediately."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Avocado Toast with Poached Egg",
+        "category": "Breakfast",
+        "ingredients": [
+            "bread",
+            "avocado",
+            "eggs",
+            "salt",
+            "pepper"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "avocado_toast_1.jpg",
+            "avocado_toast_2.jpg"
+        ],
+        "steps": [
+            "Toast slices of bread in a toaster or under the broiler until golden brown.",
+            "Cut the avocado in half, remove the pit, and scoop the flesh into a bowl.",
+            "Mash the avocado with a fork until smooth, then season with salt and pepper.",
+            "Spread the mashed avocado evenly over the toasted bread.",
+            "Bring a pot of water to a gentle simmer and add a splash of vinegar.",
+            "Crack an egg into a small bowl and gently slide it into the simmering water.",
+            "Poach the egg for 3-4 minutes, until the whites are set but the yolk is still runny.",
+            "Remove the egg with a slotted spoon and place it on top of the avocado toast.",
+            "Sprinkle with additional salt and pepper, and serve immediately."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Blueberry Muffins",
+        "category": "Breakfast",
+        "ingredients": [
+            "flour",
+            "blueberries",
+            "milk",
+            "eggs",
+            "baking powder"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "25 min",
+        "difficulty": "Moderate",
+        "images": [
+            "blueberry_muffins_1.jpg",
+            "blueberry_muffins_2.jpg",
+            "blueberry_muffins_3.jpg"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a muffin tin or line with paper liners.",
+            "In a mixing bowl, combine flour, sugar, baking powder, and a pinch of salt.",
+            "In a separate bowl, whisk together milk, eggs, and melted butter.",
+            "Gradually add the wet ingredients to the dry ingredients, stirring until just combined.",
+            "Gently fold in the blueberries, being careful not to overmix.",
+            "Spoon the batter into the prepared muffin tin, filling each cup about 2/3 full.",
+            "Bake for 20-25 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Allow the muffins to cool in the tin for 5 minutes, then transfer to a wire rack to cool completely.",
+            "Serve warm or store in an airtight container for up to 3 days."
+        ]
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": 16,
+        "name": "Grilled Chicken Caesar Salad",
+        "category": "Lunch",
+        "ingredients": [
+            "chicken breast",
+            "romaine lettuce",
+            "parmesan cheese",
+            "croutons",
+            "caesar dressing"
+        ],
+        "dietary": [
+            "High-Protein"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "25 min",
+        "difficulty": "Easy",
+        "images": [
+            "caesar_salad_1.jpg",
+            "caesar_salad_2.jpg"
+        ],
+        "steps": [
+            "Preheat a grill or grill pan over medium-high heat.",
+            "Season chicken breasts with salt, pepper, and olive oil.",
+            "Grill the chicken for 6-7 minutes per side, or until fully cooked.",
+            "Let the chicken rest for 5 minutes, then slice into thin strips.",
+            "In a large bowl, toss romaine lettuce with Caesar dressing.",
+            "Top with grilled chicken, croutons, and grated parmesan cheese.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Quinoa and Black Bean Bowl",
+        "category": "Lunch",
+        "ingredients": [
+            "quinoa",
+            "black beans",
+            "corn",
+            "avocado",
+            "lime",
+            "cilantro"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Mexican",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "quinoa_black_bean_bowl_1.jpg",
+            "quinoa_black_bean_bowl_2.jpg"
+        ],
+        "steps": [
+            "Cook quinoa according to package instructions and let cool slightly.",
+            "In a large bowl, combine cooked quinoa, black beans, corn, and diced avocado.",
+            "In a small bowl, whisk together lime juice, olive oil, salt, and pepper.",
+            "Pour the dressing over the quinoa mixture and toss to combine.",
+            "Garnish with chopped cilantro and serve."
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Caprese Sandwich with Pesto",
+        "category": "Lunch",
+        "ingredients": [
+            "bread",
+            "fresh mozzarella",
+            "tomatoes",
+            "basil pesto",
+            "olive oil"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "caprese_sandwich_1.jpg",
+            "caprese_sandwich_2.jpg"
+        ],
+        "steps": [
+            "Slice bread, mozzarella, and tomatoes into even pieces.",
+            "Spread a generous layer of basil pesto on one side of each bread slice.",
+            "Layer mozzarella and tomato slices on top of the pesto.",
+            "Drizzle with olive oil and season with salt and pepper.",
+            "Assemble the sandwich and press gently to hold everything together.",
+            "Serve fresh or lightly toast for a warm version."
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Tomato Basil Soup with Grilled Cheese",
+        "category": "Lunch",
+        "ingredients": [
+            "tomatoes",
+            "onion",
+            "garlic",
+            "basil",
+            "bread",
+            "cheese"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "tomato_soup_1.jpg",
+            "grilled_cheese_1.jpg"
+        ],
+        "steps": [
+            "Heat olive oil in a large pot over medium heat and saut\u00e9 diced onions and garlic until soft.",
+            "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
+            "Add vegetable broth and fresh basil, then simmer for another 15 minutes.",
+            "Use an immersion blender to puree the soup until smooth.",
+            "Season with salt and pepper, then keep warm on low heat.",
+            "Prepare grilled cheese by buttering bread slices, adding cheese, and grilling in a skillet until golden brown.",
+            "Serve the soup hot with grilled cheese on the side."
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Mediterranean Chickpea Salad",
+        "category": "Lunch",
+        "ingredients": [
+            "chickpeas",
+            "cucumber",
+            "cherry tomatoes",
+            "feta cheese",
+            "red onion",
+            "lemon"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Mediterranean",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "mediterranean_chickpea_salad_1.jpg",
+            "mediterranean_chickpea_salad_2.jpg"
+        ],
+        "steps": [
+            "Drain and rinse chickpeas, then place them in a large bowl.",
+            "Add diced cucumber, halved cherry tomatoes, thinly sliced red onion, and crumbled feta cheese.",
+            "In a small bowl, whisk together olive oil, lemon juice, salt, and pepper.",
+            "Pour the dressing over the salad and toss to combine.",
+            "Serve immediately or chill for 30 minutes for enhanced flavor."
+        ]
+    }
+]
