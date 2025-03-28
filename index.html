@@ -60,32 +60,7 @@
     <div class="featured-container">
         <h1 class="featured-header">what are you hungry for?</h1>
         <div class="widget-container">
-            
-            <div class="recipe-widget">
-                <img src="assets/images/pastabg.jpg" alt="food1">
-                <a href="recipe.html" class="overlay">
-                    <h1>Creamy Linguini</h1>
-                    <p>by Reagan S.</p>
-                </a>
-            </div>
-
-            <div class="recipe-widget">
-                <img src="assets/images/avocado.jpg" alt="food2">
-                <a href="recipe.html" class="overlay">
-                    <h1>fre shavacado</h1>
-                    <p>by John Pasta</p>
-                </a>
-            </div>
-
-            <div class="recipe-widget">
-                <img src="assets/images/avocado.jpg" alt="food3">
-                <a href="recipe.html" class="overlay">
-                    <h1>fre shavacado</h1>
-                    <p>by Poe Mctatoes</p>
-                </a>
-            </div>
-            
-        </div>
+       </div>
     </div>
 
     <!--recipe categories-->
@@ -104,5 +79,17 @@
 
 <!--ADD THIS SCRIPT TO EVERY HTML PAGE!!!-->
 <script src="js/hamburger.js"></script>
+<script src="js/load-recipes.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const recipes = await loadAllRecipes();
+            console.log('Loaded recipes:', recipes); // Debug log
+            displayFeaturedRecipes(recipes);
+        } catch (err) {
+            console.error('Error in main:', err);
+        }
+    });
+</script>
 </body>
 </html>
