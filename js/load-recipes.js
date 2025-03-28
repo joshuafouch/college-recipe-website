@@ -17,8 +17,8 @@ async function loadAllRecipes() {
             fetch('./recipe-assets/snacks_recipes.json')
         ]);
 
-        const jsonData = await Promise.all(response.map(r => r.json()));
-        return jsonData.flat();
+        const recipeData = await Promise.all(response.map(r => r.json()));
+        return recipeData.flat();
     } catch (error) {
         console.error('Error loading recipes:', error);
         return[];
