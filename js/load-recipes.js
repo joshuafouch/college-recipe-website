@@ -1,7 +1,20 @@
 async function loadAllRecipes() {
     try {
         const response = await Promise.all([
-            fetch('./recipe-assets/beverages_recipes.json')
+            fetch('./recipe-assets/appetizer_recipes.json'),
+            fetch('./recipe-assets/autumn_recipes.json'),
+            fetch('./recipe-assets/beverages_recipes.json'),
+            fetch('./recipe-assets/breakfast_recipes_part1.json'),
+            fetch('./recipe-assets/breakfast_recipes_part2.json'),
+            fetch('./recipe-assets/breakfast_recipes_part3.json'),
+            fetch('./recipe-assets/lunch_recipes_part1.json'),
+            fetch('./recipe-assets/lunch_recipes_part2.json'),
+            fetch('./recipe-assets/dinner_recipes_part1.json'),
+            fetch('./recipe-assets/dinner_recipes_part2.json'),
+            fetch('./recipe-assets/winter_recipes.json'),
+            fetch('./recipe-assets/summer_recipes.json'),
+            fetch('./recipe-assets/spring_recipes.json'),
+            fetch('./recipe-assets/snacks_recipes.json')
         ]);
 
         const jsonData = await Promise.all(response.map(r => r.json()));
@@ -11,25 +24,3 @@ async function loadAllRecipes() {
         return[];
     }
 }
-
-function displayFeaturedRecipes(recipes) {
-    const container = document.querySelector('.widget-container');
-    if (!container || !recipes || !recipes.length) {
-        console.error('container or recipes not found');
-        return;
-    }
-
-    const featured = recipes.sort(() => 0.5 - Math.random()).slice(0, 3);
-
-    container.innerHTML = featured.map(recipe => `
-        <div class="recipe-widget">
-            <img src="./recipe-assets/${recipe.images[0]}" alt="${recipe.name}"
-            onerror="this.src='./assets/images/error2.png'>
-            <a href="recipe.html?id=${recipe.id}" class="overlay">
-                <h1>${recipe.name}</h1>
-                <p>Prep time: ${recipe.prep_time}</p>
-            </a>
-        </div>
-    `).join('');
-}
-
