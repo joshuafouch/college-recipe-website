@@ -4,13 +4,13 @@
         "name": "Spring Vegetable Stir-Fry",
         "category": "Spring",
         "ingredients": [
-            "asparagus",
-            "snap peas",
-            "carrots",
-            "bell peppers",
-            "soy sauce",
-            "ginger",
-            "sesame oil"
+            "1 cup of asparagus",
+            "0.5 cup of snap peas",
+            "2 carrots",
+            "2 bell peppers",
+            "1 tbsp of soy sauce",
+            "1 tsp of ginger",
+            "60 ml of sesame oil"
         ],
         "dietary": [
             "Vegan",
@@ -40,12 +40,12 @@
         "name": "Pea and Mint Soup",
         "category": "Spring",
         "ingredients": [
-            "peas",
-            "vegetable broth",
-            "onion",
-            "garlic",
-            "mint leaves",
-            "cream"
+            "0.75 cup of peas",
+            "8 oz of vegetable broth",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tbsp of mint leaves",
+            "0.5 cup of cream"
         ],
         "dietary": [
             "Vegetarian",
@@ -74,11 +74,11 @@
         "name": "Strawberry Spinach Salad",
         "category": "Spring",
         "ingredients": [
-            "spinach",
-            "strawberries",
-            "feta cheese",
-            "walnuts",
-            "balsamic vinaigrette"
+            "1 cup of spinach",
+            "0.75 cup of strawberries",
+            "0.25 cup of feta cheese",
+            "0.25 cup of walnuts",
+            "1.5 tbsp of balsamic vinaigrette"
         ],
         "dietary": [
             "Vegetarian",
@@ -105,12 +105,12 @@
         "name": "Lemon Herb Chicken",
         "category": "Spring",
         "ingredients": [
-            "chicken breast",
-            "lemon",
-            "thyme",
-            "rosemary",
-            "garlic",
-            "olive oil"
+            "1 chicken breast",
+            "1 lemon",
+            "1 tsp of thyme",
+            "1 tbsp of rosemary",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "High-Protein",
@@ -139,12 +139,12 @@
         "name": "Asparagus and Goat Cheese Tart",
         "category": "Spring",
         "ingredients": [
-            "puff pastry",
-            "asparagus",
-            "goat cheese",
-            "egg",
-            "parmesan cheese",
-            "herbs"
+            "1 sheet of puff pastry",
+            "1 cup of asparagus",
+            "2 oz of goat cheese",
+            "1 egg",
+            "0.25 cup of parmesan cheese",
+            "2 tbsp of herbs"
         ],
         "dietary": [
             "Vegetarian"

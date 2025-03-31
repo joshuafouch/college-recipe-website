@@ -4,12 +4,12 @@
         "name": "Pumpkin Soup",
         "category": "Autumn",
         "ingredients": [
-            "pumpkin",
-            "onion",
-            "garlic",
-            "vegetable broth",
-            "cream",
-            "nutmeg"
+            "0.5 cup of pumpkin",
+            "1 onion",
+            "2 cloves of garlic",
+            "8 oz of vegetable broth",
+            "0.5 cup of cream",
+            "0.5 tsp of nutmeg"
         ],
         "dietary": [
             "Vegetarian",
@@ -39,11 +39,11 @@
         "name": "Maple Roasted Brussels Sprouts",
         "category": "Autumn",
         "ingredients": [
-            "brussels sprouts",
-            "maple syrup",
-            "olive oil",
-            "salt",
-            "pepper"
+            "1 cup of brussels sprouts",
+            "2 tbsp of maple syrup",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegan",
@@ -72,12 +72,12 @@
         "name": "Apple Crisp",
         "category": "Autumn",
         "ingredients": [
-            "apples",
-            "oats",
-            "brown sugar",
-            "flour",
-            "butter",
-            "cinnamon"
+            "3 apples",
+            "0.75 cup of oats",
+            "0.25 cup of brown sugar",
+            "1 cup of flour",
+            "2 tbsp of butter",
+            "1 tsp of cinnamon"
         ],
         "dietary": [
             "Vegetarian"
@@ -106,11 +106,11 @@
         "name": "Butternut Squash and Sage Pasta",
         "category": "Autumn",
         "ingredients": [
-            "butternut squash",
-            "pasta",
-            "sage",
-            "butter",
-            "parmesan cheese"
+            "1 cup of butternut squash",
+            "1 cup of pasta",
+            "1 tsp of sage",
+            "2 tbsp of butter",
+            "0.25 cup of parmesan cheese"
         ],
         "dietary": [
             "Vegetarian"
@@ -120,10 +120,10 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "butternut_squash_pasta_1.webp",
-            "butternut_squash_pasta_2.webp",
-            "butternut_squash_pasta_3.webp",
-            "butternut_squash_pasta_4.webp"
+            "butternut_squash_and_sage_pasta_1.webp",
+            "butternut_squash_and_sage_pasta_2.webp",
+            "butternut_squash_and_sage_pasta_3.webp",
+            "butternut_squash_and_sage_pasta_4.webp"
         ],
         "steps": [
             "Peel and cube the butternut squash, then roast in the oven at 400\u00b0F (200\u00b0C) for 20 minutes, or until tender.",
@@ -139,11 +139,11 @@
         "name": "Spiced Pear and Walnut Salad",
         "category": "Autumn",
         "ingredients": [
-            "pears",
-            "walnuts",
-            "spinach",
-            "blue cheese",
-            "balsamic vinaigrette"
+            "2 pears",
+            "0.25 cup of walnuts",
+            "1 cup of spinach",
+            "2 oz of blue cheese",
+            "1.5 tbsp of balsamic vinaigrette"
         ],
         "dietary": [
             "Vegetarian",

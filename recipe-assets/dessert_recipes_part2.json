@@ -4,11 +4,11 @@
         "name": "Strawberry Shortcake",
         "category": "Desserts",
         "ingredients": [
-            "strawberries",
-            "sugar",
-            "whipping cream",
-            "vanilla extract",
-            "biscuits"
+            "0.75 cup of strawberries",
+            "0.25 cup of sugar",
+            "0.5 cup of whipping cream",
+            "1 tsp of vanilla extract",
+            "2 biscuits"
         ],
         "dietary": [
             "Vegetarian"
@@ -18,11 +18,11 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "strawberry_shortcake_1.jpg",
-            "strawberry_shortcake_2.jpg",
-            "strawberry_shortcake_3.jpg",
-            "strawberry_shortcake_4.jpg",
-            "strawberry_shortcake_5.jpg"
+            "strawberry_shortcake_1.webp",
+            "strawberry_shortcake_2.webp",
+            "strawberry_shortcake_3.webp",
+            "strawberry_shortcake_4.webp",
+            "strawberry_shortcake_5.webp"
         ],
         "steps": [
             "Slice strawberries and mix with sugar. Let sit for 15 minutes to macerate.",
@@ -36,12 +36,12 @@
         "name": "Panna Cotta with Berry Sauce",
         "category": "Desserts",
         "ingredients": [
-            "heavy cream",
-            "gelatin",
-            "sugar",
-            "vanilla",
-            "berries",
-            "lemon juice"
+            "0.5 cup of heavy cream",
+            "1 packet of gelatin",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla",
+            "1 cup of berries",
+            "2 tbsp of lemon juice"
         ],
         "dietary": [
             "Vegetarian",
@@ -52,11 +52,11 @@
         "prep_time": "4 hrs (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "panna_cotta_1.jpg",
-            "panna_cotta_2.jpg",
-            "panna_cotta_3.jpg",
-            "panna_cotta_4.jpg",
-            "panna_cotta_5.jpg"
+            "panna_cotta_1.webp",
+            "panna_cotta_2.webp",
+            "panna_cotta_3.webp",
+            "panna_cotta_4.webp",
+            "panna_cotta_5.webp"
         ],
         "steps": [
             "In a small saucepan, sprinkle gelatin over cold water and let sit for 5 minutes.",
@@ -73,12 +73,12 @@
         "name": "Molten Chocolate Lava Cake",
         "category": "Desserts",
         "ingredients": [
-            "dark chocolate",
-            "butter",
-            "eggs",
-            "sugar",
-            "flour",
-            "vanilla"
+            "2 tbsp of dark chocolate",
+            "2 tbsp of butter",
+            "2 eggs",
+            "0.25 cup of sugar",
+            "1 cup of flour",
+            "1 tsp of vanilla"
         ],
         "dietary": [
             "Vegetarian"
@@ -88,11 +88,11 @@
         "prep_time": "25 min",
         "difficulty": "Moderate",
         "images": [
-            "lava_cake_1.jpg",
-            "lava_cake_2.jpg",
-            "lava_cake_3.jpg",
-            "lava_cake_4.jpg",
-            "lava_cake_5.jpg"
+            "lava_cake_1.webp",
+            "lava_cake_2.webp",
+            "lava_cake_3.webp",
+            "lava_cake_4.webp",
+            "lava_cake_5.webp"
         ],
         "steps": [
             "Preheat the oven to 425\u00b0F (220\u00b0C) and grease ramekins generously with butter.",
@@ -108,10 +108,10 @@
         "name": "Classic Creme Brulee",
         "category": "Desserts",
         "ingredients": [
-            "heavy cream",
-            "egg yolks",
-            "sugar",
-            "vanilla extract"
+            "0.5 cup of heavy cream",
+            "2 egg yolks",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegetarian",
@@ -122,11 +122,11 @@
         "prep_time": "1 hr (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "creme_brulee_1.jpg",
-            "creme_brulee_2.jpg",
-            "creme_brulee_3.jpg",
-            "creme_brulee_4.jpg",
-            "creme_brulee_5.jpg"
+            "creme_brulee_1.webp",
+            "creme_brulee_2.webp",
+            "creme_brulee_3.webp",
+            "creme_brulee_4.webp",
+            "creme_brulee_5.webp"
         ],
         "steps": [
             "Preheat the oven to 325\u00b0F (165\u00b0C).",
@@ -143,11 +143,11 @@
         "name": "No-Bake Peanut Butter Bars",
         "category": "Desserts",
         "ingredients": [
-            "peanut butter",
-            "butter",
-            "graham crackers",
-            "powdered sugar",
-            "chocolate chips"
+            "2 tbsp of peanut butter",
+            "2 tbsp of butter",
+            "3 graham crackers",
+            "0.5 cup of powdered sugar",
+            "0.5 cup of chocolate chips"
         ],
         "dietary": [
             "Vegetarian"
@@ -157,11 +157,11 @@
         "prep_time": "1 hr (including chilling)",
         "difficulty": "Easy",
         "images": [
-            "peanut_butter_bars_1.jpg",
-            "peanut_butter_bars_2.jpg",
-            "peanut_butter_bars_3.jpg",
-            "peanut_butter_bars_4.jpg",
-            "peanut_butter_bars_5.jpg"
+            "peanut_butter_bars_1.webp",
+            "peanut_butter_bars_2.webp",
+            "peanut_butter_bars_3.webp",
+            "peanut_butter_bars_4.webp",
+            "peanut_butter_bars_5.webp"
         ],
         "steps": [
             "In a bowl, mix peanut butter, melted butter, graham cracker crumbs, and powdered sugar until combined.",

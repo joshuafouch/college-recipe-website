@@ -4,12 +4,12 @@
         "name": "Grilled Vegetable Skewers",
         "category": "Summer",
         "ingredients": [
-            "zucchini",
-            "bell peppers",
-            "red onion",
-            "mushrooms",
-            "olive oil",
-            "herbs"
+            "1 zucchini",
+            "2 bell peppers",
+            "1 red onion",
+            "1 cup of mushrooms",
+            "2 tbsp of olive oil",
+            "2 tbsp of herbs"
         ],
         "dietary": [
             "Vegan",
@@ -39,11 +39,11 @@
         "name": "Caprese Salad",
         "category": "Summer",
         "ingredients": [
-            "tomatoes",
-            "mozzarella",
-            "basil",
-            "olive oil",
-            "balsamic glaze"
+            "2 tomatoes",
+            "4 slices of mozzarella",
+            "2 tbsp of basil",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian",
@@ -71,11 +71,11 @@
         "name": "Watermelon Feta Salad",
         "category": "Summer",
         "ingredients": [
-            "watermelon",
-            "feta cheese",
-            "mint",
-            "lime",
-            "olive oil"
+            "1 cup of watermelon",
+            "0.25 cup of feta cheese",
+            "2 tbsp of mint",
+            "1 lime",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "Vegetarian",
@@ -103,12 +103,12 @@
         "name": "Grilled Shrimp Tacos",
         "category": "Summer",
         "ingredients": [
-            "shrimp",
-            "taco shells",
-            "lime",
-            "cabbage",
-            "avocado",
-            "cilantro"
+            "6 shrimp",
+            "2 taco shells",
+            "1 lime",
+            "1.5 cups of cabbage",
+            "1 avocado",
+            "2 tbsp of cilantro"
         ],
         "dietary": [
             "High-Protein",
@@ -137,11 +137,11 @@
         "name": "Peach Iced Tea",
         "category": "Summer",
         "ingredients": [
-            "peaches",
-            "black tea",
-            "sugar",
-            "water",
-            "ice"
+            "2 peaches",
+            "1 bag of black tea",
+            "0.25 cup of sugar",
+            "1 cup of water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",

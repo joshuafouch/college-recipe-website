@@ -4,12 +4,12 @@
         "name": "Bruschetta with Tomato and Basil",
         "category": "Appetizers",
         "ingredients": [
-            "baguette",
-            "tomatoes",
-            "basil",
-            "garlic",
-            "olive oil",
-            "balsamic glaze"
+            "4 slices of baguette",
+            "2 tomatoes",
+            "2 tbsp of basil",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian"
@@ -36,12 +36,12 @@
         "name": "Stuffed Mushrooms",
         "category": "Appetizers",
         "ingredients": [
-            "mushrooms",
-            "cream cheese",
-            "parmesan cheese",
-            "garlic",
-            "breadcrumbs",
-            "parsley"
+            "1 cup of mushrooms",
+            "3 oz of cream cheese",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "0.5 cup of breadcrumbs",
+            "2 tbsp of parsley"
         ],
         "dietary": [
             "Vegetarian"
@@ -70,11 +70,11 @@
         "name": "Caprese Skewers",
         "category": "Appetizers",
         "ingredients": [
-            "cherry tomatoes",
-            "mozzarella balls",
-            "basil",
-            "olive oil",
-            "balsamic glaze"
+            "0.5 cup of cherry tomatoes",
+            "0.5 cup of mozzarella balls",
+            "2 tbsp of basil",
+            "2 tbsp of olive oil",
+            "2 tbsp of balsamic glaze"
         ],
         "dietary": [
             "Vegetarian",
@@ -102,11 +102,11 @@
         "name": "Deviled Eggs with Bacon",
         "category": "Appetizers",
         "ingredients": [
-            "eggs",
-            "mayonnaise",
-            "mustard",
-            "paprika",
-            "bacon"
+            "2 eggs",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard",
+            "1 tsp of paprika",
+            "3 slices of bacon"
         ],
         "dietary": [
             "Gluten-Free"
@@ -134,12 +134,12 @@
         "name": "Spinach and Artichoke Dip",
         "category": "Appetizers",
         "ingredients": [
-            "spinach",
-            "artichokes",
-            "cream cheese",
-            "parmesan cheese",
-            "garlic",
-            "sour cream"
+            "1 cup of spinach",
+            "2 artichokes",
+            "3 oz of cream cheese",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "0.25 cup of sour cream"
         ],
         "dietary": [
             "Vegetarian",

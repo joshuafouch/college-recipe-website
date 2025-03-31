@@ -4,12 +4,12 @@
         "name": "Chocolate Fudge Brownies",
         "category": "Desserts",
         "ingredients": [
-            "butter",
-            "sugar",
-            "cocoa powder",
-            "eggs",
-            "flour",
-            "vanilla extract"
+            "2 tbsp of butter",
+            "0.25 cup of sugar",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "1 cup of flour",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegetarian"
@@ -19,11 +19,11 @@
         "prep_time": "35 min",
         "difficulty": "Moderate",
         "images": [
-            "chocolate_brownies_1.jpg",
-            "chocolate_brownies_2.jpg",
-            "chocolate_brownies_3.jpg",
-            "chocolate_brownies_4.jpg",
-            "chocolate_brownies_5.jpg"
+            "chocolate_brownies_1.webp",
+            "chocolate_brownies_2.webp",
+            "chocolate_brownies_3.webp",
+            "chocolate_brownies_4.webp",
+            "chocolate_brownies_5.webp"
         ],
         "steps": [
             "Preheat the oven to 350\u00b0F (175\u00b0C) and grease a square baking pan.",
@@ -40,12 +40,12 @@
         "name": "Classic Apple Pie",
         "category": "Desserts",
         "ingredients": [
-            "apples",
-            "sugar",
-            "cinnamon",
-            "pie crust",
-            "butter",
-            "lemon juice"
+            "3 apples",
+            "0.25 cup of sugar",
+            "1 tsp of cinnamon",
+            "1 pie crust",
+            "2 tbsp of butter",
+            "2 tbsp of lemon juice"
         ],
         "dietary": [
             "Vegetarian"
@@ -55,11 +55,11 @@
         "prep_time": "1 hr",
         "difficulty": "Moderate",
         "images": [
-            "apple_pie_1.jpg",
-            "apple_pie_2.jpg",
-            "apple_pie_3.jpg",
-            "apple_pie_4.jpg",
-            "apple_pie_5.jpg"
+            "apple_pie_1.webp",
+            "apple_pie_2.webp",
+            "apple_pie_3.webp",
+            "apple_pie_4.webp",
+            "apple_pie_5.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",
@@ -76,12 +76,12 @@
         "name": "Lemon Cheesecake Bars",
         "category": "Desserts",
         "ingredients": [
-            "cream cheese",
-            "sugar",
-            "eggs",
-            "lemon zest",
-            "lemon juice",
-            "graham crackers"
+            "3 oz of cream cheese",
+            "0.25 cup of sugar",
+            "2 eggs",
+            "1 tsp of lemon zest",
+            "2 tbsp of lemon juice",
+            "3 graham crackers"
         ],
         "dietary": [
             "Vegetarian"
@@ -91,10 +91,10 @@
         "prep_time": "45 min",
         "difficulty": "Moderate",
         "images": [
-            "lemon_cheesecake_bars_1.jpg",
-            "lemon_cheesecake_bars_2.jpg",
-            "lemon_cheesecake_bars_3.jpg",
-            "lemon_cheesecake_bars_4.jpg"
+            "lemon_cheesecake_bars_1.webp",
+            "lemon_cheesecake_bars_2.webp",
+            "lemon_cheesecake_bars_3.webp",
+            "lemon_cheesecake_bars_4.webp"
         ],
         "steps": [
             "Preheat the oven to 325\u00b0F (165\u00b0C) and line a baking dish with parchment paper.",
@@ -111,12 +111,12 @@
         "name": "Tiramisu",
         "category": "Desserts",
         "ingredients": [
-            "ladyfingers",
-            "mascarpone cheese",
-            "coffee",
-            "cocoa powder",
-            "eggs",
-            "sugar"
+            "4 ladyfingers",
+            "3 oz of mascarpone cheese",
+            "6 oz of coffee",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "0.25 cup of sugar"
         ],
         "dietary": [
             "Vegetarian"
@@ -126,11 +126,11 @@
         "prep_time": "6 hrs (including chilling)",
         "difficulty": "Moderate",
         "images": [
-            "tiramisu_1.jpg",
-            "tiramisu_2.jpg",
-            "tiramisu_3.jpg",
-            "tiramisu_4.jpg",
-            "tiramisu_5.jpg"
+            "tiramisu_1.webp",
+            "tiramisu_2.webp",
+            "tiramisu_3.webp",
+            "tiramisu_4.webp",
+            "tiramisu_5.webp"
         ],
         "steps": [
             "Brew strong coffee and let it cool completely.",
@@ -146,11 +146,11 @@
         "name": "Vegan Chocolate Avocado Mousse",
         "category": "Desserts",
         "ingredients": [
-            "avocado",
-            "cocoa powder",
-            "maple syrup",
-            "almond milk",
-            "vanilla extract"
+            "1 avocado",
+            "2 tbsp of cocoa powder",
+            "2 tbsp of maple syrup",
+            "8 oz of almond milk",
+            "1 tsp of vanilla extract"
         ],
         "dietary": [
             "Vegan",
@@ -161,10 +161,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "chocolate_mousse_1.jpg",
-            "chocolate_mousse_2.jpg",
-            "chocolate_mousse_3.jpg",
-            "chocolate_mousse_4.jpg"
+            "chocolate_mousse_1.webp",
+            "chocolate_mousse_2.webp",
+            "chocolate_mousse_3.webp",
+            "chocolate_mousse_4.webp"
         ],
         "steps": [
             "In a blender, combine ripe avocado, cocoa powder, maple syrup, almond milk, and vanilla extract.",

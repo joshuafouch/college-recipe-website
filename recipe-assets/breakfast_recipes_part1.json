@@ -4,11 +4,11 @@
         "name": "Classic Pancakes",
         "category": "Breakfast",
         "ingredients": [
-            "flour",
-            "milk",
-            "eggs",
-            "sugar",
-            "baking powder"
+            "1 cup of flour",
+            "1 cup of milk",
+            "2 eggs",
+            "0.25 cup of sugar",
+            "1 tsp of baking powder"
         ],
         "dietary": [
             "Vegetarian"
@@ -18,8 +18,8 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "classic_pancakes_1.jpg",
-            "classic_pancakes_2.jpg"
+            "classic_pancakes_1.webp",
+            "classic_pancakes_2.webp"
         ],
         "steps": [
             "In a large mixing bowl, combine flour, sugar, and baking powder.",
@@ -37,11 +37,11 @@
         "name": "Spinach and Feta Omelette",
         "category": "Breakfast",
         "ingredients": [
-            "eggs",
-            "spinach",
-            "feta cheese",
-            "salt",
-            "pepper"
+            "2 eggs",
+            "1 cup of spinach",
+            "0.25 cup of feta cheese",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegetarian"
@@ -51,7 +51,7 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "spinach_omelette_1.jpg"
+            "spinach_omelette_1.webp"
         ],
         "steps": [
             "In a small bowl, whisk eggs with a pinch of salt and pepper.",
@@ -69,11 +69,11 @@
         "name": "Banana Oatmeal Smoothie",
         "category": "Breakfast",
         "ingredients": [
-            "banana",
-            "oats",
-            "milk",
-            "honey",
-            "vanilla"
+            "1 banana",
+            "0.75 cup of oats",
+            "1 cup of milk",
+            "1 tbsp of honey",
+            "1 tsp of vanilla"
         ],
         "dietary": [
             "Vegetarian",
@@ -84,8 +84,8 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "banana_smoothie_1.jpg",
-            "banana_smoothie_2.jpg"
+            "banana_smoothie_1.webp",
+            "banana_smoothie_2.webp"
         ],
         "steps": [
             "Peel the banana and add it to a blender.",
@@ -100,11 +100,11 @@
         "name": "Avocado Toast with Poached Egg",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "avocado",
-            "eggs",
-            "salt",
-            "pepper"
+            "2 slices of bread",
+            "1 avocado",
+            "2 eggs",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "Vegetarian"
@@ -114,8 +114,8 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "avocado_toast_1.jpg",
-            "avocado_toast_2.jpg"
+            "avocado_toast_1.webp",
+            "avocado_toast_2.webp"
         ],
         "steps": [
             "Toast slices of bread in a toaster or under the broiler until golden brown.",
@@ -134,11 +134,11 @@
         "name": "Blueberry Muffins",
         "category": "Breakfast",
         "ingredients": [
-            "flour",
-            "blueberries",
-            "milk",
-            "eggs",
-            "baking powder"
+            "1 cup of flour",
+            "0.75 cup of blueberries",
+            "1 cup of milk",
+            "2 eggs",
+            "1 tsp of baking powder"
         ],
         "dietary": [
             "Vegetarian"
@@ -148,9 +148,9 @@
         "prep_time": "25 min",
         "difficulty": "Moderate",
         "images": [
-            "blueberry_muffins_1.jpg",
-            "blueberry_muffins_2.jpg",
-            "blueberry_muffins_3.jpg"
+            "blueberry_muffins_1.webp",
+            "blueberry_muffins_2.webp",
+            "blueberry_muffins_3.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a muffin tin or line with paper liners.",

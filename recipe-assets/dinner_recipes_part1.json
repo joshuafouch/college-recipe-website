@@ -4,13 +4,13 @@
         "name": "Spaghetti Bolognese",
         "category": "Dinner",
         "ingredients": [
-            "spaghetti",
-            "ground beef",
-            "tomato sauce",
-            "onion",
-            "garlic",
-            "olive oil",
-            "parmesan cheese"
+            "1 cup of spaghetti",
+            "0.5 lb of ground beef",
+            "0.5 cup of tomato sauce",
+            "1 onion",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "0.25 cup of parmesan cheese"
         ],
         "dietary": [],
         "season": "All",
@@ -18,11 +18,11 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "spaghetti_bolognese_1.jpg",
-            "spaghetti_bolognese_2.jpg",
-            "spaghetti_bolognese_3.jpg",
-            "spaghetti_bolognese_4.jpg",
-            "spaghetti_bolognese_5.jpg"
+            "spaghetti_bolognese_1.webp",
+            "spaghetti_bolognese_2.webp",
+            "spaghetti_bolognese_3.webp",
+            "spaghetti_bolognese_4.webp",
+            "spaghetti_bolognese_5.webp"
         ],
         "steps": [
             "Cook spaghetti according to package instructions, then drain and set aside.",
@@ -37,12 +37,12 @@
         "name": "Grilled Salmon with Lemon and Dill",
         "category": "Dinner",
         "ingredients": [
-            "salmon fillets",
-            "lemon",
-            "dill",
-            "olive oil",
-            "salt",
-            "pepper"
+            "1 salmon fillet",
+            "1 lemon",
+            "1 tsp of dill",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
         ],
         "dietary": [
             "High-Protein",
@@ -53,10 +53,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "grilled_salmon_1.jpg",
-            "grilled_salmon_2.jpg",
-            "grilled_salmon_3.jpg",
-            "grilled_salmon_4.jpg"
+            "grilled_salmon_1.webp",
+            "grilled_salmon_2.webp",
+            "grilled_salmon_3.webp",
+            "grilled_salmon_4.webp"
         ],
         "steps": [
             "Preheat a grill or grill pan to medium-high heat.",
@@ -70,13 +70,13 @@
         "name": "Vegan Sweet Potato and Chickpea Stew",
         "category": "Dinner",
         "ingredients": [
-            "sweet potatoes",
-            "chickpeas",
-            "coconut milk",
-            "onion",
-            "garlic",
-            "ginger",
-            "spices"
+            "2 sweet potatoes",
+            "0.75 cup of chickpeas",
+            "1 cup of coconut milk",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tsp of ginger",
+            "1 tsp of spices"
         ],
         "dietary": [
             "Vegan",
@@ -87,11 +87,11 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "sweet_potato_stew_1.jpg",
-            "sweet_potato_stew_2.jpg",
-            "sweet_potato_stew_3.jpg",
-            "sweet_potato_stew_4.jpg",
-            "sweet_potato_stew_5.jpg"
+            "sweet_potato_stew_1.webp",
+            "sweet_potato_stew_2.webp",
+            "sweet_potato_stew_3.webp",
+            "sweet_potato_stew_4.webp",
+            "sweet_potato_stew_5.webp"
         ],
         "steps": [
             "Peel and cube the sweet potatoes, then set aside.",
@@ -107,13 +107,13 @@
         "name": "Chicken Alfredo Pasta",
         "category": "Dinner",
         "ingredients": [
-            "pasta",
-            "chicken breast",
-            "butter",
-            "cream",
-            "parmesan cheese",
-            "garlic",
-            "olive oil"
+            "1 cup of pasta",
+            "1 chicken breast",
+            "2 tbsp of butter",
+            "0.5 cup of cream",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "High-Protein"
@@ -123,11 +123,11 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "chicken_alfredo_1.jpg",
-            "chicken_alfredo_2.jpg",
-            "chicken_alfredo_3.jpg",
-            "chicken_alfredo_4.jpg",
-            "chicken_alfredo_5.jpg"
+            "chicken_alfredo_1.webp",
+            "chicken_alfredo_2.webp",
+            "chicken_alfredo_3.webp",
+            "chicken_alfredo_4.webp",
+            "chicken_alfredo_5.webp"
         ],
         "steps": [
             "Cook pasta according to package instructions, then drain and set aside.",
@@ -143,12 +143,12 @@
         "name": "Beef Tacos with Guacamole",
         "category": "Dinner",
         "ingredients": [
-            "ground beef",
-            "taco seasoning",
-            "taco shells",
-            "lettuce",
-            "cheese",
-            "guacamole"
+            "0.5 lb of ground beef",
+            "1 tbsp of taco seasoning",
+            "2 taco shells",
+            "2 leaves of lettuce",
+            "0.5 cup of cheese",
+            "0.25 cup of guacamole"
         ],
         "dietary": [],
         "season": "All",
@@ -156,12 +156,12 @@
         "prep_time": "25 min",
         "difficulty": "Easy",
         "images": [
-            "beef_tacos_1.jpg",
-            "beef_tacos_2.jpg",
-            "beef_tacos_3.jpg",
-            "beef_tacos_4.jpg",
-            "beef_tacos_5.jpg",
-            "beef_tacos_6.jpg"
+            "beef_tacos_1.webp",
+            "beef_tacos_2.webp",
+            "beef_tacos_3.webp",
+            "beef_tacos_4.webp",
+            "beef_tacos_5.webp",
+            "beef_tacos_6.webp"
         ],
         "steps": [
             "Cook ground beef in a skillet over medium heat, breaking it apart with a spoon.",

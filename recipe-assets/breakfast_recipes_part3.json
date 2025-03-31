@@ -4,10 +4,10 @@
         "name": "Peanut Butter and Banana Toast",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "peanut butter",
-            "banana",
-            "honey"
+            "2 slices of bread",
+            "2 tbsp of peanut butter",
+            "1 banana",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian"
@@ -17,9 +17,9 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "pb_banana_toast_1.jpg",
-            "pb_banana_toast_2.jpg",
-            "pb_banana_toast_3.jpg"
+            "pb_banana_toast_1.webp",
+            "pb_banana_toast_2.webp",
+            "pb_banana_toast_3.webp"
         ],
         "steps": [
             "Toast the bread slices in a toaster or under the broiler until golden brown.",
@@ -34,11 +34,11 @@
         "name": "Scrambled Eggs with Smoked Salmon",
         "category": "Breakfast",
         "ingredients": [
-            "eggs",
-            "milk",
-            "butter",
-            "smoked salmon",
-            "chives"
+            "2 eggs",
+            "1 cup of milk",
+            "2 tbsp of butter",
+            "2 oz of smoked salmon",
+            "1 tbsp of chives"
         ],
         "dietary": [
             "High-Protein"
@@ -48,9 +48,9 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "scrambled_eggs_salmon_1.jpg",
-            "scrambled_eggs_salmon_2.jpg",
-            "scrambled_eggs_salmon_3.jpg"
+            "scrambled_eggs_salmon_1.webp",
+            "scrambled_eggs_salmon_2.webp",
+            "scrambled_eggs_salmon_3.webp"
         ],
         "steps": [
             "In a bowl, whisk together eggs, milk, salt, and pepper.",
@@ -66,11 +66,11 @@
         "name": "Sweet Potato Hash with Eggs",
         "category": "Breakfast",
         "ingredients": [
-            "sweet potato",
-            "onions",
-            "bell peppers",
-            "eggs",
-            "olive oil"
+            "1 sweet potato",
+            "2 onions",
+            "2 bell peppers",
+            "2 eggs",
+            "2 tbsp of olive oil"
         ],
         "dietary": [
             "Vegetarian",
@@ -81,9 +81,9 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "sweet_potato_hash_1.jpg",
-            "sweet_potato_hash_2.jpg",
-            "sweet_potato_hash_3.jpg"
+            "sweet_potato_hash_1.webp",
+            "sweet_potato_hash_2.webp",
+            "sweet_potato_hash_3.webp"
         ],
         "steps": [
             "Peel and dice the sweet potato into small cubes.",
@@ -100,11 +100,11 @@
         "name": "Overnight Chia Pudding",
         "category": "Breakfast",
         "ingredients": [
-            "chia seeds",
-            "milk",
-            "vanilla",
-            "honey",
-            "berries"
+            "2 tbsp of chia seeds",
+            "1 cup of milk",
+            "1 tsp of vanilla",
+            "1 tbsp of honey",
+            "1 cup of berries"
         ],
         "dietary": [
             "Vegetarian",
@@ -115,9 +115,9 @@
         "prep_time": "10 min + overnight",
         "difficulty": "Easy",
         "images": [
-            "chia_pudding_1.jpg",
-            "chia_pudding_2.jpg",
-            "chia_pudding_3.jpg"
+            "chia_pudding_1.webp",
+            "chia_pudding_2.webp",
+            "chia_pudding_3.webp"
         ],
         "steps": [
             "In a jar or bowl, combine chia seeds, milk, vanilla extract, and honey.",
@@ -132,11 +132,11 @@
         "name": "Apple Cinnamon Oatmeal",
         "category": "Breakfast",
         "ingredients": [
-            "oats",
-            "milk",
-            "apple",
-            "cinnamon",
-            "brown sugar"
+            "0.75 cup of oats",
+            "1 cup of milk",
+            "2 apples",
+            "1 tsp of cinnamon",
+            "0.25 cup of brown sugar"
         ],
         "dietary": [
             "Vegetarian"
@@ -146,9 +146,9 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "apple_cinnamon_oatmeal_1.jpg",
-            "apple_cinnamon_oatmeal_2.jpg",
-            "apple_cinnamon_oatmeal_3.jpg"
+            "apple_cinnamon_oatmeal_1.webp",
+            "apple_cinnamon_oatmeal_2.webp",
+            "apple_cinnamon_oatmeal_3.webp"
         ],
         "steps": [
             "In a saucepan, combine oats, milk, and a pinch of salt.",

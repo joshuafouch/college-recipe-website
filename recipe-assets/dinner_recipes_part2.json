@@ -4,13 +4,13 @@
         "name": "Mushroom Risotto",
         "category": "Dinner",
         "ingredients": [
-            "arborio rice",
-            "mushrooms",
-            "onion",
-            "garlic",
-            "parmesan cheese",
-            "chicken broth",
-            "white wine"
+            "1 cup of arborio rice",
+            "1 cup of mushrooms",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of chicken broth",
+            "3 oz of white wine"
         ],
         "dietary": [
             "Vegetarian"
@@ -20,11 +20,11 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "mushroom_risotto_1.jpg",
-            "mushroom_risotto_2.jpg",
-            "mushroom_risotto_3.jpg",
-            "mushroom_risotto_4.jpg",
-            "mushroom_risotto_5.jpg"
+            "mushroom_risotto_1.webp",
+            "mushroom_risotto_2.webp",
+            "mushroom_risotto_3.webp",
+            "mushroom_risotto_4.webp",
+            "mushroom_risotto_5.webp"
         ],
         "steps": [
             "Heat chicken broth in a pot and keep warm over low heat.",
@@ -42,12 +42,12 @@
         "name": "Thai Green Curry with Vegetables",
         "category": "Dinner",
         "ingredients": [
-            "green curry paste",
-            "coconut milk",
-            "vegetables",
-            "tofu",
-            "basil",
-            "lime"
+            "1 tbsp of green curry paste",
+            "1 cup of coconut milk",
+            "1 cup of vegetables",
+            "0.5 block of tofu",
+            "2 tbsp of basil",
+            "1 lime"
         ],
         "dietary": [
             "Vegan",
@@ -58,12 +58,12 @@
         "prep_time": "30 min",
         "difficulty": "Easy",
         "images": [
-            "thai_green_curry_1.jpg",
-            "thai_green_curry_2.jpg",
-            "thai_green_curry_3.jpg",
-            "thai_green_curry_4.jpg",
-            "thai_green_curry_5.jpg",
-            "thai_green_curry_6.jpg"
+            "thai_green_curry_1.webp",
+            "thai_green_curry_2.webp",
+            "thai_green_curry_3.webp",
+            "thai_green_curry_4.webp",
+            "thai_green_curry_5.webp",
+            "thai_green_curry_6.webp"
         ],
         "steps": [
             "In a pot, heat a tablespoon of oil and saut\u00e9 green curry paste for 1 minute to release its aroma.",
@@ -80,11 +80,11 @@
         "name": "Roasted Herb-Crusted Chicken",
         "category": "Dinner",
         "ingredients": [
-            "chicken thighs",
-            "herbs",
-            "garlic",
-            "butter",
-            "lemon"
+            "2 chicken thighs",
+            "2 tbsp of herbs",
+            "2 cloves of garlic",
+            "2 tbsp of butter",
+            "1 lemon"
         ],
         "dietary": [
             "High-Protein",
@@ -95,11 +95,11 @@
         "prep_time": "50 min",
         "difficulty": "Moderate",
         "images": [
-            "herb_chicken_1.jpg",
-            "herb_chicken_2.jpg",
-            "herb_chicken_3.jpg",
-            "herb_chicken_4.jpg",
-            "herb_chicken_5.jpg"
+            "herb_chicken_1.webp",
+            "herb_chicken_2.webp",
+            "herb_chicken_3.webp",
+            "herb_chicken_4.webp",
+            "herb_chicken_5.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",
@@ -115,11 +115,11 @@
         "name": "BBQ Pulled Pork Sandwiches",
         "category": "Dinner",
         "ingredients": [
-            "pork shoulder",
-            "BBQ sauce",
-            "buns",
-            "coleslaw",
-            "apple cider vinegar"
+            "1 lb of pork shoulder",
+            "2 tbsp of BBQ sauce",
+            "2 buns",
+            "1 cup of coleslaw",
+            "1 tbsp of apple cider vinegar"
         ],
         "dietary": [],
         "season": "All",
@@ -127,12 +127,12 @@
         "prep_time": "6 hours (slow cook)",
         "difficulty": "Moderate",
         "images": [
-            "pulled_pork_sandwich_1.jpg",
-            "pulled_pork_sandwich_2.jpg",
-            "pulled_pork_sandwich_3.jpg",
-            "pulled_pork_sandwich_4.jpg",
-            "pulled_pork_sandwich_5.jpg",
-            "pulled_pork_sandwich_6.jpg"
+            "pulled_pork_sandwich_1.webp",
+            "pulled_pork_sandwich_2.webp",
+            "pulled_pork_sandwich_3.webp",
+            "pulled_pork_sandwich_4.webp",
+            "pulled_pork_sandwich_5.webp",
+            "pulled_pork_sandwich_6.webp"
         ],
         "steps": [
             "Season pork shoulder with salt, pepper, and your favorite BBQ rub.",
@@ -147,12 +147,12 @@
         "name": "Eggplant Parmesan",
         "category": "Dinner",
         "ingredients": [
-            "eggplant",
-            "breadcrumbs",
-            "parmesan cheese",
-            "tomato sauce",
-            "mozzarella",
-            "basil"
+            "1 eggplant",
+            "0.5 cup of breadcrumbs",
+            "0.25 cup of parmesan cheese",
+            "0.5 cup of tomato sauce",
+            "4 slices of mozzarella",
+            "2 tbsp of basil"
         ],
         "dietary": [
             "Vegetarian"
@@ -162,11 +162,11 @@
         "prep_time": "50 min",
         "difficulty": "Moderate",
         "images": [
-            "eggplant_parmesan_1.jpg",
-            "eggplant_parmesan_2.jpg",
-            "eggplant_parmesan_3.jpg",
-            "eggplant_parmesan_4.jpg",
-            "eggplant_parmesan_5.jpg"
+            "eggplant_parmesan_1.webp",
+            "eggplant_parmesan_2.webp",
+            "eggplant_parmesan_3.webp",
+            "eggplant_parmesan_4.webp",
+            "eggplant_parmesan_5.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",

@@ -4,11 +4,11 @@
         "name": "French Toast with Maple Syrup",
         "category": "Breakfast",
         "ingredients": [
-            "bread",
-            "eggs",
-            "milk",
-            "vanilla",
-            "cinnamon"
+            "2 slices of bread",
+            "2 eggs",
+            "1 cup of milk",
+            "1 tsp of vanilla",
+            "1 tsp of cinnamon"
         ],
         "dietary": [
             "Vegetarian"
@@ -18,8 +18,8 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "french_toast_1.jpg",
-            "french_toast_2.jpg"
+            "french_toast_1.webp",
+            "french_toast_2.webp"
         ],
         "steps": [
             "In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",
@@ -34,10 +34,10 @@
         "name": "Greek Yogurt Parfait with Granola and Berries",
         "category": "Breakfast",
         "ingredients": [
-            "Greek yogurt",
-            "granola",
-            "berries",
-            "honey"
+            "0.5 cup of Greek yogurt",
+            "0.5 cup of granola",
+            "1 cup of berries",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian",
@@ -48,7 +48,7 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "yogurt_parfait_1.jpg"
+            "yogurt_parfait_1.webp"
         ],
         "steps": [
             "In a tall glass or bowl, layer Greek yogurt, granola, and berries.",
@@ -61,11 +61,11 @@
         "name": "Breakfast Burrito with Scrambled Eggs and Salsa",
         "category": "Breakfast",
         "ingredients": [
-            "tortilla",
-            "eggs",
-            "cheese",
-            "salsa",
-            "bell peppers"
+            "2 tortillas",
+            "2 eggs",
+            "0.5 cup of cheese",
+            "0.5 cup of salsa",
+            "2 bell peppers"
         ],
         "dietary": [
             "Vegetarian"
@@ -75,8 +75,8 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "breakfast_burrito_1.jpg",
-            "breakfast_burrito_2.jpg"
+            "breakfast_burrito_1.webp",
+            "breakfast_burrito_2.webp"
         ],
         "steps": [
             "Whisk eggs in a bowl and season with salt and pepper.",
@@ -92,11 +92,11 @@
         "name": "Vegan Tofu Scramble",
         "category": "Breakfast",
         "ingredients": [
-            "tofu",
-            "turmeric",
-            "bell peppers",
-            "onions",
-            "spinach"
+            "0.5 block of tofu",
+            "0.5 tsp of turmeric",
+            "2 bell peppers",
+            "2 onions",
+            "1 cup of spinach"
         ],
         "dietary": [
             "Vegan",
@@ -107,7 +107,7 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "tofu_scramble_1.jpg"
+            "tofu_scramble_1.webp"
         ],
         "steps": [
             "Heat oil in a skillet over medium heat.",
@@ -122,11 +122,11 @@
         "name": "Sausage and Egg Breakfast Casserole",
         "category": "Breakfast",
         "ingredients": [
-            "sausage",
-            "eggs",
-            "milk",
-            "bread",
-            "cheese"
+            "2 sausages",
+            "2 eggs",
+            "1 cup of milk",
+            "2 slices of bread",
+            "0.5 cup of cheese"
         ],
         "dietary": [],
         "season": "All",
@@ -134,8 +134,8 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "breakfast_casserole_1.jpg",
-            "breakfast_casserole_2.jpg"
+            "breakfast_casserole_1.webp",
+            "breakfast_casserole_2.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a baking dish.",

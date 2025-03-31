@@ -4,10 +4,10 @@
         "name": "Classic Lemonade",
         "category": "Beverages",
         "ingredients": [
-            "lemons",
-            "sugar",
-            "water",
-            "ice"
+            "2 lemons",
+            "0.25 cup of sugar",
+            "1 cup of water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",
@@ -35,10 +35,10 @@
         "name": "Iced Coffee",
         "category": "Beverages",
         "ingredients": [
-            "coffee",
-            "milk",
-            "sugar",
-            "ice"
+            "6 oz of coffee",
+            "1 cup of milk",
+            "0.25 cup of sugar",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegetarian",
@@ -66,11 +66,11 @@
         "name": "Berry Smoothie",
         "category": "Beverages",
         "ingredients": [
-            "mixed berries",
-            "banana",
-            "yogurt",
-            "milk",
-            "honey"
+            "1 cup of mixed berries",
+            "1 banana",
+            "0.5 cup of yogurt",
+            "1 cup of milk",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegetarian",
@@ -98,11 +98,11 @@
         "name": "Hot Chocolate",
         "category": "Beverages",
         "ingredients": [
-            "milk",
-            "cocoa powder",
-            "sugar",
-            "vanilla extract",
-            "whipped cream"
+            "1 cup of milk",
+            "2 tbsp of cocoa powder",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla extract",
+            "0.5 cup of whipped cream"
         ],
         "dietary": [
             "Vegetarian",
@@ -130,11 +130,11 @@
         "name": "Mojito Mocktail",
         "category": "Beverages",
         "ingredients": [
-            "mint leaves",
-            "lime",
-            "sugar",
-            "sparkling water",
-            "ice"
+            "1 tbsp of mint leaves",
+            "1 lime",
+            "0.25 cup of sugar",
+            "250 ml of sparkling water",
+            "1 cup of ice"
         ],
         "dietary": [
             "Vegan",

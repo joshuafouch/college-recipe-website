@@ -4,13 +4,13 @@
         "name": "Hearty Beef Stew",
         "category": "Winter",
         "ingredients": [
-            "beef",
-            "potatoes",
-            "carrots",
-            "celery",
-            "onion",
-            "beef broth",
-            "tomato paste"
+            "0.5 lb of beef",
+            "2 potatoes",
+            "2 carrots",
+            "2 stalks of celery",
+            "1 onion",
+            "6 oz of beef broth",
+            "2 tbsp of tomato paste"
         ],
         "dietary": [],
         "season": "Winter",
@@ -38,12 +38,12 @@
         "name": "Creamy Tomato Soup",
         "category": "Winter",
         "ingredients": [
-            "tomatoes",
-            "onion",
-            "garlic",
-            "cream",
-            "vegetable broth",
-            "basil"
+            "2 tomatoes",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.5 cup of cream",
+            "8 oz of vegetable broth",
+            "2 tbsp of basil"
         ],
         "dietary": [
             "Vegetarian",
@@ -73,12 +73,12 @@
         "name": "Butternut Squash Risotto",
         "category": "Winter",
         "ingredients": [
-            "butternut squash",
-            "arborio rice",
-            "onion",
-            "garlic",
-            "parmesan cheese",
-            "vegetable broth"
+            "1 cup of butternut squash",
+            "1 cup of arborio rice",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of vegetable broth"
         ],
         "dietary": [
             "Vegetarian",
@@ -109,12 +109,12 @@
         "name": "Shepherd's Pie",
         "category": "Winter",
         "ingredients": [
-            "ground beef",
-            "mashed potatoes",
-            "carrots",
-            "peas",
-            "onion",
-            "gravy"
+            "0.5 lb of ground beef",
+            "1 cup of mashed potatoes",
+            "2 carrots",
+            "0.75 cup of peas",
+            "1 onion",
+            "0.5 cup of gravy"
         ],
         "dietary": [],
         "season": "Winter",
@@ -141,11 +141,11 @@
         "name": "Hot Spiced Apple Cider",
         "category": "Winter",
         "ingredients": [
-            "apple cider",
-            "cinnamon sticks",
-            "cloves",
-            "orange slices",
-            "honey"
+            "4 oz of apple cider",
+            "2 cinnamon sticks",
+            "3 cloves",
+            "3 orange slices",
+            "1 tbsp of honey"
         ],
         "dietary": [
             "Vegan",
