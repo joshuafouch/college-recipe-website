@@ -41,7 +41,37 @@
   --hoverLinkLight: #ffc8ab;
   --activeLink: #f4efe5;
   --visitedLink: #e1a8f1;
+}
 
+.light-mode {
+  /* LIGHT MODE COLOR SCHEME */
+  /* basic color scheme */
+  --background: #f4efe5;
+  --header: #1a1c20;
+  --footer: #1a1c20;
+
+  /* text */
+  --h1: #f6f1e7;
+  --h2: #e1a8f1;
+  --recipetitle:rgb(226, 212, 193);
+  --body: #f4efe5;
+  --bodyRecipe: black;
+
+  /* block color schemes */
+  --ingredients: #f4efe5;
+  --method: #d77c4f;
+  --edgy: #593f2f;
+
+  /* widget color scheme */
+  --greenWidget: #989d35;
+  --purpleWidget: #e1a8f1;
+  --hero: #1a1c20; 
+
+  /* link color scheme */
+  --hoverLink: #eca782;
+  --hoverLinkLight: #b5663c;
+  --activeLink: a#c54822;
+  --visitedLink: #e197f6;
 }
 
 /* font for body text */
