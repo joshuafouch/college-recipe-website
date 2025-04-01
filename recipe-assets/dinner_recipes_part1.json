@@ -66,43 +66,6 @@
         ]
     },
     {
-        "id": 28,
-        "name": "Vegan Sweet Potato and Chickpea Stew",
-        "category": "Dinner",
-        "ingredients": [
-            "2 sweet potatoes",
-            "0.75 cup of chickpeas",
-            "1 cup of coconut milk",
-            "1 onion",
-            "2 cloves of garlic",
-            "1 tsp of ginger",
-            "1 tsp of spices"
-        ],
-        "dietary": [
-            "Vegan",
-            "Gluten-Free"
-        ],
-        "season": "All",
-        "cuisine": "Indian",
-        "prep_time": "30 min",
-        "difficulty": "Moderate",
-        "images": [
-            "sweet_potato_stew_1.webp",
-            "sweet_potato_stew_2.webp",
-            "sweet_potato_stew_3.webp",
-            "sweet_potato_stew_4.webp",
-            "sweet_potato_stew_5.webp"
-        ],
-        "steps": [
-            "Peel and cube the sweet potatoes, then set aside.",
-            "In a large pot, saut\u00e9 diced onion, minced garlic, and grated ginger in oil until fragrant.",
-            "Stir in spices such as cumin, turmeric, and paprika, and cook for 1 minute.",
-            "Add the sweet potatoes, chickpeas, and coconut milk to the pot. Bring to a simmer.",
-            "Cook for 20 minutes, stirring occasionally, until the sweet potatoes are tender.",
-            "Serve hot, garnished with fresh cilantro."
-        ]
-    },
-    {
         "id": 29,
         "name": "Chicken Alfredo Pasta",
         "category": "Dinner",
