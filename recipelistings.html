@@ -46,12 +46,20 @@
        </ul>
     </nav>
 
-
     <!--Main Content-->
-    <!--temporary error message-->
-    <div class="recipe-container1" style="padding-top: 200px;">
-        <h1 style="color: red">STILL IN DEVELOPMENT</h1>
+   <div class="listing-container">
+        <h1 class="featured-header">the recipes.</h1>
+        <!--search bar-->
+
+        <!--recipe widgets
+            - needs to be dynamically added on javascript-->
+        <div class="widget-container">
+        </div>
+
     </div>
+
+
+
 
 
 
@@ -65,5 +73,18 @@
     </div>
 
 <script src="js/hamburger.js"></script>
+<script src="js/load-recipes.js"></script>
+<script src="js/featured-recipe.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const recipes = await loadAllRecipes();
+            console.log('Loaded recipes:', recipes.length); // Debug log
+            displayFeaturedRecipes(recipes);
+        } catch (err) {
+            console.error('Error in main:', err);
+        }
+    });
+</script>
 </body>
 </html>
