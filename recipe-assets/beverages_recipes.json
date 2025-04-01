@@ -1,0 +1,160 @@
+[
+    {
+        "id": 51,
+        "name": "Classic Lemonade",
+        "category": "Beverages",
+        "ingredients": [
+            "2 lemons",
+            "0.25 cup of sugar",
+            "1 cup of water",
+            "1 cup of ice"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Summer",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "classic_lemonade_1.webp",
+            "classic_lemonade_2.webp",
+            "classic_lemonade_3.webp",
+            "classic_lemonade_4.webp"
+        ],
+        "steps": [
+            "Juice the lemons and strain the juice to remove seeds.",
+            "In a large pitcher, combine lemon juice and sugar, stirring until the sugar dissolves.",
+            "Add water and ice, then stir well.",
+            "Serve chilled with lemon slices as garnish."
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Iced Coffee",
+        "category": "Beverages",
+        "ingredients": [
+            "6 oz of coffee",
+            "1 cup of milk",
+            "0.25 cup of sugar",
+            "1 cup of ice"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "5 min",
+        "difficulty": "Easy",
+        "images": [
+            "iced_coffee_1.webp",
+            "iced_coffee_2.webp",
+            "iced_coffee_3.webp",
+            "iced_coffee_4.webp"
+        ],
+        "steps": [
+            "Brew a strong cup of coffee and let it cool to room temperature.",
+            "Fill a glass with ice cubes and pour the coffee over the ice.",
+            "Add milk and sugar to taste, then stir well.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Berry Smoothie",
+        "category": "Beverages",
+        "ingredients": [
+            "1 cup of mixed berries",
+            "1 banana",
+            "0.5 cup of yogurt",
+            "1 cup of milk",
+            "1 tbsp of honey"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "5 min",
+        "difficulty": "Easy",
+        "images": [
+            "berry_smoothie_1.webp",
+            "berry_smoothie_2.webp",
+            "berry_smoothie_3.webp",
+            "berry_smoothie_4.webp"
+        ],
+        "steps": [
+            "Add mixed berries, banana, yogurt, milk, and honey to a blender.",
+            "Blend on high speed until smooth and creamy.",
+            "Taste and adjust sweetness by adding more honey if needed.",
+            "Pour into a glass and serve immediately."
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Hot Chocolate",
+        "category": "Beverages",
+        "ingredients": [
+            "1 cup of milk",
+            "2 tbsp of cocoa powder",
+            "0.25 cup of sugar",
+            "1 tsp of vanilla extract",
+            "0.5 cup of whipped cream"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Winter",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "hot_chocolate_1.webp",
+            "hot_chocolate_2.webp",
+            "hot_chocolate_3.webp",
+            "hot_chocolate_4.webp"
+        ],
+        "steps": [
+            "In a small saucepan, heat milk over medium heat until steaming.",
+            "Whisk in cocoa powder, sugar, and a splash of vanilla extract until smooth.",
+            "Pour the hot chocolate into a mug and top with whipped cream.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Mojito Mocktail",
+        "category": "Beverages",
+        "ingredients": [
+            "1 tbsp of mint leaves",
+            "1 lime",
+            "0.25 cup of sugar",
+            "250 ml of sparkling water",
+            "1 cup of ice"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Cuban",
+        "prep_time": "5 min",
+        "difficulty": "Easy",
+        "images": [
+            "mojito_mocktail_1.webp",
+            "mojito_mocktail_2.webp",
+            "mojito_mocktail_3.webp",
+            "mojito_mocktail_4.webp"
+        ],
+        "steps": [
+            "In a glass, muddle mint leaves, lime juice, and sugar until fragrant.",
+            "Fill the glass with ice and top with sparkling water.",
+            "Stir gently and garnish with additional mint leaves and lime slices.",
+            "Serve immediately."
+        ]
+    }
+]

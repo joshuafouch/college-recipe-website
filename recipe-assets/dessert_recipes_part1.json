@@ -1,0 +1,176 @@
+[
+    {
+        "id": 41,
+        "name": "Chocolate Fudge Brownies",
+        "category": "Desserts",
+        "ingredients": [
+            "2 tbsp of butter",
+            "0.25 cup of sugar",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "1 cup of flour",
+            "1 tsp of vanilla extract"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "35 min",
+        "difficulty": "Moderate",
+        "images": [
+            "chocolate_brownies_1.webp",
+            "chocolate_brownies_2.webp",
+            "chocolate_brownies_3.webp",
+            "chocolate_brownies_4.webp",
+            "chocolate_brownies_5.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 350\u00b0F (175\u00b0C) and grease a square baking pan.",
+            "Melt butter in a saucepan over low heat, then stir in sugar and cocoa powder.",
+            "Remove from heat and whisk in eggs and vanilla extract.",
+            "Gently fold in flour until just combined.",
+            "Pour the batter into the prepared pan and spread evenly.",
+            "Bake for 20-25 minutes, or until a toothpick inserted in the center comes out clean.",
+            "Cool completely before cutting into squares."
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Classic Apple Pie",
+        "category": "Desserts",
+        "ingredients": [
+            "3 apples",
+            "0.25 cup of sugar",
+            "1 tsp of cinnamon",
+            "1 pie crust",
+            "2 tbsp of butter",
+            "2 tbsp of lemon juice"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Autumn",
+        "cuisine": "American",
+        "prep_time": "1 hr",
+        "difficulty": "Moderate",
+        "images": [
+            "apple_pie_1.webp",
+            "apple_pie_2.webp",
+            "apple_pie_3.webp",
+            "apple_pie_4.webp",
+            "apple_pie_5.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Peel, core, and slice the apples, then toss them with sugar, cinnamon, and lemon juice.",
+            "Roll out one pie crust and fit it into a pie dish.",
+            "Fill the crust with the apple mixture and dot with small pieces of butter.",
+            "Roll out the second pie crust and place it over the apples, sealing the edges and cutting small vents in the top.",
+            "Bake for 45-50 minutes, or until the crust is golden brown and the filling is bubbly.",
+            "Cool slightly before serving."
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Lemon Cheesecake Bars",
+        "category": "Desserts",
+        "ingredients": [
+            "3 oz of cream cheese",
+            "0.25 cup of sugar",
+            "2 eggs",
+            "1 tsp of lemon zest",
+            "2 tbsp of lemon juice",
+            "3 graham crackers"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Spring",
+        "cuisine": "American",
+        "prep_time": "45 min",
+        "difficulty": "Moderate",
+        "images": [
+            "lemon_cheesecake_bars_1.webp",
+            "lemon_cheesecake_bars_2.webp",
+            "lemon_cheesecake_bars_3.webp",
+            "lemon_cheesecake_bars_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 325\u00b0F (165\u00b0C) and line a baking dish with parchment paper.",
+            "Crush graham crackers into fine crumbs and mix with melted butter and sugar to form a crust.",
+            "Press the crust mixture into the bottom of the prepared baking dish and bake for 10 minutes.",
+            "In a large bowl, beat cream cheese, sugar, eggs, lemon zest, and lemon juice until smooth.",
+            "Pour the cream cheese mixture over the crust and spread evenly.",
+            "Bake for 30-35 minutes, or until set.",
+            "Cool completely before cutting into bars."
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Tiramisu",
+        "category": "Desserts",
+        "ingredients": [
+            "4 ladyfingers",
+            "3 oz of mascarpone cheese",
+            "6 oz of coffee",
+            "2 tbsp of cocoa powder",
+            "2 eggs",
+            "0.25 cup of sugar"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "6 hrs (including chilling)",
+        "difficulty": "Moderate",
+        "images": [
+            "tiramisu_1.webp",
+            "tiramisu_2.webp",
+            "tiramisu_3.webp",
+            "tiramisu_4.webp",
+            "tiramisu_5.webp"
+        ],
+        "steps": [
+            "Brew strong coffee and let it cool completely.",
+            "In a bowl, whisk egg yolks and sugar until pale and creamy, then fold in mascarpone cheese.",
+            "Dip ladyfingers into the coffee and layer them in a dish.",
+            "Spread half of the mascarpone mixture over the ladyfingers.",
+            "Repeat the layers, finishing with the mascarpone mixture.",
+            "Dust the top with cocoa powder and refrigerate for at least 6 hours before serving."
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Vegan Chocolate Avocado Mousse",
+        "category": "Desserts",
+        "ingredients": [
+            "1 avocado",
+            "2 tbsp of cocoa powder",
+            "2 tbsp of maple syrup",
+            "8 oz of almond milk",
+            "1 tsp of vanilla extract"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "chocolate_mousse_1.webp",
+            "chocolate_mousse_2.webp",
+            "chocolate_mousse_3.webp",
+            "chocolate_mousse_4.webp"
+        ],
+        "steps": [
+            "In a blender, combine ripe avocado, cocoa powder, maple syrup, almond milk, and vanilla extract.",
+            "Blend until smooth and creamy, scraping down the sides as needed.",
+            "Taste and adjust sweetness by adding more maple syrup if desired.",
+            "Spoon the mousse into serving dishes and refrigerate for 30 minutes before serving."
+        ]
+    }
+]

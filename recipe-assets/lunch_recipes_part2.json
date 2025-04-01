@@ -1,0 +1,174 @@
+[
+    {
+        "id": 21,
+        "name": "Turkey and Swiss Wrap",
+        "category": "Lunch",
+        "ingredients": [
+            "2 tortillas",
+            "3 slices of turkey",
+            "3 slices of swiss cheese",
+            "2 leaves of lettuce",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard"
+        ],
+        "dietary": [
+            "High-Protein"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "turkey_swiss_wrap_1.webp",
+            "turkey_swiss_wrap_2.webp",
+            "turkey_swiss_wrap_3.webp",
+            "turkey_swiss_wrap_4.webp"
+        ],
+        "steps": [
+            "Lay the tortilla flat on a clean surface.",
+            "Spread mayonnaise and mustard evenly over the tortilla.",
+            "Layer turkey slices, Swiss cheese, and lettuce in the center.",
+            "Fold in the sides of the tortilla, then roll it tightly into a wrap.",
+            "Slice in half and serve immediately."
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Creamy Butternut Squash Soup",
+        "category": "Lunch",
+        "ingredients": [
+            "1 cup of butternut squash",
+            "1 onion",
+            "2 cloves of garlic",
+            "8 oz of vegetable broth",
+            "0.5 cup of cream",
+            "0.5 tsp of nutmeg"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Winter",
+        "cuisine": "American",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "butternut_squash_soup_1.webp",
+            "butternut_squash_soup_2.webp",
+            "butternut_squash_soup_3.webp",
+            "butternut_squash_soup_4.webp",
+            "butternut_squash_soup_5.webp"
+        ],
+        "steps": [
+            "Peel and cube the butternut squash.",
+            "In a large pot, saut\u00e9 diced onion and garlic in olive oil until soft.",
+            "Add the squash and vegetable broth, then bring to a boil.",
+            "Reduce heat and simmer for 20 minutes, or until the squash is tender.",
+            "Use an immersion blender to puree the soup until smooth.",
+            "Stir in cream and a pinch of nutmeg, then season with salt and pepper.",
+            "Serve hot with a drizzle of cream and a sprinkle of nutmeg."
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Tuna Salad Lettuce Wraps",
+        "category": "Lunch",
+        "ingredients": [
+            "1 can of tuna",
+            "1.5 tbsp of mayonnaise",
+            "2 stalks of celery",
+            "3 lettuce leaves",
+            "2 tbsp of lemon juice"
+        ],
+        "dietary": [
+            "High-Protein",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "tuna_salad_wraps_1.webp",
+            "tuna_salad_wraps_2.webp",
+            "tuna_salad_wraps_3.webp",
+            "tuna_salad_wraps_4.webp"
+        ],
+        "steps": [
+            "In a bowl, mix tuna, mayonnaise, diced celery, and a splash of lemon juice.",
+            "Season with salt and pepper to taste.",
+            "Spoon the tuna salad onto large lettuce leaves.",
+            "Wrap the lettuce around the tuna mixture to form a wrap.",
+            "Serve immediately or chill before serving."
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Vegetarian Lentil Curry",
+        "category": "Lunch",
+        "ingredients": [
+            "1 cup of lentils",
+            "1 cup of coconut milk",
+            "2 onions",
+            "2 tomatoes",
+            "1 tbsp of curry powder",
+            "2 tbsp of cilantro"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Indian",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "lentil_curry_1.webp",
+            "lentil_curry_2.webp",
+            "lentil_curry_3.webp",
+            "lentil_curry_4.webp",
+            "lentil_curry_5.webp"
+        ],
+        "steps": [
+            "Rinse lentils under cold water until the water runs clear.",
+            "In a large pot, saut\u00e9 diced onions in oil until golden brown.",
+            "Add curry powder and cook for 1 minute to release the aroma.",
+            "Stir in chopped tomatoes, lentils, and coconut milk.",
+            "Simmer for 20 minutes, stirring occasionally, until the lentils are tender.",
+            "Season with salt and pepper, then garnish with fresh cilantro before serving."
+        ]
+    },
+    {
+        "id": 25,
+        "name": "BLT Sandwich",
+        "category": "Lunch",
+        "ingredients": [
+            "2 slices of bread",
+            "3 slices of bacon",
+            "2 leaves of lettuce",
+            "2 tomatoes",
+            "1.5 tbsp of mayonnaise"
+        ],
+        "dietary": [],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "blt_sandwich_1.webp",
+            "blt_sandwich_2.webp",
+            "blt_sandwich_3.webp",
+            "blt_sandwich_4.webp",
+            "blt_sandwich_5.webp",
+            "blt_sandwich_6.webp"
+        ],
+        "steps": [
+            "Cook bacon in a skillet over medium heat until crispy, then drain on paper towels.",
+            "Toast bread slices until golden brown.",
+            "Spread mayonnaise on one side of each slice of bread.",
+            "Layer lettuce, tomato slices, and bacon on one slice of bread.",
+            "Top with the second slice of bread and press gently.",
+            "Cut in half and serve immediately."
+        ]
+    }
+]

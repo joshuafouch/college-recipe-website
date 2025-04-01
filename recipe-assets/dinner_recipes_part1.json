@@ -1,0 +1,137 @@
+[
+    {
+        "id": 26,
+        "name": "Spaghetti Bolognese",
+        "category": "Dinner",
+        "ingredients": [
+            "1 cup of spaghetti",
+            "0.5 lb of ground beef",
+            "0.5 cup of tomato sauce",
+            "1 onion",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "0.25 cup of parmesan cheese"
+        ],
+        "dietary": [],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "spaghetti_bolognese_1.webp",
+            "spaghetti_bolognese_2.webp",
+            "spaghetti_bolognese_3.webp",
+            "spaghetti_bolognese_4.webp",
+            "spaghetti_bolognese_5.webp"
+        ],
+        "steps": [
+            "Cook spaghetti according to package instructions, then drain and set aside.",
+            "Heat olive oil in a large skillet over medium heat. Saut\u00e9 diced onion and minced garlic until soft.",
+            "Add ground beef to the skillet and cook until browned, breaking it apart with a wooden spoon.",
+            "Stir in tomato sauce, salt, and pepper. Simmer for 20 minutes, stirring occasionally.",
+            "Serve the Bolognese sauce over the spaghetti and top with grated parmesan cheese."
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Grilled Salmon with Lemon and Dill",
+        "category": "Dinner",
+        "ingredients": [
+            "1 salmon fillet",
+            "1 lemon",
+            "1 tsp of dill",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
+        ],
+        "dietary": [
+            "High-Protein",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "grilled_salmon_1.webp",
+            "grilled_salmon_2.webp",
+            "grilled_salmon_3.webp",
+            "grilled_salmon_4.webp"
+        ],
+        "steps": [
+            "Preheat a grill or grill pan to medium-high heat.",
+            "Brush salmon fillets with olive oil and season with salt, pepper, and fresh dill.",
+            "Grill the salmon for 4-5 minutes per side, or until cooked through.",
+            "Squeeze fresh lemon juice over the salmon before serving."
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Chicken Alfredo Pasta",
+        "category": "Dinner",
+        "ingredients": [
+            "1 cup of pasta",
+            "1 chicken breast",
+            "2 tbsp of butter",
+            "0.5 cup of cream",
+            "0.25 cup of parmesan cheese",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
+        ],
+        "dietary": [
+            "High-Protein"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "chicken_alfredo_1.webp",
+            "chicken_alfredo_2.webp",
+            "chicken_alfredo_3.webp",
+            "chicken_alfredo_4.webp",
+            "chicken_alfredo_5.webp"
+        ],
+        "steps": [
+            "Cook pasta according to package instructions, then drain and set aside.",
+            "Season chicken breasts with salt and pepper, then cook in a skillet with olive oil until golden and cooked through. Slice into strips.",
+            "In a separate pan, melt butter over medium heat and saut\u00e9 minced garlic until fragrant.",
+            "Stir in cream and grated parmesan cheese, cooking until the sauce thickens.",
+            "Toss the cooked pasta in the Alfredo sauce, then top with sliced chicken.",
+            "Serve hot with additional parmesan cheese, if desired."
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Beef Tacos with Guacamole",
+        "category": "Dinner",
+        "ingredients": [
+            "0.5 lb of ground beef",
+            "1 tbsp of taco seasoning",
+            "2 taco shells",
+            "2 leaves of lettuce",
+            "0.5 cup of cheese",
+            "0.25 cup of guacamole"
+        ],
+        "dietary": [],
+        "season": "All",
+        "cuisine": "Mexican",
+        "prep_time": "25 min",
+        "difficulty": "Easy",
+        "images": [
+            "beef_tacos_1.webp",
+            "beef_tacos_2.webp",
+            "beef_tacos_3.webp",
+            "beef_tacos_4.webp",
+            "beef_tacos_5.webp",
+            "beef_tacos_6.webp"
+        ],
+        "steps": [
+            "Cook ground beef in a skillet over medium heat, breaking it apart with a spoon.",
+            "Stir in taco seasoning and a splash of water. Simmer for 5 minutes.",
+            "Warm taco shells in the oven or on the stovetop.",
+            "Fill each taco shell with the seasoned beef, shredded lettuce, and cheese.",
+            "Top with a dollop of guacamole and serve immediately."
+        ]
+    }
+]

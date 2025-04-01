@@ -1,0 +1,171 @@
+[
+    {
+        "id": 61,
+        "name": "Hearty Beef Stew",
+        "category": "Winter",
+        "ingredients": [
+            "0.5 lb of beef",
+            "2 potatoes",
+            "2 carrots",
+            "2 stalks of celery",
+            "1 onion",
+            "6 oz of beef broth",
+            "2 tbsp of tomato paste"
+        ],
+        "dietary": [],
+        "season": "Winter",
+        "cuisine": "American",
+        "prep_time": "2 hrs",
+        "difficulty": "Moderate",
+        "images": [
+            "hearty_beef_stew_1.webp",
+            "hearty_beef_stew_2.webp",
+            "hearty_beef_stew_3.webp",
+            "hearty_beef_stew_4.webp"
+        ],
+        "steps": [
+            "Cut the beef into bite-sized pieces and season with salt and pepper.",
+            "In a large pot, heat oil and sear the beef until browned on all sides, then remove from the pot.",
+            "Saut\u00e9 diced onion, carrots, and celery in the same pot until softened.",
+            "Stir in tomato paste and cook for 1 minute.",
+            "Return the beef to the pot and add beef broth and cubed potatoes.",
+            "Bring to a boil, then reduce heat and simmer for 1.5 hours, or until the beef is tender.",
+            "Serve hot with crusty bread."
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Creamy Tomato Soup",
+        "category": "Winter",
+        "ingredients": [
+            "2 tomatoes",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.5 cup of cream",
+            "8 oz of vegetable broth",
+            "2 tbsp of basil"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Winter",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "creamy_tomato_soup_1.webp",
+            "creamy_tomato_soup_2.webp",
+            "creamy_tomato_soup_3.webp",
+            "creamy_tomato_soup_4.webp"
+        ],
+        "steps": [
+            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until soft.",
+            "Add chopped tomatoes and cook for 10 minutes, stirring occasionally.",
+            "Pour in vegetable broth and simmer for another 10 minutes.",
+            "Blend the soup until smooth using an immersion blender.",
+            "Stir in cream and season with salt, pepper, and fresh basil.",
+            "Serve hot with croutons or grilled cheese."
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Butternut Squash Risotto",
+        "category": "Winter",
+        "ingredients": [
+            "1 cup of butternut squash",
+            "1 cup of arborio rice",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of vegetable broth"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Winter",
+        "cuisine": "Italian",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "butternut_squash_risotto_1.webp",
+            "butternut_squash_risotto_2.webp",
+            "butternut_squash_risotto_3.webp",
+            "butternut_squash_risotto_4.webp"
+        ],
+        "steps": [
+            "Peel and cube the butternut squash, then roast in the oven at 400\u00b0F (200\u00b0C) for 20 minutes, or until tender.",
+            "In a large skillet, saut\u00e9 diced onion and minced garlic in olive oil until soft.",
+            "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
+            "Add a ladle of warm vegetable broth to the skillet and stir until absorbed.",
+            "Continue adding broth, one ladle at a time, until the rice is tender and creamy, about 20 minutes.",
+            "Fold in the roasted butternut squash and grated parmesan cheese.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Shepherd's Pie",
+        "category": "Winter",
+        "ingredients": [
+            "0.5 lb of ground beef",
+            "1 cup of mashed potatoes",
+            "2 carrots",
+            "0.75 cup of peas",
+            "1 onion",
+            "0.5 cup of gravy"
+        ],
+        "dietary": [],
+        "season": "Winter",
+        "cuisine": "British",
+        "prep_time": "1 hr",
+        "difficulty": "Moderate",
+        "images": [
+            "shepherds_pie_1.webp",
+            "shepherds_pie_2.webp",
+            "shepherds_pie_3.webp",
+            "shepherds_pie_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "In a skillet, cook ground beef with diced onion until browned. Drain excess fat.",
+            "Stir in chopped carrots, peas, and prepared gravy. Simmer for 10 minutes.",
+            "Spread the beef mixture evenly in a baking dish and top with a thick layer of mashed potatoes.",
+            "Bake for 25-30 minutes, or until the top is golden brown.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Hot Spiced Apple Cider",
+        "category": "Winter",
+        "ingredients": [
+            "4 oz of apple cider",
+            "2 cinnamon sticks",
+            "3 cloves",
+            "3 orange slices",
+            "1 tbsp of honey"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Winter",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "hot_spiced_cider_1.webp",
+            "hot_spiced_cider_2.webp",
+            "hot_spiced_cider_3.webp",
+            "hot_spiced_cider_4.webp"
+        ],
+        "steps": [
+            "In a large pot, combine apple cider, cinnamon sticks, cloves, and orange slices.",
+            "Heat over medium heat until steaming, then reduce to low and simmer for 10 minutes.",
+            "Stir in honey to taste and remove the spices before serving.",
+            "Serve warm in mugs."
+        ]
+    }
+]
