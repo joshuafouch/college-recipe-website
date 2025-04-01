@@ -381,7 +381,7 @@ nav ul div.items a:hover {
 }
 
 /* featured recipe section */
-.featured-container {
+.featured-container, .listing-container {
   padding-top: 20px;
   padding-bottom: 20px;
   width:90%;
@@ -402,7 +402,11 @@ nav ul div.items a:hover {
   text-align: center;
 }
 
-.featured-container .featured-header {
+.listing-container {
+  margin-top: 150px;
+}
+
+.featured-container .featured-header, .listing-container .featured-header {
   color: black;
   font-size: 45px;
   margin-bottom: 50px;
@@ -410,7 +414,7 @@ nav ul div.items a:hover {
   width: 100%;
 }
 
-.featured-container .widget-container {
+.featured-container .widget-container, .listing-container .widget-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 100px;
@@ -423,7 +427,7 @@ nav ul div.items a:hover {
   flex-wrap: wrap;
 }
 
-.featured-container .widget-container .recipe-widget {
+.featured-container .widget-container .recipe-widget, .listing-container .widget-container .recipe-widget {
   aspect-ratio: 1/1;
   width: 300px;
   height: 300px;
@@ -434,7 +438,7 @@ nav ul div.items a:hover {
   cursor: pointer;
 }
 
-.featured-container .widget-container .recipe-widget .overlay {
+.featured-container .widget-container .recipe-widget .overlay, .listing-container .widget-container .recipe-widget .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -450,22 +454,22 @@ nav ul div.items a:hover {
   color: white;
 }
 
-.featured-container .widget-container .recipe-widget:hover .overlay {
+.featured-container .widget-container .recipe-widget:hover .overlay, .listing-container .widget-container .recipe-widget:hover .overlay {
   opacity: 1;
 }
 
-.featured-container .widget-container .recipe-widget .overlay h1 {
+.featured-container .widget-container .recipe-widget .overlay h1, .listing-container .widget-container .recipe-widget .overlay h1 {
   font-size: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.featured-container .widget-container .recipe-widget .overlay p {
+.featured-container .widget-container .recipe-widget .overlay p, .listing-container .widget-container .recipe-widget .overlay p {
   font-size: 20px;
   text-align: center;
 }
 
-.featured-container .widget-container .recipe-widget img {
+.featured-container .widget-container .recipe-widget img, .listing-container .widget-container .recipe-widget img {
   display: block;
   top: 0;
   left: 0;
@@ -473,6 +477,7 @@ nav ul div.items a:hover {
   height: 100%;
   object-fit: cover;
 }
+
 
 /* recipe genre section */
 /* footer */

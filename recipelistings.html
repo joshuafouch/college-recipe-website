@@ -58,11 +58,6 @@
 
     </div>
 
-
-
-
-
-
     <!--Footer-->
    <div class="recipe-container1">
         <footer class="main-footer">
@@ -74,13 +69,13 @@
 
 <script src="js/hamburger.js"></script>
 <script src="js/load-recipes.js"></script>
-<script src="js/featured-recipe.js"></script>
+<script src="js/recipe-listing.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', async () => {
         try {
             const recipes = await loadAllRecipes();
             console.log('Loaded recipes:', recipes.length); // Debug log
-            displayFeaturedRecipes(recipes);
+            displayListingRecipes(recipes);
         } catch (err) {
             console.error('Error in main:', err);
         }
