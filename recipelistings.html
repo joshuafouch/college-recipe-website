@@ -51,9 +51,19 @@
         <h1 class="featured-header">the recipes.</h1>
         <!--search bar-->
 
-        <!--recipe widgets
-            - needs to be dynamically added on javascript-->
+        <!--recipe widgets-->
         <div class="widget-container">
+        <div class="recipe-widget">
+            <a href="recipe.html" style="text-decoration: none; color: inherit;">
+                <div class="recipe-widget-img">
+                    <img src="./recipe-assets/vegan_chocolate_avocado_mousse_1.webp" alt="bruh">
+                </div>
+                <div class="recipe-widget-info">
+                    <h2>Bruh Chocolate</h2>
+                    <p>Prep Time: 5 min</p>
+                </div>
+            </a>
+        </div>
         </div>
 
     </div>
@@ -75,7 +85,7 @@
         try {
             const recipes = await loadAllRecipes();
             console.log('Loaded recipes:', recipes.length); // Debug log
-            displayListingRecipes(recipes);
+            // displayListingRecipes(recipes);
         } catch (err) {
             console.error('Error in main:', err);
         }
