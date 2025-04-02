@@ -35,6 +35,7 @@
   --greenWidget: #989d35;
   --purpleWidget: #e1a8f1;
   --hero: #1a1c20; 
+  --search: #c0c748;
 
   /* link color scheme */
   --hoverLink: #bf4403;
@@ -228,7 +229,7 @@ nav ul div.items a:hover {
   align-items: center;
   padding: var(--searchPadding);
   border-radius: 50px;
-  background: var(--body);
+  background: var(--search);
   width: 200px; 
   transition: 0.25s; 
 }
@@ -241,7 +242,7 @@ nav ul div.items a:hover {
 .searchInput {
   font-size: 14px;
   font-family: LibreBaskerville; /* couldn't work out which font used for nav bar. Should be consistent fonts though */
-  color: var(--edgy);
+  color: var(--background);
   margin-left: var(--searchPadding);
   outline: none;
   border: none; 

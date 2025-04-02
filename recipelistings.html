@@ -35,17 +35,6 @@
                 <li><a href="submissions.html">Submit</a></li>
                 <li><a href="about.html">About</a></li>
             </div>
-            <!-- 
-            <form action="/search?"></form>
-                <div class="searchBox">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                    <input class="searchInput" type="search" placeholder="Hungry?">
-                    <button class="searchButton" type="submit">Go</button>
-                </div>
-            </form>
-            -->
 
             <button onclick="toggleLightMode()"> Light Mode </button>
        </ul>
@@ -56,6 +45,16 @@
         <h1 class="featured-header">the recipes.</h1>
         <!--search bar-->
 
+        <form action="/search?">
+                <div class="searchBox">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <input class="searchInput" type="search" placeholder="Hungry?" id="myInput" onkeyup="searchRecipe()">
+                   <!-- <button class="searchButton" type="submit">Go</button> --> 
+                </div>
+            </form>
+<br><br><br>
         <!--recipe widgets-->
         <div class="widget-container">
         </div>
@@ -74,15 +73,26 @@
 <script src="js/load-recipes.js"></script>
 <script src="js/recipe-listing.js"></script>
 <script>
+
+    let allRecipes = [];
+
     document.addEventListener('DOMContentLoaded', async () => {
         try {
             const recipes = await loadAllRecipes();
+            allRecipes = recipes;
             console.log('Loaded recipes:', recipes.length); // Debug log
             displayListingRecipes(recipes);
         } catch (err) {
             console.error('Error in main:', err);
         }
     });
+
+    function searchRecipe() {
+        const input = document.getElementById("myInput").value.toLowerCase();
+        const filteredRecipes = allRecipes.filter(recipe => 
+             recipe.name.toLowerCase().includes(input) );
+        displayListingRecipes(filteredRecipes);
+    }
 </script>
 </body>
 </html>
