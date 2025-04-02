@@ -11,7 +11,7 @@ function displayFeaturedRecipes(recipes) {
     container.innerHTML = featured.map(recipe => `
         <div class="recipe-widget">
                 <img src="./recipe-assets/${recipe.images[0]}" alt="${recipe.name}">
-                <a href="recipe.html" class="overlay">
+                <a href="recipe.html?id=${recipe.id}" class="overlay">
                     <h1>${recipe.name}</h1>
                 </a>
             </div>

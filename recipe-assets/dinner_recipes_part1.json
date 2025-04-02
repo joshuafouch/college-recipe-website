@@ -53,16 +53,53 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "grilled_salmon_1.webp",
-            "grilled_salmon_2.webp",
-            "grilled_salmon_3.webp",
-            "grilled_salmon_4.webp"
+            "grilled_salmon_with_lemon_and_dill_1.webp",
+            "grilled_salmon_with_lemon_and_dill_2.webp",
+            "grilled_salmon_with_lemon_and_dill_3.webp",
+            "grilled_salmon_with_lemon_and_dill_4.webp"
         ],
         "steps": [
             "Preheat a grill or grill pan to medium-high heat.",
             "Brush salmon fillets with olive oil and season with salt, pepper, and fresh dill.",
             "Grill the salmon for 4-5 minutes per side, or until cooked through.",
             "Squeeze fresh lemon juice over the salmon before serving."
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Vegan Sweet Potato and Chickpea Stew",
+        "category": "Dinner",
+        "ingredients": [
+            "2 sweet potatoes",
+            "0.75 cup of chickpeas",
+            "1 cup of coconut milk",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tsp of ginger",
+            "1 tsp of spices"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Indian",
+        "prep_time": "30 min",
+        "difficulty": "Moderate",
+        "images": [
+            "sweet_potato_hash_with_eggs_1.webp",
+            "sweet_potato_hash_with_eggs_2.webp",
+            "sweet_potato_hash_with_eggs_3.webp",
+            "sweet_potato_hash_with_eggs_4.webp",
+            "sweet_potato_hash_with_eggs_5.webp"
+        ],
+        "steps": [
+            "Peel and cube the sweet potatoes, then set aside.",
+            "In a large pot, saut\u00e9 diced onion, minced garlic, and grated ginger in oil until fragrant.",
+            "Stir in spices such as cumin, turmeric, and paprika, and cook for 1 minute.",
+            "Add the sweet potatoes, chickpeas, and coconut milk to the pot. Bring to a simmer.",
+            "Cook for 20 minutes, stirring occasionally, until the sweet potatoes are tender.",
+            "Serve hot, garnished with fresh cilantro."
         ]
     },
     {
@@ -86,11 +123,11 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "chicken_alfredo_1.webp",
-            "chicken_alfredo_2.webp",
-            "chicken_alfredo_3.webp",
-            "chicken_alfredo_4.webp",
-            "chicken_alfredo_5.webp"
+            "chicken_alfredo_pasta_1.webp",
+            "chicken_alfredo_pasta_2.webp",
+            "chicken_alfredo_pasta_3.webp",
+            "chicken_alfredo_pasta_4.webp",
+            "chicken_alfredo_pasta_5.webp"
         ],
         "steps": [
             "Cook pasta according to package instructions, then drain and set aside.",
@@ -119,12 +156,12 @@
         "prep_time": "25 min",
         "difficulty": "Easy",
         "images": [
-            "beef_tacos_1.webp",
-            "beef_tacos_2.webp",
-            "beef_tacos_3.webp",
-            "beef_tacos_4.webp",
-            "beef_tacos_5.webp",
-            "beef_tacos_6.webp"
+            "beef_tacos_with_guacamole_1.webp",
+            "beef_tacos_with_guacamole_2.webp",
+            "beef_tacos_with_guacamole_3.webp",
+            "beef_tacos_with_guacamole_4.webp",
+            "beef_tacos_with_guacamole_5.webp",
+            "beef_tacos_with_guacamole_6.webp"
         ],
         "steps": [
             "Cook ground beef in a skillet over medium heat, breaking it apart with a spoon.",

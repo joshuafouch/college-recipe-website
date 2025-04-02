@@ -19,10 +19,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "turkey_swiss_wrap_1.webp",
-            "turkey_swiss_wrap_2.webp",
-            "turkey_swiss_wrap_3.webp",
-            "turkey_swiss_wrap_4.webp"
+            "turkey_and_swiss_wrap_1.webp",
+            "turkey_and_swiss_wrap_2.webp",
+            "turkey_and_swiss_wrap_3.webp",
+            "turkey_and_swiss_wrap_4.webp"
         ],
         "steps": [
             "Lay the tortilla flat on a clean surface.",
@@ -53,11 +53,11 @@
         "prep_time": "40 min",
         "difficulty": "Moderate",
         "images": [
-            "butternut_squash_soup_1.webp",
-            "butternut_squash_soup_2.webp",
-            "butternut_squash_soup_3.webp",
-            "butternut_squash_soup_4.webp",
-            "butternut_squash_soup_5.webp"
+            "creamy_butternut_squash_soup_1.webp",
+            "creamy_butternut_squash_soup_2.webp",
+            "creamy_butternut_squash_soup_3.webp",
+            "creamy_butternut_squash_soup_4.webp",
+            "creamy_butternut_squash_soup_5.webp"
         ],
         "steps": [
             "Peel and cube the butternut squash.",
@@ -89,10 +89,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "tuna_salad_wraps_1.webp",
-            "tuna_salad_wraps_2.webp",
-            "tuna_salad_wraps_3.webp",
-            "tuna_salad_wraps_4.webp"
+            "tuna_salad_lettuce_wraps_1.webp",
+            "tuna_salad_lettuce_wraps_2.webp",
+            "tuna_salad_lettuce_wraps_3.webp",
+            "tuna_salad_lettuce_wraps_4.webp"
         ],
         "steps": [
             "In a bowl, mix tuna, mayonnaise, diced celery, and a splash of lemon juice.",
@@ -123,11 +123,11 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "lentil_curry_1.webp",
-            "lentil_curry_2.webp",
-            "lentil_curry_3.webp",
-            "lentil_curry_4.webp",
-            "lentil_curry_5.webp"
+            "vegetarian_lentil_curry_1.webp",
+            "vegetarian_lentil_curry_2.webp",
+            "vegetarian_lentil_curry_3.webp",
+            "vegetarian_lentil_curry_4.webp",
+            "vegetarian_lentil_curry_5.webp"
         ],
         "steps": [
             "Rinse lentils under cold water until the water runs clear.",
