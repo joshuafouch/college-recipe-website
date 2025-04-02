@@ -35,13 +35,44 @@
   --greenWidget: #989d35;
   --purpleWidget: #e1a8f1;
   --hero: #1a1c20; 
+  --search: #c0c748;
 
   /* link color scheme */
   --hoverLink: #bf4403;
   --hoverLinkLight: #ffc8ab;
   --activeLink: #f4efe5;
   --visitedLink: #e1a8f1;
+}
 
+.light-mode {
+  /* LIGHT MODE COLOR SCHEME */
+  /* basic color scheme */
+  --background: #f4efe5;
+  --header: #1a1c20;
+  --footer: #1a1c20;
+
+  /* text */
+  --h1: #f6f1e7;
+  --h2: #e1a8f1;
+  --recipetitle:rgb(226, 212, 193);
+  --body: #f4efe5;
+  --bodyRecipe: black;
+
+  /* block color schemes */
+  --ingredients: #f4efe5;
+  --method: #d77c4f;
+  --edgy: #593f2f;
+
+  /* widget color scheme */
+  --greenWidget: #989d35;
+  --purpleWidget: #e1a8f1;
+  --hero: #1a1c20; 
+
+  /* link color scheme */
+  --hoverLink: #eca782;
+  --hoverLinkLight: #b5663c;
+  --activeLink: a#c54822;
+  --visitedLink: #e197f6;
 }
 
 /* font for body text */
@@ -198,7 +229,7 @@ nav ul div.items a:hover {
   align-items: center;
   padding: var(--searchPadding);
   border-radius: 50px;
-  background: var(--body);
+  background: var(--search);
   width: 200px; 
   transition: 0.25s; 
 }
@@ -211,7 +242,7 @@ nav ul div.items a:hover {
 .searchInput {
   font-size: 14px;
   font-family: LibreBaskerville; /* couldn't work out which font used for nav bar. Should be consistent fonts though */
-  color: var(--edgy);
+  color: var(--background);
   margin-left: var(--searchPadding);
   outline: none;
   border: none; 
