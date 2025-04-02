@@ -17,9 +17,9 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "pb_banana_toast_1.webp",
-            "pb_banana_toast_2.webp",
-            "pb_banana_toast_3.webp"
+            "peanut_butter_and_banana_toast_1.webp",
+            "peanut_butter_and_banana_toast_2.webp",
+            "peanut_butter_and_banana_toast_3.webp"
         ],
         "steps": [
             "Toast the bread slices in a toaster or under the broiler until golden brown.",
@@ -48,9 +48,9 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "scrambled_eggs_salmon_1.webp",
-            "scrambled_eggs_salmon_2.webp",
-            "scrambled_eggs_salmon_3.webp"
+            "scrambled_eggs_with_smoked_salmon_1.webp",
+            "scrambled_eggs_with_smoked_salmon_2.webp",
+            "scrambled_eggs_with_smoked_salmon_3.webp"
         ],
         "steps": [
             "In a bowl, whisk together eggs, milk, salt, and pepper.",
@@ -81,9 +81,9 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "sweet_potato_hash_1.webp",
-            "sweet_potato_hash_2.webp",
-            "sweet_potato_hash_3.webp"
+            "sweet_potato_hash_with_eggs_1.webp",
+            "sweet_potato_hash_with_eggs_2.webp",
+            "sweet_potato_hash_with_eggs_3.webp"
         ],
         "steps": [
             "Peel and dice the sweet potato into small cubes.",
@@ -115,9 +115,9 @@
         "prep_time": "10 min + overnight",
         "difficulty": "Easy",
         "images": [
-            "chia_pudding_1.webp",
-            "chia_pudding_2.webp",
-            "chia_pudding_3.webp"
+            "overnight_chia_pudding_1.webp",
+            "overnight_chia_pudding_2.webp",
+            "overnight_chia_pudding_3.webp"
         ],
         "steps": [
             "In a jar or bowl, combine chia seeds, milk, vanilla extract, and honey.",
