@@ -19,11 +19,11 @@
         "prep_time": "35 min",
         "difficulty": "Moderate",
         "images": [
-            "chocolate_brownies_1.webp",
-            "chocolate_brownies_2.webp",
-            "chocolate_brownies_3.webp",
-            "chocolate_brownies_4.webp",
-            "chocolate_brownies_5.webp"
+            "chocolate_fudge_brownies_1.webp",
+            "chocolate_fudge_brownies_2.webp",
+            "chocolate_fudge_brownies_3.webp",
+            "chocolate_fudge_brownies_4.webp",
+            "chocolate_fudge_brownies_5.webp"
         ],
         "steps": [
             "Preheat the oven to 350\u00b0F (175\u00b0C) and grease a square baking pan.",
@@ -55,11 +55,11 @@
         "prep_time": "1 hr",
         "difficulty": "Moderate",
         "images": [
-            "apple_pie_1.webp",
-            "apple_pie_2.webp",
-            "apple_pie_3.webp",
-            "apple_pie_4.webp",
-            "apple_pie_5.webp"
+            "classic_apple_pie_1.webp",
+            "classic_apple_pie_2.webp",
+            "classic_apple_pie_3.webp",
+            "classic_apple_pie_4.webp",
+            "classic_apple_pie_5.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",
@@ -161,10 +161,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "chocolate_mousse_1.webp",
-            "chocolate_mousse_2.webp",
-            "chocolate_mousse_3.webp",
-            "chocolate_mousse_4.webp"
+            "vegan_chocolate_avocado_mousse_1.webp",
+            "vegan_chocolate_avocado_mousse_2.webp",
+            "vegan_chocolate_avocado_mousse_3.webp",
+            "vegan_chocolate_avocado_mousse_4.webp"
         ],
         "steps": [
             "In a blender, combine ripe avocado, cocoa powder, maple syrup, almond milk, and vanilla extract.",

@@ -122,10 +122,10 @@
         "prep_time": "1 hr",
         "difficulty": "Moderate",
         "images": [
-            "shepherds_pie_1.webp",
-            "shepherds_pie_2.webp",
-            "shepherds_pie_3.webp",
-            "shepherds_pie_4.webp"
+            "shepherd's_pie_1.webp",
+            "shepherd's_pie_2.webp",
+            "shepherd's_pie_3.webp",
+            "shepherd's_pie_4.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",
@@ -156,10 +156,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "hot_spiced_cider_1.webp",
-            "hot_spiced_cider_2.webp",
-            "hot_spiced_cider_3.webp",
-            "hot_spiced_cider_4.webp"
+            "hot_spiced_apple_cider_1.webp",
+            "hot_spiced_apple_cider_2.webp",
+            "hot_spiced_apple_cider_3.webp",
+            "hot_spiced_apple_cider_4.webp"
         ],
         "steps": [
             "In a large pot, combine apple cider, cinnamon sticks, cloves, and orange slices.",

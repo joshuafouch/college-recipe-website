@@ -20,10 +20,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "hummus_pita_chips_1.webp",
-            "hummus_pita_chips_2.webp",
-            "hummus_pita_chips_3.webp",
-            "hummus_pita_chips_4.webp"
+            "homemade_hummus_with_pita_chips_1.webp",
+            "homemade_hummus_with_pita_chips_2.webp",
+            "homemade_hummus_with_pita_chips_3.webp",
+            "homemade_hummus_with_pita_chips_4.webp"
         ],
         "steps": [
             "In a food processor, combine chickpeas, tahini, lemon juice, minced garlic, and a pinch of salt.",
@@ -52,11 +52,11 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "energy_bites_1.webp",
-            "energy_bites_2.webp",
-            "energy_bites_3.webp",
-            "energy_bites_4.webp",
-            "energy_bites_5.webp"
+            "chocolate_chip_energy_bites_1.webp",
+            "chocolate_chip_energy_bites_2.webp",
+            "chocolate_chip_energy_bites_3.webp",
+            "chocolate_chip_energy_bites_4.webp",
+            "chocolate_chip_energy_bites_5.webp"
         ],
         "steps": [
             "In a large bowl, combine oats, peanut butter, honey, chocolate chips, and flaxseed.",
@@ -84,10 +84,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "zucchini_chips_1.webp",
-            "zucchini_chips_2.webp",
-            "zucchini_chips_3.webp",
-            "zucchini_chips_4.webp"
+            "air-fried_zucchini_chips_1.webp",
+            "air-fried_zucchini_chips_2.webp",
+            "air-fried_zucchini_chips_3.webp",
+            "air-fried_zucchini_chips_4.webp"
         ],
         "steps": [
             "Slice zucchini into thin rounds.",
@@ -148,10 +148,10 @@
         "prep_time": "10 min",
         "difficulty": "Easy",
         "images": [
-            "garlic_popcorn_1.webp",
-            "garlic_popcorn_2.webp",
-            "garlic_popcorn_3.webp",
-            "garlic_popcorn_4.webp"
+            "garlic_butter_popcorn_1.webp",
+            "garlic_butter_popcorn_2.webp",
+            "garlic_butter_popcorn_3.webp",
+            "garlic_butter_popcorn_4.webp"
         ],
         "steps": [
             "Pop the popcorn kernels using an air popper or stovetop method.",
