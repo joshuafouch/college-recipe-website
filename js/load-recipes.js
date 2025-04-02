@@ -39,6 +39,7 @@ async function loadStories() {
 async function displayRecipe() {
     try {
         // get the given recipe id from the url (given from displayListingRecipes())
+
         // Joshua made a regex to get the id in the form of: recipe.html?id=xx
         const pattern = /\?id=([0-9]+)/;
         const match = window.location.search.match(pattern);
@@ -48,9 +49,9 @@ async function displayRecipe() {
             return;
         }
 
-        const recipe_id = parseInt(match[1]);   //id is stored in match one
+        const recipe_id = parseInt(match[1]);   // id is stored in match 1
 
-        // load the recipes and stories
+        // load the recipes and stories into json arrays
         const [recipes, stories] = await Promise.all([
             loadAllRecipes(),
             loadStories()
@@ -60,12 +61,6 @@ async function displayRecipe() {
         const recipe = recipes.find(r => r.id === recipe_id);
         const story = stories.find(s => s.id === recipe_id);
 
-        if (!recipe) {
-            alert.error('Recipe not found');
-            return;
-        }
-
-        // load page title
         document.title = `${recipe.name} - CollegeLife Recipes`;
 
         // load title and metadata
@@ -143,5 +138,6 @@ async function displayRecipe() {
 
     } catch (error) {
         console.error('Error loading recipe: ', error);
+        alert.error('Error loading recipe: ', error);
     }
 }
