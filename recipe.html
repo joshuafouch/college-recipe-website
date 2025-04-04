@@ -54,11 +54,14 @@
 
     <!--Main Content-->
     <div class="recipe-bg">
-        <h1 class="recipe-title" id="rtitle">
-            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;">
-            </h2>
-        </h1>
-    </div>
+        <div class="recipe-header">
+            <h1 class="recipe-title" id="rtitle"></h1>
+            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;"></h2>
+        </div>
+        <button onclick="addToFav()" class="fav-btn" role="button">
+            <img id="heart" src="assets/images/empty-heart.svg">
+        </button>
+   </div>
     <div class="recipe-container1">
         <section class="recipe-ingredients">
             <h1 class="bold-italic">Ingredients</h1>
@@ -103,6 +106,7 @@
    
 <script src="js/hamburger.js"></script>
 <script src="js/load-recipes.js"></script>
+<script src="js/favorites.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', displayRecipe);
 </script>
