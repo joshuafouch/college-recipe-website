@@ -85,28 +85,112 @@ async function displayRecipe() {
         const img3 = document.getElementById('imageREC3');
         const img4 = document.getElementById('imageREC4');
 
-        if (img1) {
-            img1.src = `recipe-assets/${recipe.images[0]}`;
-            img1.alt = recipe.name;
-            img1.onerror = () => img1.src = `assets/images/error2.webp`;
+        // load container sections
+        const picSection1 = document.querySelector('.recipe-pictures');
+        const picSection2 = document.querySelector('.recipe-widgets');
+        const ingSection = document.querySelector('.recipe-ingredients');
+        const methSection = document.querySelector('.method');
+        const addImgContainer = document.querySelector('.additional-images-container');
+        const addImgs = document.querySelector('.additional-images')
+
+        // length of recipe image array
+        const imgCount = recipe.images.length;
+
+        // handles layout of recipe page based on how many images there are
+        switch(imgCount) {
+            // for one image
+            case 1:
+
+                // sets first image rec to images[0] 
+                img1.src = `recipe-assets/${recipe.images[0]}`;
+                img1.alt = recipe.name;
+                img1.onerror = () => img1.src = `assets/images/error2.webp`;
+
+                // remove the other images
+                img2?.remove();
+                img3?.remove();
+                img4?.remove();
+
+                // delete additional images sections
+
+                break;
+
+            // for two images
+            case 2:
+                [img1, img2].forEach((img, i) => {
+                    img.src = `recipe-assets/${recipe.images[i]}`;
+                    img.alt = recipe.name;
+                    img.onerror = () => img1.src = `assets/images/error2.webp`;
+                });
+
+                // remove the other images
+                img3?.remove();
+                img4?.remove();
+
+                // delete additional images sections
+                addImgContainer?.remove();
+                addImgs?.remove();
+
+                break;
+
+            // for three images
+            case 3:
+                [img1, img2, img3].forEach((img, i) => {
+                    img.src = `recipe-assets/${recipe.images[i]}`;
+                    img.alt = recipe.name;
+                    img.onerror = () => img1.src = `assets/images/error2.webp`;
+                });
+
+                // remove the other images
+                img4?.remove();
+
+                // delete additional images sections
+                addImgContainer?.remove();
+                addImgs?.remove();
+
+                break;
+
+            // for four images
+            case 4:
+                [img1, img2, img3, img4].forEach((img, i) => {
+                    img.src = `recipe-assets/${recipe.images[i]}`;
+                    img.alt = recipe.name;
+                    img.onerror = () => img1.src = `assets/images/error2.webp`;
+                });
+
+                // delete additional images sections
+                addImgContainer?.remove();
+                addImgs?.remove();
+
+                break;
+            
+            // if more than 4
+            default:
+                [img1, img2, img3, img4].forEach((img, i) => {
+                    img.src = `recipe-assets/${recipe.images[(i)]}`;
+                    img.alt = recipe.name;
+                    img.onerror = () => img1.src = `assets/images/error2.webp`;
+                });
+
+                // for additional images
+                const otherImgs = document.getElementById('additionalImages');
+                if (otherImgs) {
+                    // starts from index 4 since thats where it left off
+                    for (let i = 4; i < recipe.images.length; i++) {
+                        const img = document.createElement('img');
+                        img.src = `recipe-assets/${recipe.images[i]}`;
+                        img.alt = `${recipe.name}`;
+                        img.onerror = () => img.src = `assets/images/error2.webp`;
+                        otherImgs.appendChild(img);
+                    }
+                }
+
+                break;
         }
 
-        if (img2) {
-            img2.src = `recipe-assets/${recipe.images[1]}`;
-            img2.alt = recipe.name;
-            img2.onerror = () => img2.src = `assets/images/error2.webp`;
-        }
-
-        if (img3) {
-            img3.src = `recipe-assets/${recipe.images[2]}`;
-            img3.alt = recipe.name;
-            img3.onerror = () => img3.src = `assets/images/error2.webp`;
-        }
-
-        if (img4) {
-            img4.src = `recipe-assets/${recipe.images[3]}`;
-            img4.alt = recipe.name;
-            img4.onerror = () => img4.src = `assets/images/error2.webp`;
+        // if less 1 or 2 images, delete the picture section div that sides the method section
+        if(imgCount < 3) {
+            picSection2?.remove();
         }
 
        // load ingredients
@@ -136,8 +220,6 @@ async function displayRecipe() {
        if (story && out_story) {
             out_story.innerHTML = story.story;
        }
-
-
 
     } catch (error) {
         console.error('Error loading recipe: ', error);
