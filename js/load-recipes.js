@@ -61,6 +61,9 @@ async function displayRecipe() {
         const recipe = recipes.find(r => r.id === recipe_id);
         const story = stories.find(s => s.id === recipe_id);
 
+        console.log(recipe);
+        console.log(story);
+
         document.title = `${recipe.name} - CollegeLife Recipes`;
 
         // load title and metadata

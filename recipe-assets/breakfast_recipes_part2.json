@@ -31,6 +31,36 @@
     },
     {
         "id": 7,
+        "name": "Vegan Tofu Scramble",
+        "category": "Breakfast",
+        "ingredients": [
+            "0.5 block of tofu",
+            "0.5 tsp of turmeric",
+            "2 bell peppers",
+            "2 onions",
+            "1 cup of spinach"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "vegan_tofu_scramble_1.webp"
+        ],
+        "steps": [
+            "Heat oil in a skillet over medium heat.",
+            "Crumble tofu into the skillet and sprinkle with turmeric.",
+            "Add diced bell peppers and onions, and saut\u00e9 for 5 minutes.",
+            "Stir in spinach and cook until wilted.",
+            "Season with salt and pepper, and serve."
+        ]
+    },
+    {
+        "id": 8,
         "name": "Greek Yogurt Parfait with Granola and Berries",
         "category": "Breakfast",
         "ingredients": [
@@ -57,7 +87,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Breakfast Burrito with Scrambled Eggs and Salsa",
         "category": "Breakfast",
         "ingredients": [
@@ -85,36 +115,6 @@
             "Warm the tortilla in the skillet for 1-2 minutes.",
             "Fill the tortilla with scrambled eggs, cheese, salsa, and saut\u00e9ed bell peppers.",
             "Roll the tortilla tightly and serve warm."
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Vegan Tofu Scramble",
-        "category": "Breakfast",
-        "ingredients": [
-            "0.5 block of tofu",
-            "0.5 tsp of turmeric",
-            "2 bell peppers",
-            "2 onions",
-            "1 cup of spinach"
-        ],
-        "dietary": [
-            "Vegan",
-            "Gluten-Free"
-        ],
-        "season": "All",
-        "cuisine": "American",
-        "prep_time": "15 min",
-        "difficulty": "Easy",
-        "images": [
-            "vegan_tofu_scramble_1.webp"
-        ],
-        "steps": [
-            "Heat oil in a skillet over medium heat.",
-            "Crumble tofu into the skillet and sprinkle with turmeric.",
-            "Add diced bell peppers and onions, and saut\u00e9 for 5 minutes.",
-            "Stir in spinach and cook until wilted.",
-            "Season with salt and pepper, and serve."
         ]
     },
     {
