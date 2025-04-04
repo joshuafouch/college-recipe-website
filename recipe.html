@@ -35,18 +35,6 @@
                 <li><a href="submissions.html">Submit</a></li>
                 <li><a href="about.html">About</a></li>
             </div>
-            <!-- 
-            <form action="/search?"></form>
-                <div class="searchBox">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                    <input class="searchInput" type="search" placeholder="Hungry?">
-                    <button class="searchButton" type="submit">Go</button>
-                </div>
-            </form>
-            -->
-
             <button onclick="toggleLightMode()"> Light Mode </button>
        </ul>
     </nav>
@@ -56,7 +44,7 @@
     <div class="recipe-bg">
         <div class="recipe-header">
             <h1 class="recipe-title" id="rtitle"></h1>
-            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;"></h2>
+            <h2 class="recipe-title author" id="auth" style="padding-bottom: 50px;"></h2>
         </div>
         <button onclick="addToFav()" class="fav-btn" role="button">
             <img id="heart" src="assets/images/empty-heart.svg">
@@ -77,7 +65,7 @@
             <img id="imageREC3">
             <img id="imageREC4">
         </section>
-        <section class="method recipe-ingredients ">
+        <section class="method recipe-ingredients">
             <h1 class="bold-italic">
                 Method
             </h1>
@@ -94,8 +82,13 @@
         </section>
     </div>
 
+    <!-- Add this new section -->
+    <div class="additional-images-container">
+        <div class="additional-images" id="additionalImages"></div>
+    </div>
 
-    <div class="recipe-container1 ">
+
+    <div class="recipe-container1">
         <footer class="main-footer">
             <p>&copy; 2025 CollegeLife Recipes</p>
             <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>

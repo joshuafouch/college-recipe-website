@@ -19,7 +19,9 @@
         "difficulty": "Easy",
         "images": [
             "french_toast_with_maple_syrup_1.webp",
-            "french_toast_with_maple_syrup_2.webp"
+            "french_toast_with_maple_syrup_2.webp",
+            "french_toast_with_maple_syrup_3.webp",
+            "french_toast_with_maple_syrup_4.webp"
         ],
         "steps": [
             "In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",
@@ -49,7 +51,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "vegan_tofu_scramble_1.webp"
+            "vegan_tofu_scramble_1.webp",
+            "vegan_tofu_scramble_2.webp",
+            "vegan_tofu_scramble_3.webp",
+            "vegan_tofu_scramble_4.webp"
         ],
         "steps": [
             "Heat oil in a skillet over medium heat.",
@@ -78,7 +83,10 @@
         "prep_time": "5 min",
         "difficulty": "Easy",
         "images": [
-            "greek_yogurt_parfait_with_granola_and_berries_1.webp"
+            "greek_yogurt_parfait_with_granola_and_berries_1.webp",
+            "greek_yogurt_parfait_with_granola_and_berries_2.webp",
+            "greek_yogurt_parfait_with_granola_and_berries_3.webp",
+            "greek_yogurt_parfait_with_granola_and_berries_4.webp"
         ],
         "steps": [
             "In a tall glass or bowl, layer Greek yogurt, granola, and berries.",
@@ -106,7 +114,9 @@
         "difficulty": "Easy",
         "images": [
             "breakfast_burrito_with_scrambled_eggs_and_salsa_1.webp",
-            "breakfast_burrito_with_scrambled_eggs_and_salsa_2.webp"
+            "breakfast_burrito_with_scrambled_eggs_and_salsa_2.webp",
+            "breakfast_burrito_with_scrambled_eggs_and_salsa_3.webp",
+            "breakfast_burrito_with_scrambled_eggs_and_salsa_4.webp"
         ],
         "steps": [
             "Whisk eggs in a bowl and season with salt and pepper.",
@@ -135,7 +145,9 @@
         "difficulty": "Moderate",
         "images": [
             "sausage_and_egg_breakfast_casserole_1.webp",
-            "sausage_and_egg_breakfast_casserole_2.webp"
+            "sausage_and_egg_breakfast_casserole_2.webp",
+            "sausage_and_egg_breakfast_casserole_3.webp",
+            "sausage_and_egg_breakfast_casserole_4.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C) and grease a baking dish.",

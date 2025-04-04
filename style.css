@@ -373,9 +373,20 @@ nav ul div.items a:hover {
     object-fit: contain;
   }
 
+  .additional-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
+  .additional-images img {
+    width: 90% !important;
+    max-width: 300px;
+    height: auto !important;
+    object-fit: contain;
+    aspect-ratio: 1;
+  }
 
- 
 }
 
 /*keyframe code for fadeIn*/
@@ -640,19 +651,25 @@ h2 {
 
 .recipe-container1 {
   display: flex;
-
   flex-direction: row; 
   align-items: stretch; 
   width:100%;
   padding-top: 5px;
+}
 
+.footer-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: stretch; 
+  width: 100%;
+  margin-top: 0px;
 }
 
 .recipe-ingredients{
   display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
-  width:60%;
+  width: 60%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
@@ -703,7 +720,7 @@ h2 {
   background-color: var(--method);
   color: var(--body);
   align-items: flex-start;
-  width:60%;
+  width: 100%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 30px;
@@ -711,7 +728,6 @@ h2 {
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-left:5%;
 }
 
 .recipe-widgets {
@@ -735,7 +751,7 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
@@ -757,11 +773,35 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
     text-align: justify
 }
 
+/* for additional images */
+.additional-images-container {
+  width: 90%;
+  margin: 50px 5%;
+  margin-bottom: 0px;
+  padding: 20px 5%;
+  background-color: var(--favPress);
+}
+
+.additional-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.additional-images img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
 .main-footer {
   width:90%;
-  margin:5%;
+  margin: 50px 5%;
   background-color: var(--purpleWidget);
-  padding:5%;
+  padding: 30px 5%;
 }
 
 .main-footer a {
