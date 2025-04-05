@@ -112,6 +112,8 @@ async function displayRecipe() {
                 img4?.remove();
 
                 // delete additional images sections
+                addImgContainer?.remove();
+                addImgs?.remove();
 
                 break;
 
