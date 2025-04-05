@@ -197,7 +197,7 @@ async function displayRecipe() {
        const outIngr = document.getElementById("outIngr");
        recipe.ingredients.forEach((item, index) => {
             const dummyVar = document.createElement("div");
-            dummyVar.innerHTML = `&#9679 ${item}`;
+            dummyVar.innerHTML = `<input type="checkbox" style="padding-top:10px;"> &#9679 ${item}`;
             dummyVar.style.fontFamily = "'LibreBaskerville', 'Times New Roman', Times, serif";
             dummyVar.id = `item${index}`;
             outIngr.appendChild(dummyVar);
