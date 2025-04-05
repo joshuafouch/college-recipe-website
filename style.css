@@ -809,6 +809,78 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   text-decoration: underline;
 }
 
+
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height:100px !important;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: none;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.timerhead{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top:20px;
+  color: var(--bodyRecipe);
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerbutton{
+  background:none;
+  color: var(--bodyRecipe);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 2px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerinput {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 60%;
+  background-color: wheat;
+  border: none;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.timer{
+  cursor:pointer;
+}
+
 /* CSS */
 .fav-btn {
   align-items: center;
@@ -902,6 +974,4 @@ input[type="checkbox"] {
   accent-color: var(--h2);
   cursor: pointer;
 }
-
-
 
