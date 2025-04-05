@@ -101,6 +101,22 @@
 <script src="js/favorites.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', displayRecipe);
+    document.addEventListener('DOMContentLoaded', () => {
+        const gamer = document.getElementById('heart');
+        const pattern = /\?id=([0-9]+)/;
+        const match = window.location.search.match(pattern);
+
+        if (!match) return; // no id in URL — exit early
+
+        const recipeId = parseInt(match[1]);
+
+        if (isFavorite(recipeId)) {
+            gamer.src = 'assets/images/filled-heart.svg';
+        } else {
+            gamer.src = 'assets/images/empty-heart.svg';
+        }
+    })
+
 </script>
 </body>
 </html>

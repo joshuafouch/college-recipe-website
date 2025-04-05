@@ -894,3 +894,14 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
     align-items: center;
   }
 }
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  accent-color: var(--h2);
+  cursor: pointer;
+}
+
+
+
