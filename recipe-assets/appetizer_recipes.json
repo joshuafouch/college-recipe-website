@@ -19,10 +19,10 @@
         "prep_time": "15 min",
         "difficulty": "Easy",
         "images": [
-            "bruschetta_1.webp",
-            "bruschetta_2.webp",
-            "bruschetta_3.webp",
-            "bruschetta_4.webp"
+            "bruschetta_with_tomato_and_basil_1.webp",
+            "bruschetta_with_tomato_and_basil_2.webp",
+            "bruschetta_with_tomato_and_basil_3.webp",
+            "bruschetta_with_tomato_and_basil_4.webp"
         ],
         "steps": [
             "Slice the baguette into thin rounds and toast until golden brown.",
@@ -116,10 +116,10 @@
         "prep_time": "20 min",
         "difficulty": "Easy",
         "images": [
-            "deviled_eggs_bacon_1.webp",
-            "deviled_eggs_bacon_2.webp",
-            "deviled_eggs_bacon_3.webp",
-            "deviled_eggs_bacon_4.webp"
+            "deviled_eggs_with_bacon_1.webp",
+            "deviled_eggs_with_bacon_2.webp",
+            "deviled_eggs_with_bacon_3.webp",
+            "deviled_eggs_with_bacon_4.webp"
         ],
         "steps": [
             "Hard boil the eggs, then peel and cut them in half lengthwise.",
@@ -150,10 +150,10 @@
         "prep_time": "30 min",
         "difficulty": "Moderate",
         "images": [
-            "spinach_artichoke_dip_1.webp",
-            "spinach_artichoke_dip_2.webp",
-            "spinach_artichoke_dip_3.webp",
-            "spinach_artichoke_dip_4.webp"
+            "spinach_and_artichoke_dip_1.webp",
+            "spinach_and_artichoke_dip_2.webp",
+            "spinach_and_artichoke_dip_3.webp",
+            "spinach_and_artichoke_dip_4.webp"
         ],
         "steps": [
             "Preheat the oven to 375\u00b0F (190\u00b0C).",
