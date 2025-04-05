@@ -1,14 +1,10 @@
 function displayListingRecipes(recipes) {
-    const container = document.querySelector('.widget-container');
-    if (!container || !recipes || !recipes.length) {
-        console.error('container or recipes not found');
-        return;
-    }
+  const container = document.querySelector('.widget-container');
 
-    // get 3 random recipes from the recipe array
-    const featured = recipes.sort(() => 0.5 - Math.random()).slice(0, 100);
+  // get 3 random recipes from the recipe array
+  const featured = recipes.sort(() => 0.5 - Math.random()).slice(0, 100);
 
-    container.innerHTML = featured.map(recipe => `
+  container.innerHTML = featured.map(recipe => `
         <div class="recipe-widget">
             <a href="recipe.html?id=${recipe.id}" style="text-decoration: none; color: inherit;">
                 <div class="recipe-widget-img">
