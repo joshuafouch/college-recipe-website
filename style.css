@@ -42,6 +42,11 @@
   --hoverLinkLight: #ffc8ab;
   --activeLink: #f4efe5;
   --visitedLink: #e1a8f1;
+
+  /* other */
+  --favoriteColor: #fee6e3;
+  --favPress: #d4b3b0;
+  --sigma: #FAFAFA;
 }
 
 .light-mode {
@@ -411,9 +416,20 @@ nav ul div.items a:hover {
     object-fit: contain;
   }
 
+  .additional-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
+  .additional-images img {
+    width: 90% !important;
+    max-width: 300px;
+    height: auto !important;
+    object-fit: contain;
+    aspect-ratio: 1;
+  }
 
- 
 }
 
 /*keyframe code for fadeIn*/
@@ -634,18 +650,17 @@ h2 {
   flex-direction: row;
 }
 .recipe-title{
-  display:flex;
+  display: flex;
+  flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
   font-style: italic;
-  font-size:60px;
+  font-size: 60px;
   padding-left: 60px;
   padding-top: 0px;
-  width:70%;
+  width: 70%;
   flex-wrap: wrap;
   align-items: flex-start;
-  
   color: var(--recipetitle);
-
 }
 .details{
   display:flex;
@@ -667,23 +682,37 @@ h2 {
   background-size: cover;
   position: relative;
   backdrop-filter: brightness(.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipe-header {
+  display: flex;
+  flex-direction: column;
 }
 
 .recipe-container1 {
   display: flex;
-
   flex-direction: row; 
   align-items: stretch; 
   width:100%;
   padding-top: 5px;
+}
 
+.footer-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: stretch; 
+  width: 100%;
+  margin-top: 0px;
 }
 
 .recipe-ingredients{
   display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
-  width:60%;
+  width: 60%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
@@ -729,12 +758,12 @@ h2 {
 
 
 .method {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   background-color: var(--method);
   color: var(--body);
   align-items: flex-start;
-  width:60%;
+  width: 100%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 30px;
@@ -742,7 +771,6 @@ h2 {
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-left:5%;
 }
 
 .recipe-widgets {
@@ -766,7 +794,7 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
@@ -788,11 +816,35 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
     text-align: justify
 }
 
+/* for additional images */
+.additional-images-container {
+  width: 90%;
+  margin: 50px 5%;
+  margin-bottom: 0px;
+  padding: 20px 5%;
+  background-color: var(--favPress);
+}
+
+.additional-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.additional-images img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
 .main-footer {
   width:90%;
-  margin:5%;
+  margin: 50px 5%;
   background-color: var(--purpleWidget);
-  padding:5%;
+  padding: 30px 5%;
 }
 
 .main-footer a {
@@ -800,4 +852,169 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   text-decoration: underline;
 }
 
+
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height:100px !important;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: none;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.timerhead{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top:20px;
+  color: var(--bodyRecipe);
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerbutton{
+  background:none;
+  color: var(--bodyRecipe);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 2px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerinput {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 60%;
+  background-color: wheat;
+  border: none;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.timer{
+  cursor:pointer;
+}
+
+/* CSS */
+.fav-btn {
+  align-items: center;
+  background-color: var(--favoriteColor);
+  border: 2px solid var(--bodyRecipe);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: var(--bodyRecipe);
+  cursor: pointer;
+  display: flex;
+  font-family: 'LibreBaskerville', sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 30px;
+}
+
+.fav-btn img {
+  width: 20px;
+}
+
+.fav-btn:after {
+  background-color: var(--sigma);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.fav-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.fav-btn:active {
+  background-color: var(--favPress);
+  outline: 0;
+}
+
+.fav-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .fav-btn {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .recipe-bg {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px 30px 20px;
+  }
+
+  .fav-btn {
+    margin-right: 0px;
+  }
+
+  .recipe-title {
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  accent-color: var(--h2);
+  cursor: pointer;
+}
 

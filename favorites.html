@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Julia: added google's magnifying glass icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-
 </head>
 <body>
     
@@ -30,9 +29,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="recipelistings.html">Recipes</a></li>
                 <li><a href="favorites.html" class="active">Favorites</a></li>
-                <li><a href="timer.html">Timer</a></li>
-                <li><a href="submissions.html">Submit</a></li>
-                <li><a href="about.html">About</a></li>
+                <li> <a id="openTimer" class="timer">Timer</a></li>
             </div>
             <button class="coolButton"> Switch Theme </button>
        </ul>
@@ -45,13 +42,11 @@
         <!--search bar-->
 
         <!--recipe widgets-->
-        <div class="widget-container">
-        </div>
+        <div class="widget-container"></div>
     </div>
 
-
     <!--Footer-->
-   <div class="recipe-container1">
+   <div class="footer-container">
         <footer class="main-footer">
             <p>&copy; 2025 CollegeLife Recipes</p>
             <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
@@ -60,5 +55,32 @@
     </div>
 
 <script src="js/hamburger.js"></script>
+<script src="js/recipe-timerpopup.js"></script>
+<script src="js/load-recipes.js"></script>
+<script src="js/lightMode.js"></script>
+<script src="js/recipe-listing.js"></script>
+<script src="js/favorites.js"></script>
+<script>
+
+    let allFavRecipes = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const favRecipes = await loadFavorites();
+            allFavRecipes = favRecipes;
+            console.log('Loaded recipes:', favRecipes.length); // Debug log
+            displayListingRecipes(favRecipes);
+        } catch (err) {
+            console.error('Error in main:', err);
+        }
+    });
+
+    function searchRecipe() {
+        const input = document.getElementById("myInput").value.toLowerCase();
+        const filteredRecipes = allFavRecipes.filter(recipe => 
+             recipe.name.toLowerCase().includes(input) );
+        displayListingRecipes(filteredRecipes);
+    }
+</script>
 </body>
 </html>

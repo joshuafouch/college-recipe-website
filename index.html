@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Julia: added google's magnifying glass icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-    <script src="lightMode.js"></script>
-
 </head>
 <body>
     
@@ -31,9 +29,7 @@
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="recipelistings.html">Recipes</a></li>
                 <li><a href="favorites.html">Favorites</a></li>
-                <li><a href="timer.html">Timer</a></li>
-                <li><a href="submissions.html">Submit</a></li>
-                <li><a href="about.html">About</a></li>
+                <li> <a id="openTimer" class="timer">Timer</a></li>
             </div>
             <!-- 
             <form action="/search?"></form>
@@ -74,7 +70,7 @@
 
 
     <!--Footer-->
-   <div class="recipe-container1">
+   <div class="footer-container">
         <footer class="main-footer">
             <p>&copy; 2025 CollegeLife Recipes</p>
             <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
@@ -86,6 +82,8 @@
 <script src="js/hamburger.js"></script>
 <script src="js/load-recipes.js"></script>
 <script src="js/featured-recipe.js"></script>
+<script src="js/recipe-timerpopup.js"></script>
+<script src="js/lightMode.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', async () => {
         try {
