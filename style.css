@@ -75,6 +75,49 @@
   --visitedLink: #e197f6;
 }
 
+.coolButton {
+  position: relative;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background: var(--h2);
+  color: var(--hero);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.coolButton:hover {
+  background: var(--hoverLink);
+  transform: scale(1.05);
+}
+
+.coolButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+  transform: skewX(-25deg);
+}
+
+.coolButton:hover::before {
+  animation: shine 0.75s forwards;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
 /* font for body text */
 @font-face {
   font-family: 'WorkSans';
@@ -491,7 +534,7 @@ nav ul div.items a:hover {
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  background-color: var(--hoverLinkLight);
+  background-color: var(--hoverLink);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in-out;
 }

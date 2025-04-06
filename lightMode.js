@@ -1,5 +1,6 @@
 function toggleLightMode() {
     document.documentElement.classList.toggle("light-mode");
+    coolButton.textContent = document.documentElement.classList.contains("light-mode") ? "Dark Mode" : "Light Mode";
 }
 
 /* 
