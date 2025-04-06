@@ -31,26 +31,16 @@
                 <li><a href="favorites.html" class="active">Favorites</a></li>
                 <li> <a id="openTimer" class="timer">Timer</a></li>
             </div>
-
-            <button onclick="toggleLightMode()"> Light Mode </button>
+            <button class="coolButton"> Switch Theme </button>
        </ul>
     </nav>
 
+
     <!--Main Content-->
    <div class="listing-container">
-        <h1 class="featured-header">the favorites.</h1>
+        <h1 class="featured-header">your favorites.</h1>
         <!--search bar-->
 
-        <form action="/search?">
-                <div class="searchBox">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                    <input class="searchInput" type="search" placeholder="Hungry?" id="myInput" onkeyup="searchRecipe()">
-                   <!-- <button class="searchButton" type="submit">Go</button> --> 
-                </div>
-        </form>
-        <br><br><br>
         <!--recipe widgets-->
         <div class="widget-container"></div>
     </div>

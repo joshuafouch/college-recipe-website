@@ -1,23 +1,32 @@
-function toggleLightMode() {
-    document.documentElement.classList.toggle("light-mode");
-}
-
-/* 
-
 window.addEventListener("DOMContentLoaded", () => {
-    const chosenTheme = localStorage.getItem("theme"); 
+    const coolButton = document.querySelector(".coolButton");
 
-    if (chosenTheme === "light") {
-        document.body.classLast.add("light-mode");
-        }
-    else {
-        document.body.classList.remove("light-mode");
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "light") {
+        document.documentElement.classList.add("light-mode");
+        coolButton.textContent = "Dark Mode";
+    } else {
+        document.documentElement.classList.remove("light-mode");
+        coolButton.textContent = "Light Mode";
     }
+
+    coolButton.addEventListener("click", () => {
+        document.documentElement.classList.toggle("light-mode");
+
+        const isLight = document.documentElement.classList.contains("light-mode");
+        coolButton.textContent = isLight ? "Dark Mode" : "Light Mode";
+        localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
 });
 
+/*
 function toggleLightMode() {
-    const isLightMode = document.body.classList.contains("light-mode");
-    localStorage.setItem("theme", isLightMode ? "light" : "dark");
-}
-
+    document.documentElement.classList.toggle("light-mode");
+  
+    const isLight = document.documentElement.classList.contains("light-mode");
+    coolButton.textContent = isLight ? "Dark Mode" : "Light Mode";
+  
+    localStorage.setItem("theme", isLight ? "light" : "dark");
+  }
 */
