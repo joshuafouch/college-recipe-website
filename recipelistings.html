@@ -9,6 +9,7 @@
     <!-- Julia: added google's magnifying glass icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
     <script src="lightMode.js"></script>
+    <script src="filterBy.js"></script>
     
 </head>
 <body>
@@ -36,7 +37,7 @@
                 <li><a href="about.html">About</a></li>
             </div>
 
-            <button class="coolButton" onclick="toggleLightMode()"> Switch Theme </button>
+            <button class="coolButton"> Switch Theme </button>
        </ul>
     </nav>
 
@@ -55,6 +56,26 @@
                 </div>
             </form>
 <br><br><br>
+<!-- 
+<select id="categorySelection" onchange="filterByCategory()">
+    <option value="all">All </option>
+    <option value="Appetizers">Appetizers</option>
+    <option value="breakfast">Breakfast</option>
+    <option value="lunch">Lunch</option>
+    <option value="dinner">Dinner</option>
+    <option value="snack">Snack</option>
+    <option value="dessert">Dessert</option>
+    <option value="beverages">Drinks</option>
+    <option value="Spring">Spring</option>
+    <option value="Summer">Summer</option>
+    <option value="Autumn">Autumn</option>
+    <option value="Winter">Winter</option>
+    <option value="vegetarian">Vegetarian</option>
+</select>
+
+-->
+
+    
         <!--recipe widgets-->
         <div class="widget-container">
         </div>
