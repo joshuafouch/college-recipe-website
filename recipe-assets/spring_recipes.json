@@ -1,0 +1,171 @@
+[
+    {
+        "id": 66,
+        "name": "Spring Vegetable Stir-Fry",
+        "category": "Spring",
+        "ingredients": [
+            "1 cup of asparagus",
+            "0.5 cup of snap peas",
+            "2 carrots",
+            "2 bell peppers",
+            "1 tbsp of soy sauce",
+            "1 tsp of ginger",
+            "60 ml of sesame oil"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Spring",
+        "cuisine": "Asian",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "spring_vegetable_stir-fry_1.webp",
+            "spring_vegetable_stir-fry_2.webp",
+            "spring_vegetable_stir-fry_3.webp",
+            "spring_vegetable_stir-fry_4.webp"
+        ],
+        "steps": [
+            "Heat sesame oil in a large skillet or wok over medium-high heat.",
+            "Add minced ginger and cook for 30 seconds until fragrant.",
+            "Add sliced carrots, snap peas, and bell peppers, and stir-fry for 5 minutes.",
+            "Add chopped asparagus and stir-fry for an additional 3 minutes.",
+            "Drizzle with soy sauce and toss to coat evenly.",
+            "Serve hot, optionally garnished with sesame seeds."
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Pea and Mint Soup",
+        "category": "Spring",
+        "ingredients": [
+            "0.75 cup of peas",
+            "8 oz of vegetable broth",
+            "1 onion",
+            "2 cloves of garlic",
+            "1 tbsp of mint leaves",
+            "0.5 cup of cream"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Spring",
+        "cuisine": "British",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "pea_and_mint_soup_1.webp",
+            "pea_and_mint_soup_2.webp",
+            "pea_and_mint_soup_3.webp",
+            "pea_and_mint_soup_4.webp"
+        ],
+        "steps": [
+            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until softened.",
+            "Add peas and vegetable broth, and simmer for 10 minutes.",
+            "Blend the soup until smooth using an immersion blender.",
+            "Stir in chopped fresh mint leaves and a splash of cream.",
+            "Season with salt and pepper, and serve hot with crusty bread."
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Strawberry Spinach Salad",
+        "category": "Spring",
+        "ingredients": [
+            "1 cup of spinach",
+            "0.75 cup of strawberries",
+            "0.25 cup of feta cheese",
+            "0.25 cup of walnuts",
+            "1.5 tbsp of balsamic vinaigrette"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Spring",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "strawberry_spinach_salad_1.webp",
+            "strawberry_spinach_salad_2.webp",
+            "strawberry_spinach_salad_3.webp",
+            "strawberry_spinach_salad_4.webp"
+        ],
+        "steps": [
+            "In a large bowl, combine fresh spinach leaves, sliced strawberries, crumbled feta cheese, and chopped walnuts.",
+            "Drizzle with balsamic vinaigrette and toss gently to combine.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Lemon Herb Chicken",
+        "category": "Spring",
+        "ingredients": [
+            "1 chicken breast",
+            "1 lemon",
+            "1 tsp of thyme",
+            "1 tbsp of rosemary",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil"
+        ],
+        "dietary": [
+            "High-Protein",
+            "Gluten-Free"
+        ],
+        "season": "Spring",
+        "cuisine": "Mediterranean",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "lemon_herb_chicken_1.webp",
+            "lemon_herb_chicken_2.webp",
+            "lemon_herb_chicken_3.webp",
+            "lemon_herb_chicken_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "In a small bowl, mix olive oil, minced garlic, lemon juice, and chopped herbs (thyme and rosemary).",
+            "Season chicken breasts with salt and pepper, then brush with the herb mixture.",
+            "Place the chicken in a baking dish and bake for 25-30 minutes, or until cooked through.",
+            "Serve hot, garnished with lemon slices."
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Asparagus and Goat Cheese Tart",
+        "category": "Spring",
+        "ingredients": [
+            "1 sheet of puff pastry",
+            "1 cup of asparagus",
+            "2 oz of goat cheese",
+            "1 egg",
+            "0.25 cup of parmesan cheese",
+            "2 tbsp of herbs"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Spring",
+        "cuisine": "French",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "asparagus_and_goat_cheese_tart_1.webp",
+            "asparagus_and_goat_cheese_tart_2.webp",
+            "asparagus_and_goat_cheese_tart_3.webp",
+            "asparagus_and_goat_cheese_tart_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 400\u00b0F (200\u00b0C).",
+            "Roll out the puff pastry onto a baking sheet and prick the center with a fork to prevent puffing.",
+            "Spread goat cheese evenly over the pastry, leaving a 1-inch border around the edges.",
+            "Arrange asparagus spears on top of the goat cheese and sprinkle with grated parmesan and chopped herbs.",
+            "Brush the edges of the pastry with beaten egg and bake for 20-25 minutes, or until golden brown.",
+            "Serve warm or at room temperature."
+        ]
+    }
+]

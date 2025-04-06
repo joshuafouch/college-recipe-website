@@ -35,12 +35,49 @@
   --greenWidget: #989d35;
   --purpleWidget: #e1a8f1;
   --hero: #1a1c20; 
+  --search: #c0c748;
 
   /* link color scheme */
   --hoverLink: #bf4403;
+  --hoverLinkLight: #ffc8ab;
   --activeLink: #f4efe5;
   --visitedLink: #e1a8f1;
 
+  /* other */
+  --favoriteColor: #fee6e3;
+  --favPress: #d4b3b0;
+  --sigma: #FAFAFA;
+}
+
+.light-mode {
+  /* LIGHT MODE COLOR SCHEME */
+  /* basic color scheme */
+  --background: #f4efe5;
+  --header: #1a1c20;
+  --footer: #1a1c20;
+
+  /* text */
+  --h1: #f6f1e7;
+  --h2: #e1a8f1;
+  --recipetitle:rgb(226, 212, 193);
+  --body: #f4efe5;
+  --bodyRecipe: black;
+
+  /* block color schemes */
+  --ingredients: #f4efe5;
+  --method: #d77c4f;
+  --edgy: #593f2f;
+
+  /* widget color scheme */
+  --greenWidget: #989d35;
+  --purpleWidget: #e1a8f1;
+  --hero: #1a1c20; 
+
+  /* link color scheme */
+  --hoverLink: #eca782;
+  --hoverLinkLight: #b5663c;
+  --activeLink: a#c54822;
+  --visitedLink: #e197f6;
 }
 
 /* font for body text */
@@ -85,13 +122,6 @@ a {
   outline: none; 
 }
 
-section{
-  all:unset;
-}
-
-img{
-  all:unset;
-}
 /* header */
 nav {
   background: var(--background);
@@ -103,6 +133,7 @@ nav {
   width: 100%;
   z-index: 1000;
   top: 0;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -120,19 +151,32 @@ nav ul li.logo {
   font-size: 40px;
   font-weight: 700;
 }
-nav ul li.logo a {
+nav ul li.logo-small {
+  display: none;
+  flex: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
+nav ul li.logo a, nav ul li.logo-small a{
   text-decoration: none;
   color: var(--header);
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+  transition: all 0.3s ease-in-out;
 }
-nav ul li.logo a:hover {
+nav ul li.logo a:hover, nav ul li.logo-small a:hover {
   color: var(--hoverLink);
-  transition: 0.25s;
 }
-
+nav ul div.items li:first-child {
+  display: none;
+}
+nav ul div.items li a.active {
+  color: var(--visitedLink);
+}
 nav ul div.items {
   padding: 0.25px;
   display: inline-flex;
+  padding-right: 30px;
+  transition: all 0.3s ease-in-out;
 }
 nav ul div.items a {
   border-radius: 10px;
@@ -140,41 +184,113 @@ nav ul div.items a {
   color: var(--header);
   font-size: 20px;
   padding: 0 12px;
+  transition: all 0.3s ease-in-out;
 } 
 nav ul div.items a:hover {
-  background: white;
   color: var(--hoverLink);
-  transition: 0.25s;
+  background-color: var(--header);
 }
 
-/* style for search bar -- Julia still working. Following tutorial from codeconvey for a sleek "google" type of search bar */
-/*.searchBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, 50%);
-    background: var(--body);
-    height: 50px;
-    border-radius: 50px;
-    padding: 10px;
+/*nav hamburger menu styling*/
+.hamburger {
+  display: none;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hamburger:hover {
+  padding: 6px;
+  background-color: white;
+}
+.hamburger:hover .line {
+  background-color: var(--hoverLink);
+}
+.line {
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
-.searchBox:hover > .searchInput {
-    width: 250px;
-    padding: 0 6px;
+/* style for search bar */
+
+.material-symbols-outlined { /*google search icon*/
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
-.searchBox:hover > .searchButton {
-    background: var(--hoverLink);
-    color: var(--body);
-}*/
+.searchBox {
+  --searchPadding: 14px;
+
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: var(--searchPadding);
+  border-radius: 50px;
+  background: var(--search);
+  width: 200px; 
+  transition: 0.25s; 
+}
+
+/* whenever user gives focus to search input (i.e., places cursor in search bar), change the search bar color*/
+.searchBox:focus-within {
+  background: var(--hoverLinkLight);
+}
+
+.searchInput {
+  font-size: 14px;
+  font-family: LibreBaskerville; /* couldn't work out which font used for nav bar. Should be consistent fonts though */
+  color: var(--background);
+  margin-left: var(--searchPadding);
+  outline: none;
+  border: none; 
+  background: transparent; 
+  width: 100%; /* this makes the search bar wider */
+}
+
+.seachInput::placeholder, .searchIcon {
+  color: var(--activeLink);
+}
+
+.searchButton {
+  padding: 10px;
+  background-color: var(--edgy);
+  color: var(--activeLink);
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
 
 /* media queries for smaller screens */
-@media screen and (max-width: 1052px) {
+@media screen and (max-width: 1290px) {
+  nav ul li.logo {
+    display: none;
+  }
+  nav ul li.logo-small {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  nav ul div.items li:first-child {
+    display: block;
+  }
   nav {
-    padding: 10px 20px 10px 0px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
   }
   nav ul li.logo {
+    display: none;
+  }
+  nav ul li.logo-small {
     display: none;
   }
   nav ul div.items {
@@ -182,15 +298,119 @@ nav ul div.items a:hover {
   }
 }
 
+@media screen and (max-width: 840px) {
+  nav ul div.items li:first-child {
+    display: block;
+  }
+  nav ul div.items {
+    display: none;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  .items.responsive {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--background);
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--header);
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  .items.responsive li {
+    width: 100%;
+    padding: 10px 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+  nav ul .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  nav ul {
+    justify-content: space-between;
+  }
+
+  .recipe-ingredients {
+    width: 90% !important;
+    margin-right: 5%;
+    margin-left:5%;
+    box-sizing: border-box;
+  }
+  .recipe-container1 {
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    width: 100%;
+    overflow: hidden;
+  }
+  .recipe-pictures {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5% !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+
+  .recipe-pictures img {
+    max-width: 42.5%;
+    height: auto;
+    object-fit: contain;
+  }
+  .recipe-widgets {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5% !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+  }
+
+  .recipe-widgets img {
+    max-width: 42.5%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .additional-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .additional-images img {
+    width: 90% !important;
+    max-width: 300px;
+    height: auto !important;
+    object-fit: contain;
+    aspect-ratio: 1;
+  }
+
+}
+
+/*keyframe code for fadeIn*/
+/*this gives an pop up smooth animation for the hamburger menu*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* hero section */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/herobg.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/herobg.webp');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-bottom: 1px var(--hero);
+  border-bottom: 1px solid white;
 }
 
 .hero-text {
@@ -202,34 +422,169 @@ nav ul div.items a:hover {
   color: var(--body);
 }
 
+.hero-text p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* featured recipe section */
-.featured {
+.featured-container, .listing-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:90%;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: var(--body);
+  background-size: 10vh;
+  padding: 15px 9%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
   flex-direction: column;
+  text-align: center;
 }
 
-.featured h1 {
-  color: var(--h1);
-  font-size: 40px;
+.listing-container {
+  margin-top: 150px;
+}
+
+.featured-container .featured-header, .listing-container .featured-header {
+  color: black;
+  font-size: 45px;
   margin-bottom: 50px;
-  text-align: left;
+  margin-top: 30px;
   width: 100%;
-  padding-left: 30px;
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 30px;
-  color: var(--header);
+.featured-container .widget-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 100px;
+  place-items: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.listing-container .widget-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 55px;
+  place-items: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured-container .widget-container .recipe-widget {
+  aspect-ratio: 1/1;
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--background);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
   cursor: pointer;
 }
 
+/* for recipe listing and favorites page */
+.listing-container .widget-container .recipe-widget {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--hoverLinkLight);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
 
+.listing-container .widget-container .recipe-widget:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* recipe image for listings and favs */
+.recipe-widget-img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.recipe-widget-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* for recipe and favorite listing pages */
+.listing-container .widget-container .recipe-widget img {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-widget-info {
+  padding: 15px;
+  padding-top: 0px;
+  color: var(--background);
+}
+
+.featured-container .widget-container .recipe-widget .overlay, .listing-container .widget-container .recipe-widget .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.25s ease;
+  color: white;
+}
+
+.featured-container .widget-container .recipe-widget:hover .overlay, .listing-container .widget-container .recipe-widget:hover .overlay {
+  opacity: 1;
+}
+
+.featured-container .widget-container .recipe-widget .overlay h1, .listing-container .widget-container .recipe-widget .overlay h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.featured-container .widget-container .recipe-widget .overlay p, .listing-container .widget-container .recipe-widget .overlay p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.featured-container .widget-container .recipe-widget img {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* recipe genre section */
 /* footer */
@@ -252,18 +607,23 @@ h2 {
   flex-direction: row;
 }
 .recipe-title{
-  display:flex;
+  display: flex;
+  flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
   font-style: italic;
-  font-size:60px;
+  font-size: 60px;
   padding-left: 60px;
   padding-top: 0px;
-  width:100%;
+  width: 70%;
   flex-wrap: wrap;
   align-items: flex-start;
-  
   color: var(--recipetitle);
-
+}
+.details{
+  display:flex;
+  justify-content: right;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
 }
 .author{
   margin-top: 0;
@@ -273,12 +633,20 @@ h2 {
 }
 .recipe-bg{
   padding-top: 100px;
-  background-image:  url('recipebg2.jpg');/*1.Here!*/
+  background-image:  url('assets/images/recipebg2.jpg');/*1.Here!*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   backdrop-filter: brightness(.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipe-header {
+  display: flex;
+  flex-direction: column;
 }
 
 .recipe-container1 {
@@ -287,14 +655,21 @@ h2 {
   align-items: stretch; 
   width:100%;
   padding-top: 5px;
+}
 
+.footer-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: stretch; 
+  width: 100%;
+  margin-top: 0px;
 }
 
 .recipe-ingredients{
   display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
-  width:50%;
+  width: 60%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
@@ -304,8 +679,6 @@ h2 {
   margin-right: 5%;
   background-color: var(--ingredients);
   background-size: 10vh;
-
-  
 }
 .recipe-pictures{
   display:flex;
@@ -316,8 +689,6 @@ h2 {
   gap:50px;
   margin-right: 5%;
   margin-top: 50px;
- 
-
 }
 
 
@@ -344,12 +715,12 @@ h2 {
 
 
 .method {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   background-color: var(--method);
   color: var(--body);
   align-items: flex-start;
-  width:60%;
+  width: 100%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 30px;
@@ -357,7 +728,6 @@ h2 {
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-left:5%;
 }
 
 .recipe-widgets {
@@ -374,14 +744,14 @@ h2 {
 
 Used the code from Ingredients container and adjusted the width from 50% to 90% */
 .recipe-story-container {
-   display:flex;
+  display:flex;
   flex-direction: column;
   font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
   width:90%;
   padding-left:5%;
   padding-right: 5%;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
@@ -389,10 +759,10 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
   background-size: 10vh;
   }
 
-  .recipe h1{
-    color: var(--body);
-    font-family: 'LibreBaskerville';
-  }
+.recipe h1{
+  color: var(--body);
+  font-family: 'LibreBaskerville';
+}
 
 .recipe-story {
     margin-left: 40px;
@@ -403,11 +773,205 @@ Used the code from Ingredients container and adjusted the width from 50% to 90% 
     text-align: justify
 }
 
-.recipe-footer{
-  width:100%;
-  margin:5%;
-  background-color: var(--purpleWidget);
-  padding:5%;
+/* for additional images */
+.additional-images-container {
+  width: 90%;
+  margin: 50px 5%;
+  margin-bottom: 0px;
+  padding: 20px 5%;
+  background-color: var(--favPress);
 }
 
+.additional-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.additional-images img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.main-footer {
+  width:90%;
+  margin: 50px 5%;
+  background-color: var(--purpleWidget);
+  padding: 30px 5%;
+}
+
+.main-footer a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height:100px !important;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: none;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.timerhead{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top:20px;
+  color: var(--bodyRecipe);
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerbutton{
+  background:none;
+  color: var(--bodyRecipe);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 2px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'LibreBaskerville', 'Times New Roman', Times, serif;
+}
+
+.timerinput {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 60%;
+  background-color: wheat;
+  border: none;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.timer{
+  cursor:pointer;
+}
+
+/* CSS */
+.fav-btn {
+  align-items: center;
+  background-color: var(--favoriteColor);
+  border: 2px solid var(--bodyRecipe);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: var(--bodyRecipe);
+  cursor: pointer;
+  display: flex;
+  font-family: 'LibreBaskerville', sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 30px;
+}
+
+.fav-btn img {
+  width: 20px;
+}
+
+.fav-btn:after {
+  background-color: var(--sigma);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.fav-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.fav-btn:active {
+  background-color: var(--favPress);
+  outline: 0;
+}
+
+.fav-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .fav-btn {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .recipe-bg {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px 30px 20px;
+  }
+
+  .fav-btn {
+    margin-right: 0px;
+  }
+
+  .recipe-title {
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  accent-color: var(--h2);
+  cursor: pointer;
+}
 

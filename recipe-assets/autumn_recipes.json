@@ -1,0 +1,170 @@
+[
+    {
+        "id": 71,
+        "name": "Pumpkin Soup",
+        "category": "Autumn",
+        "ingredients": [
+            "0.5 cup of pumpkin",
+            "1 onion",
+            "2 cloves of garlic",
+            "8 oz of vegetable broth",
+            "0.5 cup of cream",
+            "0.5 tsp of nutmeg"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Autumn",
+        "cuisine": "American",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "pumpkin_soup_1.webp",
+            "pumpkin_soup_2.webp",
+            "pumpkin_soup_3.webp",
+            "pumpkin_soup_4.webp"
+        ],
+        "steps": [
+            "Peel and cube the pumpkin, then set aside.",
+            "In a large pot, saut\u00e9 diced onion and minced garlic in olive oil until softened.",
+            "Add the pumpkin cubes and vegetable broth, then bring to a boil.",
+            "Reduce heat and simmer for 20 minutes, or until the pumpkin is tender.",
+            "Blend the soup until smooth using an immersion blender.",
+            "Stir in cream, nutmeg, salt, and pepper, then serve hot."
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Maple Roasted Brussels Sprouts",
+        "category": "Autumn",
+        "ingredients": [
+            "1 cup of brussels sprouts",
+            "2 tbsp of maple syrup",
+            "2 tbsp of olive oil",
+            "1 tsp of salt",
+            "0.5 tsp of pepper"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "Autumn",
+        "cuisine": "American",
+        "prep_time": "25 min",
+        "difficulty": "Easy",
+        "images": [
+            "maple_roasted_brussels_sprouts_1.webp",
+            "maple_roasted_brussels_sprouts_2.webp",
+            "maple_roasted_brussels_sprouts_3.webp",
+            "maple_roasted_brussels_sprouts_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 400\u00b0F (200\u00b0C).",
+            "Trim and halve the brussels sprouts, then toss with olive oil, maple syrup, salt, and pepper.",
+            "Spread the brussels sprouts in a single layer on a baking sheet.",
+            "Roast for 20 minutes, stirring halfway through, until caramelized and tender.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Apple Crisp",
+        "category": "Autumn",
+        "ingredients": [
+            "3 apples",
+            "0.75 cup of oats",
+            "0.25 cup of brown sugar",
+            "1 cup of flour",
+            "2 tbsp of butter",
+            "1 tsp of cinnamon"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Autumn",
+        "cuisine": "American",
+        "prep_time": "45 min",
+        "difficulty": "Moderate",
+        "images": [
+            "apple_crisp_1.webp",
+            "apple_crisp_2.webp",
+            "apple_crisp_3.webp",
+            "apple_crisp_4.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Peel and slice the apples, then place them in a baking dish.",
+            "In a bowl, mix oats, brown sugar, flour, cinnamon, and softened butter until crumbly.",
+            "Sprinkle the mixture evenly over the apples.",
+            "Bake for 30-35 minutes, or until the top is golden brown and the apples are tender.",
+            "Serve warm, optionally with vanilla ice cream."
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Butternut Squash and Sage Pasta",
+        "category": "Autumn",
+        "ingredients": [
+            "1 cup of butternut squash",
+            "1 cup of pasta",
+            "1 tsp of sage",
+            "2 tbsp of butter",
+            "0.25 cup of parmesan cheese"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "Autumn",
+        "cuisine": "Italian",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "butternut_squash_and_sage_pasta_1.webp",
+            "butternut_squash_and_sage_pasta_2.webp",
+            "butternut_squash_and_sage_pasta_3.webp",
+            "butternut_squash_and_sage_pasta_4.webp"
+        ],
+        "steps": [
+            "Peel and cube the butternut squash, then roast in the oven at 400\u00b0F (200\u00b0C) for 20 minutes, or until tender.",
+            "Cook pasta according to package instructions, then drain and set aside.",
+            "In a large skillet, melt butter and fry fresh sage leaves until crispy. Remove and set aside.",
+            "Add the roasted squash to the skillet and mash slightly to create a sauce-like consistency.",
+            "Toss the cooked pasta with the squash mixture and grated parmesan cheese.",
+            "Garnish with crispy sage leaves and serve hot."
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Spiced Pear and Walnut Salad",
+        "category": "Autumn",
+        "ingredients": [
+            "2 pears",
+            "0.25 cup of walnuts",
+            "1 cup of spinach",
+            "2 oz of blue cheese",
+            "1.5 tbsp of balsamic vinaigrette"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "Autumn",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "spiced_pear_and_walnut_salad_1.webp",
+            "spiced_pear_and_walnut_salad_2.webp",
+            "spiced_pear_and_walnut_salad_3.webp",
+            "spiced_pear_and_walnut_salad_4.webp"
+        ],
+        "steps": [
+            "Slice the pears thinly and place them in a large salad bowl with fresh spinach.",
+            "Toast the walnuts in a dry skillet over medium heat until fragrant.",
+            "Add the toasted walnuts and crumbled blue cheese to the salad bowl.",
+            "Drizzle with balsamic vinaigrette and toss gently to combine.",
+            "Serve immediately."
+        ]
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "id": 36,
+        "name": "Homemade Hummus with Pita Chips",
+        "category": "Snacks",
+        "ingredients": [
+            "0.75 cup of chickpeas",
+            "1 tbsp of tahini",
+            "2 tbsp of lemon juice",
+            "2 cloves of garlic",
+            "2 tbsp of olive oil",
+            "2 pieces of pita bread"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Middle Eastern",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "homemade_hummus_with_pita_chips_1.webp",
+            "homemade_hummus_with_pita_chips_2.webp",
+            "homemade_hummus_with_pita_chips_3.webp",
+            "homemade_hummus_with_pita_chips_4.webp"
+        ],
+        "steps": [
+            "In a food processor, combine chickpeas, tahini, lemon juice, minced garlic, and a pinch of salt.",
+            "Blend until smooth, adding olive oil gradually for a creamy consistency.",
+            "Cut pita bread into triangles and bake at 375\u00b0F (190\u00b0C) for 10 minutes, or until crispy.",
+            "Serve the hummus with pita chips on the side."
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Chocolate Chip Energy Bites",
+        "category": "Snacks",
+        "ingredients": [
+            "0.75 cup of oats",
+            "2 tbsp of peanut butter",
+            "1 tbsp of honey",
+            "0.5 cup of chocolate chips",
+            "1 tbsp of flaxseed"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "chocolate_chip_energy_bites_1.webp",
+            "chocolate_chip_energy_bites_2.webp",
+            "chocolate_chip_energy_bites_3.webp",
+            "chocolate_chip_energy_bites_4.webp",
+            "chocolate_chip_energy_bites_5.webp"
+        ],
+        "steps": [
+            "In a large bowl, combine oats, peanut butter, honey, chocolate chips, and flaxseed.",
+            "Mix well until all ingredients are evenly incorporated.",
+            "Roll the mixture into small, bite-sized balls.",
+            "Refrigerate for 30 minutes before serving."
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Air-Fried Zucchini Chips",
+        "category": "Snacks",
+        "ingredients": [
+            "1 zucchini",
+            "0.5 cup of breadcrumbs",
+            "0.25 cup of parmesan cheese",
+            "1 egg",
+            "olive oil spray"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "20 min",
+        "difficulty": "Easy",
+        "images": [
+            "air-fried_zucchini_chips_1.webp",
+            "air-fried_zucchini_chips_2.webp",
+            "air-fried_zucchini_chips_3.webp",
+            "air-fried_zucchini_chips_4.webp"
+        ],
+        "steps": [
+            "Slice zucchini into thin rounds.",
+            "Dip each slice into beaten egg, then coat with a mixture of breadcrumbs and grated parmesan cheese.",
+            "Place the slices in a single layer in an air fryer basket and lightly spray with olive oil.",
+            "Air fry at 400\u00b0F (200\u00b0C) for 10-12 minutes, or until golden brown and crispy.",
+            "Serve with a dipping sauce of your choice."
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Deviled Eggs",
+        "category": "Snacks",
+        "ingredients": [
+            "2 eggs",
+            "1.5 tbsp of mayonnaise",
+            "1 tbsp of mustard",
+            "1 tsp of paprika"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "15 min",
+        "difficulty": "Easy",
+        "images": [
+            "deviled_eggs_1.webp",
+            "deviled_eggs_2.webp",
+            "deviled_eggs_3.webp",
+            "deviled_eggs_4.webp"
+        ],
+        "steps": [
+            "Hard boil the eggs, then peel and cut them in half lengthwise.",
+            "Scoop out the yolks and mash them in a bowl with mayonnaise and mustard.",
+            "Spoon or pipe the yolk mixture back into the egg whites.",
+            "Sprinkle with paprika and serve."
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Garlic Butter Popcorn",
+        "category": "Snacks",
+        "ingredients": [
+            "0.5 cup of popcorn kernels",
+            "2 tbsp of butter",
+            "1 tsp of garlic powder",
+            "2 tbsp of parsley",
+            "1 tsp of salt"
+        ],
+        "dietary": [
+            "Vegetarian",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "10 min",
+        "difficulty": "Easy",
+        "images": [
+            "garlic_butter_popcorn_1.webp",
+            "garlic_butter_popcorn_2.webp",
+            "garlic_butter_popcorn_3.webp",
+            "garlic_butter_popcorn_4.webp"
+        ],
+        "steps": [
+            "Pop the popcorn kernels using an air popper or stovetop method.",
+            "In a small saucepan, melt butter and stir in garlic powder and salt.",
+            "Drizzle the garlic butter over the popcorn and toss to coat evenly.",
+            "Garnish with chopped parsley and serve."
+        ]
+    }
+]

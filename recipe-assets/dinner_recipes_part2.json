@@ -1,0 +1,182 @@
+[
+    {
+        "id": 31,
+        "name": "Mushroom Risotto",
+        "category": "Dinner",
+        "ingredients": [
+            "1 cup of arborio rice",
+            "1 cup of mushrooms",
+            "1 onion",
+            "2 cloves of garlic",
+            "0.25 cup of parmesan cheese",
+            "8 oz of chicken broth",
+            "3 oz of white wine"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "40 min",
+        "difficulty": "Moderate",
+        "images": [
+            "mushroom_risotto_1.webp",
+            "mushroom_risotto_2.webp",
+            "mushroom_risotto_3.webp",
+            "mushroom_risotto_4.webp",
+            "mushroom_risotto_5.webp"
+        ],
+        "steps": [
+            "Heat chicken broth in a pot and keep warm over low heat.",
+            "In a large skillet, saut\u00e9 diced onion and minced garlic in olive oil until translucent.",
+            "Add sliced mushrooms and cook until softened, about 5 minutes.",
+            "Stir in arborio rice and cook for 2 minutes, ensuring each grain is coated in oil.",
+            "Pour in white wine and stir until absorbed.",
+            "Add warm broth, one ladle at a time, stirring constantly until the liquid is absorbed before adding more.",
+            "Continue this process until the rice is tender and creamy, about 20 minutes.",
+            "Stir in grated parmesan cheese and serve hot."
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Thai Green Curry with Vegetables",
+        "category": "Dinner",
+        "ingredients": [
+            "1 tbsp of green curry paste",
+            "1 cup of coconut milk",
+            "1 cup of vegetables",
+            "0.5 block of tofu",
+            "2 tbsp of basil",
+            "1 lime"
+        ],
+        "dietary": [
+            "Vegan",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "Thai",
+        "prep_time": "30 min",
+        "difficulty": "Easy",
+        "images": [
+            "thai_green_curry_with_vegetables_1.webp",
+            "thai_green_curry_with_vegetables_2.webp",
+            "thai_green_curry_with_vegetables_3.webp",
+            "thai_green_curry_with_vegetables_4.webp",
+            "thai_green_curry_with_vegetables_5.webp",
+            "thai_green_curry_with_vegetables_6.webp"
+        ],
+        "steps": [
+            "In a pot, heat a tablespoon of oil and saut\u00e9 green curry paste for 1 minute to release its aroma.",
+            "Add coconut milk and bring to a simmer.",
+            "Stir in chopped vegetables such as bell peppers, zucchini, and green beans.",
+            "Cook for 10 minutes, or until the vegetables are tender.",
+            "Add cubed tofu and cook for another 5 minutes.",
+            "Stir in fresh basil leaves and a squeeze of lime juice before serving.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Roasted Herb-Crusted Chicken",
+        "category": "Dinner",
+        "ingredients": [
+            "2 chicken thighs",
+            "2 tbsp of herbs",
+            "2 cloves of garlic",
+            "2 tbsp of butter",
+            "1 lemon"
+        ],
+        "dietary": [
+            "High-Protein",
+            "Gluten-Free"
+        ],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "50 min",
+        "difficulty": "Moderate",
+        "images": [
+            "roasted_herb-crusted_chicken_1.webp",
+            "roasted_herb-crusted_chicken_2.webp",
+            "roasted_herb-crusted_chicken_3.webp",
+            "roasted_herb-crusted_chicken_4.webp",
+            "roasted_herb-crusted_chicken_5.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "In a small bowl, mix softened butter with minced garlic, chopped herbs (such as rosemary and thyme), salt, and pepper.",
+            "Rub the butter mixture under the skin and over the surface of the chicken thighs.",
+            "Place the chicken in a baking dish and drizzle with lemon juice.",
+            "Roast for 40-45 minutes, or until the chicken is golden brown and cooked through.",
+            "Let rest for 5 minutes before serving."
+        ]
+    },
+    {
+        "id": 34,
+        "name": "BBQ Pulled Pork Sandwiches",
+        "category": "Dinner",
+        "ingredients": [
+            "1 lb of pork shoulder",
+            "2 tbsp of BBQ sauce",
+            "2 buns",
+            "1 cup of coleslaw",
+            "1 tbsp of apple cider vinegar"
+        ],
+        "dietary": [],
+        "season": "All",
+        "cuisine": "American",
+        "prep_time": "6 hours (slow cook)",
+        "difficulty": "Moderate",
+        "images": [
+            "bbq_pulled_pork_sandwiches_1.webp",
+            "bbq_pulled_pork_sandwiches_2.webp",
+            "bbq_pulled_pork_sandwiches_3.webp",
+            "bbq_pulled_pork_sandwiches_4.webp",
+            "bbq_pulled_pork_sandwiches_5.webp",
+            "bbq_pulled_pork_sandwiches_6.webp"
+        ],
+        "steps": [
+            "Season pork shoulder with salt, pepper, and your favorite BBQ rub.",
+            "Place the pork in a slow cooker and pour BBQ sauce and apple cider vinegar over the top.",
+            "Cook on low for 6-8 hours, or until the pork is tender and easily shredded.",
+            "Remove the pork from the slow cooker and shred with two forks.",
+            "Serve the pulled pork on buns with a scoop of coleslaw and additional BBQ sauce."
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Eggplant Parmesan",
+        "category": "Dinner",
+        "ingredients": [
+            "1 eggplant",
+            "0.5 cup of breadcrumbs",
+            "0.25 cup of parmesan cheese",
+            "0.5 cup of tomato sauce",
+            "4 slices of mozzarella",
+            "2 tbsp of basil"
+        ],
+        "dietary": [
+            "Vegetarian"
+        ],
+        "season": "All",
+        "cuisine": "Italian",
+        "prep_time": "50 min",
+        "difficulty": "Moderate",
+        "images": [
+            "eggplant_parmesan_1.webp",
+            "eggplant_parmesan_2.webp",
+            "eggplant_parmesan_3.webp",
+            "eggplant_parmesan_4.webp",
+            "eggplant_parmesan_5.webp"
+        ],
+        "steps": [
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "Slice the eggplant into 1/4-inch thick rounds and sprinkle with salt. Let sit for 15 minutes, then pat dry.",
+            "Dip each slice into beaten egg, then coat with breadcrumbs mixed with grated parmesan.",
+            "Arrange the eggplant slices on a baking sheet and bake for 20 minutes, flipping halfway through.",
+            "In a baking dish, layer tomato sauce, baked eggplant slices, and shredded mozzarella.",
+            "Repeat the layers, finishing with mozzarella and parmesan on top.",
+            "Bake for 20-25 minutes, or until bubbly and golden.",
+            "Garnish with fresh basil and serve."
+        ]
+    }
+]

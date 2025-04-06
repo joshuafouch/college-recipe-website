@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe 1</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/pizza.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Julia: added google's magnifying glass icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
+</head>
+
+<style>
+    /*
+        Hey Julia, here i have leads on all customizable things in recipe
+        1. Background Image for title: in style.css
+        2. Title: in script below
+        3. Author: in script below
+        4. Ingredients: in script below
+        5. Images: in script below
+        6. Widgets: in script for image, in div for links
+        7. Method: in script below
+    */
+</style>
+<body>
+ 
+    <!--Header and Navigation Bar-->
+    <nav>
+        <ul>
+            <li class="logo"><a href="index.html">CollegeLife Recipes</a></li>
+            <li class="logo-small"><a href="index.html">C.L.R.</a></li>
+            <!--for smaller screens-->
+            <!--menu toggle button used with js script-->
+            <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </a>
+            <div class="items" id="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipelistings.html" class="active">Recipes</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="timer.html">Timer</a></li>
+            </div>
+            <form action="/search?"></form>
+                <div class="searchBox">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <input class="searchInput" type="search" placeholder="Hungry?">
+                    <button class="searchButton" type="submit">Go</button>
+                </div>
+            </form>
+       </ul>
+    </nav>
+
+
+    <!--Main Content-->
+    <div class="recipe-bg">
+        <h1 class="recipe-title" id="rtitle">
+            <h2 class=" recipe-title author" id="auth" style="padding-bottom: 50px;">
+            </h2>
+        </h1>
+    </div>
+    <div class="recipe-container1">
+        <section class="recipe-ingredients">
+            <h1 class="bold-italic">Ingredients</h1>
+            <div class = "recIngList" id="outIngr"></div>
+        </section>
+        <section class="recipe-pictures">
+            <img id="imageREC">
+            <img id="imageREC2">
+        </section>
+    </div>
+    <div class="recipe-container1">    
+        <section class="recipe-widgets">
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC3"><!--insert recipe genre eg pasta-->
+            <img onclick="handleClick('https://www.twitch.tv/mahomieesque')" id="imageREC4"><!--insert recipe main ingr eg avocado-->
+        </section>
+        <section class="method recipe-ingredients ">
+            <h1 class="bold-italic">
+                Method
+            </h1>
+            <section id="outM" class="recIngList">
+            </section>
+        </section>
+    </div>
+
+    <!--- Julia: added this below recipeStory because each recipe comes with a "story".
+                    usually they're kinda annoying because you have to scroll throught them to get to the recipe
+                    or you have to  hit the "jump to recipe" button. I actually think it would be really cool
+                    if we added the recipe story at the bottom of the page. And we can say that was a design choice because students
+                    are busy and we want to help them save time, not waste it stressfully scrolling through our site to get to what they actually want. -->
+    <div class="recipe-story-container">
+        <section class="recipe-story">
+            <h1 class="bold-italic"> About this Dish</h1>
+            <p id="recipeStory"></p>
+        </section>
+    </div>
+
+
+    <div class="footer-container">
+        <footer class="main-footer">
+            <p>&copy; 2025 CollegeLife Recipes</p>
+            <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
+            <a href="https://github.com/joshuafouch/college-recipe-website" target="_blank">GitHub Link</a>
+        </footer>  
+    </div>
+    
+   
+    <script>
+        const recTitle = "Creamy Linguini";/*2. Title Here!*/
+        const author = "by Reagan S.";/*3. Author Here!*/
+       
+        const specIngr = ["1 box Linguini (the type of pasta that looks like thin ribbons)", 
+        "2 tablespoons olive oil", 
+        "4-5 cloves of garlic, finely chopped", 
+        "8 ounces of cream cheese, softened and cut into smaller cubes", 
+        "1/2 cup Parmesan cheese", 
+        "2-3 tablespoons of heavy cream", 
+        "1 cup pasta water", 
+        "Flaky salt", 
+        "Ground pepper to taste",
+    "Optional: Add whatever protein and vegetables you'd like! I'd recommend chicken breasts or thighs with some fried rosa tomatoes, but you could also toss some shrimp into this dish too. This pasta is a great basic dish that can be vamped up whenever you want."]/*4. Ingredients here!*/
+        document.getElementById('rtitle').innerHTML = recTitle;//makes an html element out of js var
+        document.getElementById('auth').innerHTML = author;
+
+        const outIngr = document.getElementById("outIngr");//def ingredients var
+        specIngr.forEach((item, index) => {//loop that throws each ingredient into one string/html element
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `&#9679 ${item}`; // a dot and the ingredient
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;//giving it an id
+            outIngr.appendChild(dummyVar); //appending
+        });
+        outIngr.style.marginTop = "15px";//a css modification for ingredients
+
+        const img1 = document.getElementById("imageREC");/*5. Images here!*/
+        const img2 = document.getElementById("imageREC2");
+
+        
+        img1.src = "assets/images/cookedPasta.jpg"; //put img location here
+        img1.alt = "Recipe Image";
+        img1.onerror = function() {
+            this.src = "assets/images/error2.webp"; //default img
+        };
+
+        img2.src = "assets/images/uncookedPasta.jpg";
+        img2.alt = "Recipe Image";
+        img2.onerror = function() {
+            this.src = "assets/images/error2.webp"; 
+        };
+
+        const img3 = document.getElementById("imageREC3");/*5. Widgets here!*/
+        const img4 = document.getElementById("imageREC4");
+
+        
+        img3.src = "assets/images/cookingPasta.avif"; 
+        img3.alt = "Recipe Image";
+        img3.onerror = function() {
+            this.src = "assets/images/error2.webp"; 
+        };
+
+        img4.src = "assets/images/friends.jpg";
+        img4.alt = "Recipe Image";
+        img4.onerror = function() {
+            this.src = "assets/images/error2.webp"; 
+        };
+        
+        outMethod=["Cook the pasta according to the box's recommendations. Remember to season the water with salt (my Mom says it should be salty as the Mediterranean)", 
+        "Before you drain the pasta, keep one cup of the pasta water to the side and drain the rest. Set the pasta aside",
+        "Add the olive oil and garlic to a pan/skillet over LOW heat (when garlic burns, it tastes bitter). Best practice is to let the olive oil heat up first and then add the garlic.", 
+        "Cook the garlic for about 3-4 minutes, whereafter it becomes a little brown and has that fragrant smell.", 
+        "Add the cream cheese to the pan and gently stir while the cheese begins to melt.", 
+        "Once melted, then add in your Parmesan cheese, heavy cream, and that cup of pasta water from earlier. Mix it all together.", 
+        "Then add your drained pasta to this pan, or otherwise pour the sauce directly over the pasta in a big, heatproof bowl. ", 
+        "I love to add a little fresh herbs like Basil (which I even grew in my dorm room among other plants) and then I top it off with some grated Parmesan",
+        "My last tip for you: dish tomorrow's serving first. If you're meal prepping, it's best practice to dish the next few days' servings first before adding to your actual dinner plate."]/*7. Method here!*/
+        const outM = document.getElementById("outM");
+
+        outMethod.forEach((item, index) => {//super similar to ingredients, just diff inner html
+            const dummyVar = document.createElement("div");
+            dummyVar.innerHTML = `Step ${index+1}: ${item}`;
+            dummyVar.style.fontFamily ="'LibreBaskerville', 'Times New Roman', Times, serif ";
+            dummyVar.id = `item${index}`;
+            outM.appendChild(dummyVar);
+        });
+
+        function handleClick(url) {//url func for widgets
+            window.location.href = url;
+        }
+
+        const recipeStory = ["Pasta was one of the first dishes I learnt to create.",
+        "It's a great dish to make for yourself, or for a group of friends. And its reliable: keeps you full for a long time, maintains your energy, and is great to eat the next day for lunch",
+        "<br><br> As I mentioned above, I also love to add my own fresh herbs into the mix. I noticed that each week or so, I was spending about $5 on herbs which, sometimes, I would forget in the back of my fridge. ",
+        "One day, I decided to just buy a mint plant (also because it was in the Summer and all the mint was sold out because of the Kentucky Derby. Mint Julep, anyone?). ",
+        "I'm so grateful I did that, because now I have a little herb garden in my dorm room. I also have a basil plant, and a rosemary plant. I love to add these herbs to my pasta dishes, and it makes me feel like I'm eating at a fancy restaurant.",
+        "<br><br> I'd recommend giving the herb garden a try. It's a great way to save money, and it's also a lot of fun to grow your own food. ",
+        "Plus, it's super easy. I learnt a lot from YouTube about how to care for my plants, and now I'm a budding herbolologist (no pun intended).",
+        "<br><br> Do me a favor, would you? If you made this recipe, take a photo on Instagram and tag me. Better yet, share this recipe link with your friends.",
+        "<br><br> Cheers!<br><br> Reagan"]
+        document.getElementById('recipeStory').innerHTML = recipeStory.join('');
+
+
+
+
+
+    </script>
+<script src="js/hamburger.js"></script>
+<script src="js/lightMode.js"></script>
+</body>
+</html>

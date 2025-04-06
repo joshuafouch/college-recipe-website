@@ -2,22 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CollegeLife About Us!</title>
+    <title>CollegeLife Recipes</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/pizza.ico">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Julia: added google's magnifying glass icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
 </head>
 <body>
-
+    
     <!--Header and Navigation Bar-->
-    <header>
-        <a href="index.html" class="logo">CollegeLife Recipes</a>
-        <div class="headerlinks">
-            <a href="recipe.html">Recipes</a>
-            <a href="favorites.html">Favorites</a>
-            <a href="submissions.html">Submit Your Recipe!</a>
-            <a href="aboutme.html" class="active">About CollegeLife</a>
-        </div>
-    </header>
+    <nav>
+        <ul>
+            <li class="logo"><a href="index.html">CollegeLife Recipes</a></li>
+            <li class="logo-small"><a href="index.html">C.L.R.</a></li>
+            <!--for smaller screens-->
+            <!--menu toggle button used with js script-->
+            <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </a>
+            <div class="items" id="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipelistings.html">Recipes</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li> <a id="openTimer" class="timer">Timer</a></li>
+                <li><a href="submissions.html">Submit</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </div>
+            
+            <form action="/search?"></form>
+                <div class="searchBox">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <input class="searchInput" type="search" placeholder="Hungry?">
+                    <button class="searchButton" type="submit">Go</button>
+                </div>
+            </form>
+            
+       </ul>
+    </nav>
 
     <!--Main Content-->
 
@@ -50,12 +79,23 @@ With a little creativity and a pinch of optimism, you can make tasty meals that 
     </p>
 </article>
 
+<!--temporary error message-->
+<div class="recipe-container1" style="padding-top: 200px;">
+    <h1 style="color: red">STILL IN DEVELOPMENT</h1>
+</div>
 
     <!--Footer-->
-    <footer>
-        <p>&copy; 2025 CollegeLife Recipes</p>
-        <p>Mariano Soares, Julia Collingwood, Joshua Fouch</p>
-    </footer>
- 
+   <div class="footer-container">
+        <footer class="main-footer">
+            <p>&copy; 2025 CollegeLife Recipes</p>
+            <p>Developed by Mariano Soares, Julia Collingwood, Joshua Fouch</p>
+            <a href="https://github.com/joshuafouch/college-recipe-website" target="_blank">GitHub Link</a>
+        </footer>  
+    </div>
+
+<!--ADD THIS SCRIPT TO EVERY HTML PAGE!!!-->
+<script src="js/hamburger.js"></script>
+<script src="js/recipe-timerpopup.js"></script>
+<script src="js/lightMode.js"></script>
 </body>
 </html>
