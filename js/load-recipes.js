@@ -14,7 +14,9 @@ async function loadAllRecipes() {
             fetch('./recipe-assets/winter_recipes.json'),
             fetch('./recipe-assets/summer_recipes.json'),
             fetch('./recipe-assets/spring_recipes.json'),
-            fetch('./recipe-assets/snacks_recipes.json')
+            fetch('./recipe-assets/snacks_recipes.json'),
+            fetch('./recipe-assets/dessert_recipes_part1.json'),
+            fetch('./recipe-assets/dessert_recipes_part2.json')
         ]);
 
         const recipeData = await Promise.all(response.map(r => r.json()));
