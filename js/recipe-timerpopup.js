@@ -86,6 +86,7 @@ function resetTimer() {//what it says
 }
 
 function startTimer() {
+    const sound = new Audio('./assets/gong.mp3')
     let totalTimeInSeconds = (hour * 3600) + (minute * 60) + second;
     document.getElementById('timerSetup').style.display = 'none'; //replaces setup screen with countdown screen
     document.getElementById('timerCountdown').style.display = 'block'; //shows countdown screen
@@ -97,7 +98,7 @@ function startTimer() {
             clearInterval(timeLoop);
             const countdownDisplay = document.getElementById("countdownDisplay");
             countdownDisplay.textContent = `Time is up!`;
-            Audio().play('/assets/gong.mp3'); //plays sound when timer is up
+            sound.play() //plays sound when timer is up
         } else {
             hour = Math.floor(totalTimeInSeconds / 3600); //hours
             minute = Math.floor((totalTimeInSeconds % 3600) / 60);//minutes
