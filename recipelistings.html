@@ -44,7 +44,7 @@
         <h1 class="featured-header">the recipes.</h1>
         <!--search bar-->
 
-        <form action="/search?">
+        <form onsubmit="return false"> <!-- changed this line so that when you hit the enter button, no get404 error pops up (bit of a cheap trick, but it works now) --->
                 <div class="searchBox">
                     <span class="material-symbols-outlined">
                         search
